@@ -1,7 +1,7 @@
 var emailLink = document.getElementById('ic-email');
 if (emailLink != null) {
-  emailLink.href = 'mailto:donald.g.adams@me.com';
-  emailLink.innerHTML = 'donald.g.adams@me.com';
+  emailLink.href = 'mailto:thedadams@icloud.com';
+  emailLink.innerHTML = 'thedadams@icloud.com';
 }
 emailLink = document.getElementById('th-email');
 if (emailLink != null) {
