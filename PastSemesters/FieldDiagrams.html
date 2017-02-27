@@ -1,0 +1,153 @@
+<!doctype html>
+<head>
+  <meta name="description" content="Donnie Adams' Field Diagram in LaTeX Examples">
+  <meta name="keywords" content="donald, donnie, adams, math, field, diagrams">
+  <meta charset="UTF-8">
+  <title>Donnie Adams - Teaching - Field Diagram Examples</title>
+  <link rel="shortcut icon" href="../favicon.ico"/>
+  <link rel="apple-touch-icon" href="../images/iphone-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 758px)" href="../stylesheets/mobilescreen.css"/>
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 759px)" href="../stylesheets/screen.css"/>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+
+<body>
+
+  <div id="container">
+
+    <?php
+       include "header.html";
+       ?>
+    <div class="header-clear"></div>
+    <p>This page outlines the way that I use the LaTeX packge <code>tikz</code>.  This package is very customizable and can be used to create all kinds of diagrams.  In some instances, <code>tikz</code> is more complicated than other packages, but if you learn to use <code>tikz</code>, you will not need any other such package.  I will give a few examples that will be pertinent to MAT 544.  The first thing you need to do is include <code>\usepackage{tikz}</code> in the preamble of your LaTeX document.<br><br>
+      If you would like to create a tower of fields, with \(\mathbb{Q}\subseteq E\subseteq F\subseteq K\), then you could use the following code.  The output is also displayed.
+    </p>
+    <div class="genclear"></div>
+    <pre>
+      \begin{tikzpicture}[node distance = 2cm, auto]
+      \node (Q) {$\mathbb{Q}$};
+      \node (E) [above of=Q] {$E$};
+      node (F) [above of=E] {$F$};
+      \node (K) [above of=K] {$K$};
+      \draw[-] (Q) to node {} (E);
+      \draw[-] (E) to node {} (F);
+      \draw[-] (F) to node {} (K);
+      \end{tikzpicture}
+    </pre>
+    <img src="../images/tikzexamples/fieldextensions1.png" alt="fieldextensions1"/>
+    <div class="genclear"></div>
+    <p>If you would like to put degree labels on your extensions, you can put these numbers in the curly braces in the <code>\draw</code> command as in the following code:
+    </p>
+    <div class="genclear"></div>
+    <pre>
+      \begin{tikzpicture}[node distance = 2cm, auto]
+      \node (Q) {$\mathbb{Q}$};
+      \node (E) [above of=Q] {$E$};
+      \node (F) [above of=E] {$F$};
+      \node (K) [above of=K] {$K$};
+      \draw[-] (Q) to node {<span>n</span>} (E);
+      \draw[-] (E) to node {<span>m</span>} (F);
+      \draw[-] (F) to node {<span>p</span>} (K);
+      \end{tikzpicture}
+    </pre>
+    <img src="../images/tikzexamples/fieldextensions2.png" alt="fieldextensions2"/>
+    <div class="genclear"></div>
+    <p>If you decide that you would rather have one of your degree labels on the other side of the line, you can add <code>[swap]</code> just before the curly braces in the <code>\draw</code> command, as in the following code:
+    </p>
+    <div class="genclear"></div>
+    <pre>
+      \begin{tikzpicture}[node distance = 2cm, auto]
+      \node (Q) {$\mathbb{Q}$};
+      \node (E) [above of=Q] {$E$};
+      \node (F) [above of=E] {$F$};
+      \node (K) [above of=K] {$K$};
+      \draw[-] (Q) to node {n} (E);
+      \draw[-] (E) to node <span>[swap]</span> {m} (F);
+      \draw[-] (F) to node {p} (K);
+      \end{tikzpicture}
+    </pre>
+    <img src="../images/tikzexamples/fieldextensions3.png" alt="fieldextensions3"/><br>
+    <div class="genclear"></div>
+    <p>If you would like to create a field tower of arbitrary height, you could do something like the following.  The labels have changed, but I only emphasize the main differences.
+    </p>
+    <div class="genclear"></div>
+    <pre>
+      \begin{tikzpicture}[node distance = 2cm, auto]
+      \node (Q) {$\mathbb{Q}$};
+      \node (F1) [above of=Q] {$F_1$};
+      \node (F2) [above of=F1] {$F_2$};
+      <span>\node (C) [above of=F2] {$\vdots$};</span>
+      \node (Fn) [above of=C] {$F_n$};
+      \draw[-] (Q) to node {} (F1);
+      \draw[-] (F1) to node {} (F2);
+      <span>\draw[-] (F2) to node {} (C);</span>
+      \draw[-] (C) to node {} (Fn);
+      \end{tikzpicture}
+    </pre>
+    <img src="../images/tikzexamples/fieldextensions7.png" alt="fieldextensions7"/><br>
+    <div class="genclear"></div>
+    <p>If you would like to have multiple "branches" on your diagram, you can certainly do that with this code.  This is where things might get complicated, but this is the price we pay for the customization that the <code>tikz</code> package allows.  We use new commands to move things to the left and to the right.  We also change the <code>node distance</code> for \(K\) to put it above \(E\) and \(F\).
+    </p>
+    <div class="genclear"></div>
+    <pre>
+      \begin{tikzpicture}[node distance = 2cm, auto]
+      \node (Q) {$\mathbb{Q}$};
+      \node (E) [above of=Q, <span>left of=Q</span>] {$E$};
+      \node (F) [above of=Q, <span>right of=Q</span>] {$F$};
+      \node (K) [above of=Q, <span>node distance = 4cm</span>] {$K$};
+      \draw[-] (Q) to node {} (E);
+      \draw[-] (<span>Q</span>) to node {} (F);
+      \draw[-] (E) to node {} (<span>K</span>);
+      \draw[-] (F) to node {} (K);
+      \end{tikzpicture}
+    </pre>
+    <img src="../images/tikzexamples/fieldextensions4.png" style="position: relative; top: 3em; left: 3em;" alt="fieldextensions4"/><br>
+    <div class="genclear"></div>
+    <p>You can also add degree labels to this diagram.  This is where the <code>[swap]</code> tag comes in handy.  We need it to move the degree labels for \(F/\mathbb{Q}\) and \(K/F\) to the outside of the diagram.
+    </p>
+    <div class="genclear"></div>
+    <pre>
+      \begin{tikzpicture}[node distance = 2cm, auto]
+      \node (Q) {$\mathbb{Q}$};
+      \node (E) [above of=Q, left of=Q] {$E$};
+      \node (F) [above of=Q, right of=Q] {$F$};
+      \node (K) [above of=Q, node distance = 4cm] {$K$};
+      \draw[-] (Q) to node {<span>$n_1$</span>} (E);
+      \draw[-] (Q) to node <span>[swap]</span> {<span>$n_2$</span>} (F);
+      \draw[-] (E) to node {<span>$n_3$</span>} (K);
+      \draw[-] (F) to node <span>[swap]</span> {<span>$n_4$</span>} (K);
+      \end{tikzpicture}
+    </pre>
+    <img src="../images/tikzexamples/fieldextensions5.png" style="position: relative; top: 3em; left: 3em;" alt="fieldextensions5"/><br>
+    <div class="genclear"></div>
+    <p>The last example I will give here is a way to use <code>node distance</code> to emphasize the fact that \([E : \mathbb{Q}]\gt [F : \mathbb{Q}]\).  We make the <code>node distance</code> for \(F/\mathbb{Q}\) smaller, but move it to the right twice.  The same can be done for \(E/\mathbb{Q}\) by moving it to the left twice.
+    </p>
+    <div class="genclear"></div>
+    <pre>
+      \begin{tikzpicture}[node distance = 2cm, auto]
+      \node (Q) {$\mathbb{Q}$};
+      \node (E) [above of=Q, left of=Q] {$E$};
+      \node (F) [<span>node distance = 1cm</span>, above of=Q, right of=Q, <span>right of=Q</span>] {$F$};
+      \node (K) [above of=Q, node distance = 4cm] {$K$};
+      \draw[-] (Q) to node {$n_1$} (E);
+      \draw[-] (Q) to node [swap] {$n_2$} (F);
+      \draw[-] (E) to node {$n_3$} (K);
+      \draw[-] (F) to node [swap] {$n_4$} (K);
+      \end{tikzpicture}
+    </pre>
+    <img src="../images/tikzexamples/fieldextensions6.png" alt="fieldextensions6"/><br>
+    <div class="genclear"></div>
+    <p>If you would like further information on the <code>tikz</code> package please see the <a href="http://paws.wcu.edu/tsfoguel/tikzpgfmanual.pdf" target="_blank" title="tikz">manual</a>.  If you have any questions above what appears here, please do not hesitate to email me.<br><br>
+    </p>
+
+    <div class="footer-clear"></div>
+  </div>
+
+  <?php
+     include "footer.html";
+     ?>
+
+</body>
+
+</html>

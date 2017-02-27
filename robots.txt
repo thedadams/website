@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /files/
+Disallow: /images/
+Disallow: /js/
+Disallow: /blog/
+Disallow: /ball/
+
+Allow: files/CV.pdf
+
+sitemap: http://thedadams.com/sitemap.xml

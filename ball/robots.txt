@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /homeemail.js
+Disallow: /NoBall.dat
+Disallow: /Ball.php
+Disallow: /NewDate.php

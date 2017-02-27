@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>thedadams - Blog Archive -</title>
+    <meta name="description" content="Donnie Adams' Blog">
+    <meta name="keywords" content="donald, donnie, adams, math, blog, baseball, basketball, school, college, teaching">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="images/iphone-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="NPlZTn7okowZNLlejnnm8QreU13qNKDo4PHkRBb_2zA" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 650px)" href="stylesheets/mobilescreen.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 651px)" href="stylesheets/screen.css" />
+    <link rel="alternate" href="/feed.rss" type="application/rss+xml" title="RSS Feed" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <?php
+        include "header.html";
+        ?>
+        <main>
+            <div class="header-clear"></div>
+            <section class="left">
+                <?php
+                include_once "php/Archive.php";
+                $overallOldestPostDate = NULL;
+                $overallNewestPostDate = NULL;
+                getOldestNewestPostDates($overallOldestPostDate, $overallNewestPostDate);
+                if(isset($_GET["tag"])) {
+                    $tagsJSON = json_decode(trim(file_get_contents("PostTags.json")), true);
+                    if($_GET["tag"] == "") {
+                        echo "<h3>Archive by Tag<br><br></h3>";
+                        echo "<ul id=\"tags\">";
+                        $tagsJSON = array_keys($tagsJSON);
+                        natsort($tagsJSON);
+                        foreach($tagsJSON as $tag) {
+                            echo "<li><a href=\"Archive.html?tag=" . urlencode(strtolower($tag)) . "\" title=\"" . ucwords($tag) . "\">" . str_replace(" ", "&nbsp;", ucwords($tag)) . "</a></li>";
+                        }
+                        echo "</ul>";
+                    } else {
+                        echo "<h3>Posts tagged with \"" . ucwords(urldecode($_GET["tag"])) . "\"</h3>";
+                        echo "<p><br>";
+                        if(isset($tagsJSON[urldecode($_GET["tag"])])) {
+                            foreach($tagsJSON[urldecode($_GET["tag"])] as $title=>$url) {
+                                echo substr($url, 7, 3) . " " . substr($url,-2) . ", " . substr($url, 0, 4) . " - <a href=\"Post.html?post=" . $url  . "\" title=\"" . ucwords($title) . "\">" . ucwords($title) . "</a><br><br>";
+                            }
+                        } else {
+                            echo "Sorry, there are not posts tagged with \"" . ucwords(urldecode($_GET["tag"])) . "\"";
+                        }
+                        echo "</p>";
+                    }
+                } else {
+                    if(!isset($_GET["year"]) || !is_numeric($_GET["year"])) {
+                        $_GET["year"] = $overallNewestPostDate->format("Y");
+                    } else {
+                        $_GET["year"] = (int) round($_GET["year"]);
+                        if($_GET["year"] > $overallNewestPostDate->format("Y")) {
+                            $_GET["year"] = $overallNewestPostDate->format("Y");
+                        } elseif($_GET["year"] < $overallOldestPostDate->format("Y")) {
+                            $_GET["year"] = $overallOldestPostDate->format("Y");
+                        }
+                    }
+                    if(!file_exists("Posts/" . $_GET["year"])) {
+                        echo "<h3>Sorry, no posts were written in " . $_GET["year"] . ".</h3>";
+                    } else {
+                        $months = scandir("Posts/" . $_GET["year"]);
+                        for ($j = 2; $j < count($months); $j++) {
+                            echo "<h3>" . substr($months[$j], 2) . " " . $_GET["year"] . "</h3>";
+                            echo "<br><hr>";
+                            $days = scandir("Posts/" . $_GET["year"] . "/" . $months[$j]);
+                            echo "<ol>";
+                            for ($k = 2; $k < count($days); $k++) {
+                               $file = fopen("Posts/" . $_GET["year"] . "/" . $months[$j] . "/" . $days[$k], "r");
+                               $title = fgets($file);
+                               fclose($file);
+                               echo "<li value=\"" . $days[$k] . "\"><a href=\"Post.html?post=";
+                               echo $_GET["year"] . "-" . $months[$j] . "-" . $days[$k];
+                               echo "\" title=\"" . trim($title) . "\">" . trim($title) . "</a></li>";
+                           }
+                           echo "</ol><br><br>";
+                       }
+                   }
+                   echo "<p>";
+                   if($_GET["year"] > $overallOldestPostDate->format("Y")) {
+                    echo "<a  class=\"older-nav\" href=\"Archive.html?year=" . ($_GET["year"] - 1) . "\" title=\"Older Posts\">" . ($_GET["year"] - 1) . " &gt;&gt;</a>";
+                }
+                if($_GET["year"] < $overallNewestPostDate->format("Y")) {
+                    echo "<a  class=\"newer-nav\" href=\"Archive.html?year=" . ($_GET["year"] + 1) . "\" title=\"Newer Posts\">&lt;&lt; " . ($_GET["year"] + 1) . "</a>";
+                }
+                echo "<br><br></p>";
+            }
+            ?>
+        </section>
+        <section class="right">
+            <h4>Welcome!</h4>
+            <?php
+            include "BlogRight.html";
+            ?>
+        </section>
+    </main>
+    <div class="footer-clear"></div>
+</div>
+<footer><a href="BlogCredits.html" title="Blog Credits">Credits &amp; Acknowledgments</a>
+    <div class="footercolor"></div>
+</footer>
+</body>
+</html>

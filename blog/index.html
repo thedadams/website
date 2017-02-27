@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<title>thedadams - Blog -</title>
+	<meta name="description" content="Donnie Adams' Blog">
+	<meta name="keywords" content="donald, donnie, adams, math, blog, baseball, basketball, school, college, teaching">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="apple-touch-icon" href="images/iphone-icon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="google-site-verification" content="t7Pwz1Yo9z0iZ2dTUgnbiVW1QzB3LAGcAwGwJAVna1s"/>
+	<meta name="msvalidate.01" content="41274BD688F23CDACB5B83CD2803DCAB"/>
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 650px)" href="stylesheets/mobilescreen.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 651px)" href="stylesheets/screen.css"/>
+	<link rel="alternate" href="/feed.rss" type="application/rss+xml" title="RSS Feed"/>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<?php
+		include "header.html";
+		?>
+		<main>
+			<section class="right">
+				<h4>Welcome!</h4>
+				<?php
+				date_default_timezone_set("America/Phoenix");
+				include_once "php/Archive.php";
+				$overallOldestPostDate = NULL;
+				$overallNewestPostDate = NULL;
+				getOldestNewestPostDates($overallOldestPostDate, $overallNewestPostDate);
+				include "BlogRight.html";
+				?>
+			</section>
+			<section class="left">
+				<?php
+				/*
+				* This script will search for the $postToDisplay newest posts and display a preview
+				* of the post for the user.  If there are not five posts in the directories,
+				* then the script stops looking on $overallOldestPostDate - the date of the first post.
+				*/
+				include_once "php/Post.php";
+				$newestPostDisplayedDate = new DateTime("1900-01-01");
+				$oldestPostDisplayedDate = new DateTime();
+				$postsToDisplay = 7;
+				if(isset($_GET["st"]) && is_numeric($_GET["st"]) && iconv_strlen($_GET["st"]) == 8 && (int)$_GET["st"] > 1300000 && checkdate(substr($_GET["st"], 0, 2), substr($_GET["st"], 2, 2), substr($_GET["st"], -4))) {
+					$startDate = DateTime::createFromFormat("mdY", $_GET["st"]);
+					if($startDate->format("Y") > $overallNewestPostDate->format("Y")) {
+						$startDate->setDate($overallNewestPostDate->format("Y"), $overallNewestPostDate->format("m"), $overallNewestPostDate->format("d"));
+					} elseif($startDate->format("Y") < $overallOldestPostDate->format("Y")) {
+						$startDate->setDate($overallOldestPostDate->format("Y"), $overallOldestPostDate->format("m"), $overallOldestPostDate->format("d"));
+						$_GET["back"] = "f";
+					}
+				} else {
+					$startDate = new DateTime();
+				}
+				$content = displayPosts($postsToDisplay, $startDate, $newestPostDisplayedDate, $oldestPostDisplayedDate, $overallNewestPostDate, $overallOldestPostDate, !(isset($_GET["back"]) && strtolower($_GET["back"]) == "f"));
+				$content = "<br>" . $content;
+				if($newestPostDisplayedDate == $overallNewestPostDate) {
+					$content = "<h2>Recent Posts</h2>" . $content;
+				}
+				//$content = $content . "<p>";
+				if($newestPostDisplayedDate < $overallNewestPostDate) {
+					$newestPostDisplayedDate->modify("+1 day");
+					$content = $content . "<a class=\"newer-nav\" href=\"index.html?st=" . $newestPostDisplayedDate->format("mdY") . "&back=f\" title=\"Newer Posts\">&lt;&lt; Newer Posts</a>";
+				}
+					// This is needed to offset the difference in time the two dates were created.
+				$oldestPostDisplayedDate->setTime(0, 0, 0);
+				if($oldestPostDisplayedDate > $overallOldestPostDate) {
+					$oldestPostDisplayedDate->modify("-1 day");
+					$content = $content . "<a  class=\"older-nav\" href=\"index.html?st=" . $oldestPostDisplayedDate->format("mdY") . "\" title=\"Older Posts\">Older Posts &gt;&gt;</a>";
+				}
+
+				$content = $content . "<br><br>";
+				echo $content;
+				?>
+			</section>
+		</main>
+		<div class="footer-clear"></div>
+	</div>
+	<footer><a href="BlogCredits.html" title="Blog Credits">Credits &amp; Acknowledgments</a>
+		<div class="footercolor"></div>
+	</footer>
+</body>
+</html>

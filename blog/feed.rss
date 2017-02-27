@@ -1,0 +1,906 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+	<title>The Blog of a Math Nerd</title>
+	<description>Sports, math, programming</description>
+	<atom:link href="http://blog.thedadams.com/feed.rss" rel="self" type="application/rss+xml"/>
+	<link>http://blog.thedadams.com/</link>
+	<copyright>&#169; Donnie Adams</copyright>
+
+	<item>
+
+		<title>Apple Watch</title>
+		<description><![CDATA[<p>I am the 2016 champion of my fantasy baseball league. This league is very competitive and I am glad that I have bragging rights for the next year. Bragging rights were not my only honor, however. A monetary award that covered the price of a 42mm Space Grey Aluminum Apple Watch accompanied my victory. I've been wearing it every day for the past 3 weeks and I am not impressed.</p>
+
+<p>First, I want to say that I think smart watches are great. I wore a Kickstarter Edition Pebble for years before the screen went crazy. I loved that watch and was very disappointed when I put it in the drawer in my desk for good. Apple is very good at taking what others do and making it better so when it looked like I was going to win $500, I knew that I was going to use that money to purchase an Apple Watch. The Apple Watch is a huge upgrade over my original Pebble, but it is difficult for me to justify the price difference over the newest Pebbles.</p>
+
+<p>The Pebble Time 2 (which is set to ship January 2017) has many of the features that the Apple Watch has including fitness tracking, heart rate monitor, voice reply, notifications, and water resistance (only 30 meters). The Pebble Time 2 also has better battery life, stainless steel body, and is much more customizable. The biggest difference is the price: the Pebble Time 2 is $170 cheaper than the least expensive Apple Watch and $200 cheaper than the one I purchased. I do get a few things for that extra money like touch screen, "Scribble" replies, Apple Pay, and a better looking product. At this time, I am not convinced that this is all worth it.</p>
+
+<p>After coming to the realization that I wasn't 100% satisfied with my purchase, I decided to get the most out of my new Apple Watch. I installed a bunch of new apps. I use Apple Pay everywhere. I reply to text messages on my watch. I have even started running for exercise. Only one of these I could not do on a Pebble Time 2, but at least I feel like I am getting my money's worth out of my Apple Watch. Here's hoping that Apple improves the functionality with software updates.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2016-10Oct-28</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2016-10Oct-28</guid>
+		<pubDate>Sat, 05 Nov 2016 07:13:29 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Legacy Macs</title>
+		<description><![CDATA[<p>Today it was announced that I will own my first legacy Apple computer (an early 2008 iMac) when Apple releases macOS Sierra.  I have owned older Apple devices which are no long supported, like an iPhone 3GS and a first generation Intel MacBook, but never when they were no longer on the latest operating system.  Even when Apple was charging consumers for the newest version of OSX, I was happily handing over the money to ensure that my machine, which houses some very important and very private data, was receiving regular updates.  Now that Apple has deemed my main machine as not worthy of their newest operating system, I am hoping that I won't be left out to dry.</p>
+
+<p>I should be clear that I am not expecting Apple to support and update older machines forever; I understand that is not possible.  I also understand that as technology advances and developers release new features, the older hardware is not capable of keeping up.  For example, my iMac has has had the maximum amount of RAM (6GB) since the day I purchased it.  The people at Apple pride themselves on making quality software that runs on advanced hardware and they charge consumers a significant amount of money.  It's not that I don't want to upgrade my hardware, but it is not reasonable for me to upgrade my home machine if it is currently fulfilling my requirements.</p>
+
+<p>The problem, as I see it, is that Apple has taken the approach of controlling every aspect of how users interact with their products.  I gladly buy their products with the knowledge that they make the best products for me.  However, I hope that I am not forced to buy a new iMac to regain the ability to backup and restore my iPhone 6S when I update it to iOS 10.  I hope that I am not forced to by a new computer if someone finds a <a href="http://www.macworld.com/article/2099987/what-you-need-to-know-about-apples-ssl-bug.html" target="_blank" title="Apple SSL Bug">bug in Safari</a>.  I willing to live on with the fact that my current iMac will not have Siri, universal clipboard, and Apple Pay, but I am not willing to pay $1000+ to continue my life as it is now (unless, of course, my logic board catches on fire).</p>
+
+<p>I'm sure Apple with handle this gracefully; they haven't given me any reason to doubt them.  However, if Apple's decisions force my technological life to change significantly then the employees at the <a href="http://maps.apple.com/?address=Chandler+Fashion+Center,+Apple+Store" title="Chandler Fashion Center Apple Store">Chandler Fashion Center Apple Store</a> will be getting a visit for me.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2016-06Jun-13</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2016-06Jun-13</guid>
+		<pubDate>Mon, 13 Jun 2016 23:46:40 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Sleep Well</title>
+		<description><![CDATA[<p>I've struggled with my sleep for years.  I have gone through periods of great sleep, horrible sleep, or no sleep.  I use the <a href="http://www.sleepcycle.com" target="_blank" title="Sleep Cycle">Sleep Cycle</a> app to help me track my sleep and have been frustrated at being unable to break 60% sleep quality on a regular basis.  I've always heard that blue light from my computer and phone could be a reason why I wasn't sleeping well, but sometimes I need to work and getting away from my computer is not possible.  I recently came across <a href="http://lifehacker.com/get-better-sleep-and-start-mornings-strong-with-the-10-1762499118" target="_blank" title="10-3-2-1-0 Rule">this</a> article on Lifehacker and I learned that I needed to change when I wake up as well as what I do to wind down the day.</p>
+<p>The aforementioned Lifehacker article outlines the "10-3-2-1-0" rules for getting better sleep.  The rules are as follows:</p>
+<ul style="list-style-type:disc;">
+    <li>No caffeine within <strong>10</strong> hours of bedtime.</li>
+    <li>No food or alcohol within <strong>3</strong> hours of bedtime.</li>
+    <li>No more work within <strong>2</strong> hours of bedtime.</li>
+    <li>Turn off all screens within <strong>1</strong> hour of bedtime.</li>
+    <li>Hit the snooze button <strong>0</strong> times in the morning.</li>
+</ul>
+<p>One should notice that the frame of reference here is the time that you want to be in bed.  Something about adjusting my frame of reference helped me realize that I don't get a lot of work done between 18:00 and 21:00 each day because that is the time I walk the dog, have dinner, and spend time with my wife.  After this time, I have trouble getting back to work.  The remedy I came up with was to go to bed earlier and wake up earlier.  This had the affect of improving my sleep as well as maximizing my working hours.</p>
+<p>My new daily routine is as follows: I set my Sleep Cycle alarm for 05:15 with a 30 minute window.  This allows me to shift my potentially unproductive working time after 21:00 to the morning when I am more focused and have fewer distractions.  With a bedtime of 22:00 in mind, the above rules dictate that I stop my caffeine intake at 12:00, abstain from food and alcohol after 19:00, stop working by 20:00, and turn off all screens at 21:00.  At this point, I get ready for bed so I can fall asleep quickly.  With the remaining time I have before my bedtime, I read a book (right now I am reading <u>Steve Jobs</u>).  I have no problem falling asleep, and Sleep Cycle reports that my sleep quality has improved.  Here are a before (left) and after (right) screenshot from Sleep Cycle as evidence of the improvement.</p>
+<center><a href="files/2016-03-21Before.png"><img src="files/2016-03-21Before.png" width="40%" alt="Before Screenshot" border="0"/></a>
+<a href="files/2016-03-21After.png"><img src="files/2016-03-21After.png" width="40%" alt="After Screenshot" border="0" style="margin-left:5%;"/></a></center>
+<p>There are a couple things to note here.  First, in the after screenshot, you can see that I missed my goal bedtime.  I used this particular day's data because the bedtime, wake time, and sleep notes are similar in the two, however, the sleep qualities are not.  This is also reflected in how I feel when I wake up and my energy throughout the day.</p>
+<p>The bottom line is that it is possible to help yourself sleep better and wake up more rested each day.  Doing so is difficult and takes discipline; I have already had to tell friends that I couldn't grab a beer with them because it was later than 19:00.  In my opinion, the productivity and energy I enjoy throughout my waking hours is worth the sacrifices I have made.  There is plenty of time for beer between 05:00 and 19:00.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2016-03Mar-21</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2016-03Mar-21</guid>
+		<pubDate>Mon, 21 Mar 2016 23:17:01 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Create Your Own Dynamic DNS Updater</title>
+		<description><![CDATA[<p>When DynDNS shutdown their free tiers, I, like many people, was left looking for an alternative.  I tried <a href="https://noip.com" target="_blank" title="No-IP">No-IP</a>, but their automatic updater never worked for me.  Therefore, I was left to manually update my dynamic IP every 30 days like some type of animal.  I was already using <a href="https://cloudflare.com" target="_blank" title="CloudFlare">CloudFlare</a> for caching, simple threat identification, and basic analytics (I don't want to use Google), so I decided to make my own dynamic DNS updater using CloudFlare, Python, and launchd.  Before I layout the steps, I will say that <a href="https://dyn.com/remote-access/" target="_blank" title="dynDNS Remote Access">dynDNS Remote Access</a> is $40 per year at the time of this writing.  This is definitely affordable, but a domain name is cheaper and more versatile.  Feel free to follow these steps to setup your own solution.  In order to complete this setup, you need a domain name, a CloudFlare account, and a Mac with python3 installed.</p>
+<p>First we will setup CloudFlare.  You will need to point your domain to CloudFlare's name servers.  If you haven't done this yet, you can follow <a href="https://support.cloudflare.com/hc/en-us/articles/205195708-Step-3-Change-your-domain-name-servers-to-CloudFlare" target="_blank" title="CloudFlare Name servers">these steps</a>.  It might take a couple hours for the DNS to propagate, but CloudFlare will email you when the name servers are updated.  Once your domain is pointing to CloudFlare, you need to setup a new <a href="https://support.cloudflare.com/hc/en-us/articles/200169096-How-do-I-add-A-records-" target="_blank" title="CloudFlare A record">subdomain A record</a>.  You can call the new A record whatever you like, but it should be easy to remember.  For example, I use the subdomain "office."  Simply enter 1.2.3.4 in the IP field; this will be updated by your computer.</p>
+<p>The last thing you need from CloudFlare is your API key.  You can find it by following <a href="https://support.cloudflare.com/hc/en-us/articles/200167836-Where-do-I-find-my-CloudFlare-API-key-" target="_blank" title="CloudFlare API key">these steps</a>.  You should protect this key like a password.</p>
+<p>Now we go to the computer.  The first thing we need to do here is create the Python script used to automatically update your IP address.  You can copy and paste the script <a href="files/CFDNSUpdater.py" target="_blank" title="Python script">here</a>.  Please make sure to replace the pieces in all caps with your information: <code>EMAIL-ADDRESS</code>, <code>YOUR-API-KEY</code>, <code>YOURDOMAIN.COM</code>, and <code>SUBDOMAIN</code>.  Next, download <a href="files/com.USERNAME.cfdns.plist" target="_blank" title="Launchd file">this file</a>, open it in a text editor and replace the pieces in all caps: <code>USERNAME</code> and <code>/COMPLETE/PATH/TO/PYTHON/SCRIPT/</code>.  Once this file is edited, save it as <code>com.USERNAME.cfdns.plist</code> in your Downloads folder, again replacing <code>USERNAME</code> with your username on your computer.</p>
+<p>Next, open a Terminal window and type the following commands:</p>
+<pre>chmod +x /COMPLETE/PATH/TO/PYTHON/SCRIPT
+mv ~/Downloads/com.USERNAME.cfdns.plist ~/Library/LaunchAgents/com.USERNAME.cfdns.plist
+launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
+<p>That's it!  Every hour, your computer will run the Python script, check to see if your IP address has been changed, and update CloudFlare's settings, if necessary.  If you have any issues or questions, please do not hesitate to contact me via <a href="" target="_blank">Twitter</a> or <a href="" target="_blank">ADN</a>.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2016-01Jan-15</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2016-01Jan-15</guid>
+		<pubDate>Fri, 15 Jan 2016 05:37:00 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>My New Dog Howard</title>
+		<description><![CDATA[<p>First, if you haven't read my first post on <a href="http://blog.thedadams.com/Post.html?post=2015-03Mar-16">animal testing</a>, I ask that you read that before reading this post.  You'll learn a little bit about animal testing, what it means to me, and what <a href="http://www.beaglefreedomproject.org" target="_blank">Beagle Freedom Project</a> (BFP) is doing to combat the unnecessary cruelty that animals go through.  One of the newest programs that BFP started is called the <a href="http://www.identitycampaign.org" target="_blank">Identity Campaign</a>.  For small donation, you can "adopt" an animal in a lab, give it a name, have the option to obtain the records of the animal, and help BFP acquire it if it is released from the lab.</p>
+<p>My wife decided that both of us should be involved in this campaign.  She adopted a dog for herself and surprised me with one as well.  I have always wanted a hound named Howard (we didn't choose Diego's name), and Domenica appropriately chose this as the name for my adopted dog.  She named her dog Lucky.  About a week later we each received a package from BFP that included an adoption certificate, a tag with our dog's identification number, and a records request form letter.  We were very excited and sent the letters right away.</p>
+<p>Our dogs are both being held at the University of Missouri.  Missouri has a law called the Sunshine Law that allows people to request the records of animals in government funded lab testing facilities.  Of course, it takes time and money to prepare and ship these records.  In the letter, we stated that we would be willing to pay up to $50 preparation and shipping costs.  I anticipated the lab to take all the money I was willing to give them.  When I received the email response from the university, I was surprised that they wanted <strong>$531.90</strong> for preparation and shipping.  They also requested $410.25 from Domenica for Lucky's records.  This is an obvious attempt to derail our efforts to potentially help these two dogs, or uncover exactly what has been done to them.</p>
+<p>The people at University of Missouri should be ashamed of themselves.  I know there is a graduate student that would gladly accept minimum wage to collect, copy, and ship these records.  Even if this person makes $10 per hour (I never made that much in college in San Diego), it would take over 94 hours of work to make those fees legitimate.  Domenica even joked that we could fly to Missouri and get the records ourselves for less than the $942.15 they are asking from us.  Thankfully, the wonderful people at Beagle Freedom Project are helping us deal with the university and get these fees to a more reasonable level.  I look forward to sharing the results of our inquiry.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2015-07Jul-16</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2015-07Jul-16</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Hammerin' Hank</title>
+		<description><![CDATA[<p>Baseball is my favorite sport, both to play (when I did) and to watch.  Baseball and statistics go hand-in-hand.  I have even created a baseball statistic myself called the <a href="Archive.html?tag=consistency+index">Consistency Index</a>.  People use these statistics to try to compare players across generations and identify a GOAT (Greatest of All Time).  This is an impossible task, but it is a truly interesting debate.  It is easy to make cases for guys like Ty Cobb, Babe Ruth, Lou Gehrig, Willie Mays, Barry Bonds, Cy Young, Sandy Coufax, or Nolan Ryan, and these cases are very persuasive.  However, it is my opinion that one person doesn't get enough support in this conversation.</p>
+<p>Henry "Hank" Louis Aaron, nicknamed Hammerin' Hank, made his MLB debut with the Boston Braves in 1954 at the age of 20.  In that game, he had no hits in 5 at-bats.  This was not at all indicative of how his 22 year career would unfold.  Hank Aaron is best known for breaking Babe Ruth's record of 714 for the most homeruns in a career.  Aaron hit his record-breaking 715th homerun on April 8, 1974.  Not only is the record impressive, but he did so in the midst of unbelievable death threats from racists in the South (by this time the Braves had moved to Atlanta).  Aaron would finish his career with 755 homeruns, a record that would stand for 31 years.</p>
+<p>The homerun record is just part of the story.  As of the date of this writing, 28 major leaguers have 3,000 hits in their career.  Aaron collected 3,771 hits in his career, second most in a career at the time of his retirement (now third).  One thing of note with this number: if you took away all of Aaron's homeruns, he would still be a member of the 3,000-hit club.  This is absolutely incredible for someone that was primarily known for hitting homeruns.  In comparison, Frank Thomas, who is considered to be one of the great homerun hitters of the 1990's, had 521 career homeruns and 2,468 career hits.  Aaron also holds the record for the most runs batted in (RBI) in a career with 2,297; he is one of three people with more than 2,000 RBI in their career.</p>
+<p>In total, Aaron is in the top five in homeruns, hits, extra base hits, total bases, runs batted in, runs score, at-bats, plate appearances, games played, and intentional walks in a career.  Most of this was accomplished in the midst of hate mail and innumerable death threats.  His ability to hit a baseball is out matched only by his ability to maintain focus on the field despite immense distractions.  Taking the circumstances of his career and what he was able to accomplish, Hank Aaron deserves to be in the debate for the title of GOAT.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2015-05May-13</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2015-05May-13</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Animal Testing</title>
+		<description><![CDATA[<p>About two years ago I learned exactly what animal testing is.  I'm not referring to medical testing (more on that in a later entry), but rather the testing of household products many of us use every day.  I thought that testing shampoo on a dog meant that the dog was getting a nice bath.  This is far from the truth.  The animals are severely mistreated and are never given the chance to have normal pet lives.  If you have never heard exactly what happens inside a testing facility, please continue reading.  I will warn you that some of the things you will read and see are disturbing and extremely saddening.</p>
+<p>You may know that I have a beagle; his name is Diego.  My wife, Domenica, and I adopted him from the Arizona Humane Society on July 12th, 2011.  It didn't take long for Domenica to fall in love with Diego and all beagles.  While she was searching for beagle-related things on the web, she stumbled upon <a href="http://beaglefreedomproject.org" target="_blank" title="Beagle Freedom Project">Beagle Freedom Project</a> and our lives changed forever.  If you have the the time and the stomach, please watch the video of their <a href="http://www.beaglefreedomproject.org/rescue_1" target="_blank" title="First Rescue">first rescue</a>.  Unfortunately, this is one of the more uplifting videos.  Watching those dogs run around on that small patch of grass for the first time gets to me every time.  I can't watch some of the other videos that show how the animals are treated in the labs; they make me sick to my stomach.  It's not hard to find such videos on YouTube.</p>
+<p>The dogs used in animal testing of household products are not given baths with shampoo or a weird hairdo with a hair spray.  They have makeup smeared in their eyes until they go blind or forced to inhale a hairspray through a mask until they die.  <a href="http://www.humanesociety.org/issues/cosmetic_testing/tips/common_cosmetics_tests_animals.html" target="_blank" title="Animal Testing">This stuff</a> happens all the time, and the products that are being tested are products that have been around forever (like bleach) or products that we all know are harmful (like cigarettes).</p>
+<p>Regardless of your feelings on the actual testing that goes on, I think we can all agree that these animals deserve a life after testing.  Many, or most, of the animals used in testing are simply euthanized when they are no longer needed.  I have even heard stories about animals being euthanized in the middle of a test because a big holiday is approaching and it is less expensive to dispose of the dogs than pay someone to watch them.  The laboratories buy new animals after the holiday and pick up the experiments from the beginning.  This is extraordinarily wasteful and disrespectful.</p>
+<p>I am writing this to make anyone who reads this aware that these things happen.  A few years ago, I was completely ignorant of this.  It may seem like one person cannot make a significant dent in such a large problem, but there are tangible things one can do.  You can start by supporting the <a href="http://www.beaglefreedomproject.org/right_to_release" target="_blank" title="Support Beagle Freedom Bill">Beagle Freedom Bill</a>.  You can also make a more dramatic change by going "cruelty-free" and only using products that have not been tested on animals.  There is an <a href="http://cruelty-cutter.org" target="_blank" title="Cruelty Cutter">app</a> to help you find products that aren't tested on animals.  If you would like information regarding the efforts you can make to help these animals, please do not hesitate to reach out to me on <a href="http://twitter.com/thedadams" target="_blank" title="thedadams on Twitter">Twitter</a> or <a href="http://alpha.app.net/thedadams" target="_blank" title="thedadams on App.net">App.net</a>.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2015-03Mar-09</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2015-03Mar-09</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Blog 2.0</title>
+		<description><![CDATA[<p>About a year and half ago I decided to create a blog.  The idea was as much about coding the backend of the blog as it was about writing.  Inspired by <a href="http://donmelton.com" target="_blank">Don Melton</a>, who self-taught the majority of his programming skills and went on to do <a href="http://donmelton.com/2012/12/19/when-i-first-heard-the-name-safari/" target="_blank">great things</a>, I set out to learn as much HTML, CSS, PHP, and JavaScript as necessary to make this happen.  The first version wasn't anything special; it had a welcome page with a list of recent posts and another page that displayed a blog entry given by a <code>GET</code> string.  The biggest feature was a dated archive that would expand and collapse as the reader clicked on it.  Today, I've updated it with a few more bells and whistles.</p>
+<p>The goal with this blog, at least from the development perspective, has always been simplicity.  You can read <a href="http://blog.thedadams.com/Post.html?post=2013-05May-31">this</a> to see how simple the first version was.  After <a href="http://blog.thedadams.com/Post.html?post=2014-12Dec-26">renewing my commitment</a> to publishing here, I realized that it is not very easy to find old posts or past topics.  For example, the welcome page showed the 5 most recent posts with a one paragraph preview of each.  If you wanted to read any older entries, you would have had to click through the archive on the right.  Now there is navigation at the bottom of the welcome page that allows the reader to see previews of posts from further in the past.  Links labeled "Newer" and "Older" appear as needed as one navigates through these pages.  In addition, there is now a "full" archive where the reader can view all the posts from any year or all the post tagged with a specific topic.  This enables one to find or discover posts much more easily.  All of this is done in about 200 lines of PHP.</p>
+<p>This has increased the complexity a bit, but I am very happy with it.  There are 4 total HTML files: the welcome page, the post page, the archive page, and the credits page.  The content displayed on the post and archive pages are controlled via a <code>GET</code> string.  It's hard to think of ways someone might break your code, but I've tried to make this as robust as possible.  That is, if the reader changes the <code>GET</code> string to something crazy, the code is smart enough to make an adjustment and display something meaningful.  Most importantly, as the blog grows building this content will not be hindered - it will remain as quick as it is now.</p>
+<p>The biggest change was incorporating tags for each post.  It wasn't difficult to tag each existing entry because there aren't very many of them.  The difficult part was making sure that each new post (which is tagged during composition) is added to the tag list.  I refused to do this manually.  I recently constructed a workflow using <a href="http://omz-software.com/editorial/" target="_blank">Editorial</a>, <a href="https://workflow.is" target="_blank">Workflow</a>, and <a href="http://contrast.co/launch-center-pro/" target="_blank">Launch Center Pro</a> which takes a blog post ready for the public, uploads it to Dropbox (read: saves it to my iMac), uploads it to my web host, generates the new RSS feed, and uploads the new RSS feed to my web host.  It was fairly easy to extend this workflow to automatically add or update the tags as necessary.  I am planning to write about these apps and this workflow soon.</p>
+<p>I have added quite a bit of complexity to the backend, but things are now more functional and intuitive.  I would be very happy if you would use these new features and let me know what you think.  All of these new things have allowed me to focus more on the writing process.  Uploading and viewing are streamlined now - two things I don't have to worry about anymore.  I just hope I can figure out this whole "proof-reading" thing.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2014-12Dec-30</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2014-12Dec-30</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>New Year Resolutions</title>
+		<description><![CDATA[<p>I've never done any New Year Resolutions.  I think the reason is I hear people talk a lot about how they don't keep them; I didn't want to be a failure.  However, this is the year I will make (and keep) a few New Year Resolutions.</p>
+<p>First, I want to make use of this blog.  I have quite a few half-written blog posts in Editorial, many of which will never be posted here.  I want this to change.  I feel like I have a few unique perspectives that people may find interesting.  At the very least putting things down in writing may help to solidify my thoughts and ideas on the topics.  I also put quite a bit of effort into creating this blog from scratch as well as automating the posting process on my iPad and iPhone using Editorial, Workflow, and Launch Center Pro.  That shouldn't go to waste.</p>
+<p>Next, I want to get in better shape.  This is the standard New Year Resolution, but I really mean it.  I put a lot of effort into losing weight over the past year.  I've also <b>thought</b> a lot about working out, cycling more, and improving my overall health.  I've tried using Lift and MyFitnessPal, which have helped a little, but I want to be more disciplined in this area of my life.  Getting in shape will help my knees, shoulders, back, and heart - all of the things with which I have been having problems.  It's time to turn these thoughts into actions and take my health more seriously.</p>
+<p>Lastly, I want to rediscover my passion for math.  I've been doing research in math for nearly half my life now and I am in a rut.  It is taking much longer for me to finish my PhD than I hoped and I keep making excuses.  Finding the passion I once had for math will hopefully give me the final push I need to buckle down and prove something significant.  If I can't rediscover that passion, I need to buckle down and finish this anyway.</p>
+<p>Next year can be one of the most exciting years of my life: my wife and I could begin the conversation of starting a family, I could finish my PhD, I could find a job, and I could enjoy the last calendar year before I turn 30.  Discipline and motivation, specifically the kind detailed above, will hopefully turn those "coulds" into "dids".</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2014-12Dec-26</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2014-12Dec-26</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Minimal Watchface for Pebble</title>
+		<description><![CDATA[<p>A few months ago I was inspired to make a watchface for the <a href="http://getpebble.com" target="_blank">Pebble Smartwatch</a>.  I wanted to combine an analog design with a digital one to create a very simple, uncluttered watchface.  I have very little design experience and limited programming experience, but I thought that the task could be obtained with a little effort.  After looking over the <a href="https://developer.getpebble.com/2/api-reference/modules.html" target="_blank">Pebble API documentation</a>, I decided to tackle the project.  I have released a few upgrades since originally publishing the face on the Pebble app store; I am particularly proud of the most recent version.</p>
+<p>In an effort to make the design simple, I chose not to adopt the usual marking of the numbers around an analog watch.  I also wanted the watch to be easily readable.  Therefore, a minute hand was immediately out of the question, which left just an hour hand.  The hour hand doesn't move throughout a given hour.  Instead, it jumps to the next position when the hour changes.  This makes reading the hour quick and easy.</p>
+<p>The digital portion of the watch comes in the minutes display.  The minutes are given as large numbers in the center of the watchface.  The hour hand rotates around the minutes.  I believe this design creates a very compact and fashionable watch display.  Once I had both of these laid out, I noticed there was a bit of room at the bottom of the screen that created a little asymmetry.  I decided to fill this space with the month, day, and day of the week.  Here is the outcome:
+<br/><br/><center><img style="text-align:center;" src="images/pebble-screenshot_2014-03-25_23-14-47.png" alt="Pebble Screenshot 1"/><br/>
+<span style="font-size:.75em;">Hopefully you can tell that the watch is displaying the time 9:15.</span></center>
+<br/>
+This did not satisfy me completely; I wanted to use more of the capabilities of the Pebble API.  The first thing that came to mind was bluetooth connection vibrations.  As it turns out, this was very simple to implement.  The watch emits two short vibrations when a bluetooth connection is established and one long vibration when it disconnects.  Next, I decided to implement a single short vibration every hour, on the hour.  I don't particularly like this feature, but I know some people will enjoy it.</p>
+<p> Since these features weren't difficult to deploy, I turned to the battery of the Pebble.  My goal was to find a way to display the battery percentage unobtrusively and give the user an easy way to tell when the watch is done charging.  This led me to use the hour hand as a battery meter.  The hour hand will be completely white when the watch's battery has 95% to 100% charge.  As the battery level decreases in increments of 5%, the white will retreat towards the center of the watch.  The hour hand is outlined in white to maintain readability.  The hour hand also blinks while the watch is charging and stops when it is fully charged.  In order to give the user control over these features, I used the Javascript and persistent data capabilities of the Pebble API to allow turning these features, and the vibration features mentioned above, on and off as desired.  Here is an example of the new version:
+<br/><br/><center><img style="text-align:center;" src="images/pebble-screenshot_2014-06-15_22-17-23.png" alt="Pebble Screenshot 1"/><br/>
+<span style="font-size:.75em;">Notice the battery meter in the hour hand.</span></center>
+<br/>
+Although the watchface is complete and published to the Pebble app store, it is not available just yet.  Since the watchface uses Javascript, this code must be bundled with the official Pebble app for it to be available to iOS users.  From what I understand, Android does not have this hurdle, and, thus, the watchface is available to Android users now.  If you would like to download Minimal, please click <a href="https://apps.getpebble.com/applications/5331eb4d18cd87063e00033d" target="_blank">here</a>.  Also, I would greatly appreciate that you "love" the watchface on the Pebble app store.  If you have have comments, suggestions, or questions, please do not hesitate to leave a comment below or contact me via <a href="https://alpha.app.net/thedadams">App.net</a> or <a href="https://twitter.com/thedadams">Twitter</a>.  I hope you enjoy Minimal as much as I have.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2014-06Jun-19</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2014-06Jun-19</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Consistency Indicies Updated for 2013</title>
+		<description><![CDATA[<p>Another MLB year came to a close and I now have the data I need to update the <a href="http://blog.thedadams.com/Post.htm?post=2013-06-22">Consistency Indices</a>.  Last year was especially interesting because there is a great hitter in his prime and another young hitter that has the opportunity to be the best player in baseball, if he is not already.  I would like to give some perspective on the consistency of the current players and how this 2013 ranks in history.</p>
+<p>As you may recall, there are two Consistency Indices: one for hits and one for on-base.  For the Hit Consistency Index (HCI), there is no surprise who is number one: Miguel Cabrera with an HCI of 3.928758.  Cabrera had an excellent season, leading the MLB in batting average (.348) and on-base percentage (.442), despite battling a couple different injuries toward the end.  The number two spot belongs to Michael Cuddyer with an HCI of 3.92468.  Cuddyer was second in the league in batting average (.331).  These aren't surprising because they are number one and two in batting average.  The HCI tends to following batting average for single seasons.  Here are the top ten HCI's for 2013:<br/><br/>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>Name</th><th>On Base CI</th><th>Hit CI</th></tr>
+<tr><td>Miguel Cabrera</td><td>13.211715106261849</td><td>3.9287575767906127</td></tr>
+<tr><td>Michael Cuddyer</td><td>10.49811384375744</td><td>3.924683886175119</td></tr>
+<tr><td>Joe Mauer</td><td>6.114297359134208</td><td>3.7284120533153278</td></tr>
+<tr><td>Howie Kendrick</td><td>5.5529685848718415</td><td>3.6210898798394533</td></tr>
+<tr><td>Allen Craig</td><td>4.394019995842432</td><td>3.4784185018451392</td></tr>
+<tr><td>Mike Trout</td><td>17.553146108557545</td><td>3.406338180121031</td></tr>
+<tr><td>Austin Jackson</td><td>5.250809423065276</td><td>3.205842481941779</td></tr>
+<tr><td>Jose Reyes</td><td>4.9337557489694985</td><td>3.0998241587528943</td></tr>
+<tr><td>Jhonny Peralta</td><td>5.406546509606704</td><td>2.938341567152542</td></tr>
+<tr><td>Adam Jones</td><td>5.081003798670468</td><td>2.929320978879294</td></tr>
+</table></p>
+<p>The On-Base Consistency Index (OBCI) has a lot of the same players at the top.  Number one is Mike Trout with an OBCI of 17.5531.  You'll notice in the top ten list for OBCI, the numbers decline much faster than in the HCI list.  This is caused by teams "pitching around" the top hitters in the game.  That is, Mike Trout and David Wright are more likely to walk in a high-leverage at-bat because teams would rather pitch to someone else.  Here is the top ten:<br/><br/>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>Name</th><th>On Base CI</th><th>Hit CI</th></tr>
+<tr><td>Mike Trout</td><td>17.553146108557545</td><td>3.406338180121031</td></tr>
+<tr><td>Miguel Cabrera</td><td>13.211715106261849</td><td>3.9287575767906127</td></tr>
+<tr><td>David Wright</td><td>11.49911709259646</td><td>2.0440454546442774</td></tr>
+<tr><td>Michael Cuddyer</td><td>10.49811384375744</td><td>3.924683886175119</td></tr>
+<tr><td>Joey Votto</td><td>9.786384461848145</td><td>1.9374288758148415</td></tr>
+<tr><td>David Ortiz</td><td>8.31008626237298</td><td>1.8782460162637997</td></tr>
+<tr><td>Shin-Soo Choo</td><td>8.304866990857803</td><td>1.234302436122293</td></tr>
+<tr><td>Prince Fielder</td><td>7.912164591848597</td><td>2.1282685942999158</td></tr>
+<tr><td>Matt Holliday</td><td>6.878361178494023</td><td>2.455811881037437</td></tr>
+<tr><td>Freddie Freeman</td><td>6.809164596596346</td><td>2.7969661521294946</td></tr>
+</table><br/><br/>
+Historically, 2013 was a mediocre year for consistency.  Mike Trout was the only player to crack the top 50 for either Index and Joey Votto was the only person to enter the top 50 three-year OBCI (2011-2013).  No player had a top 50 five-year Consistency Index that included 2013.  This goes with the idea that we are in an era dominated by pitching with a few elite hitters.</p>
+<p>I would like to make a small prediction for the 2014 season.  Let me preface this prediction by stating that I am a HUGE Mike Trout fan.  I admire his combination of hitting, speed, and defense.  After looking at the numbers, my guess is that he will have a down year.  Now, a down year for Trout is still an above average year, but I don't think he will be in the top 3 (maybe even 5) for either Index in 2014.  I would like to be wrong because I really like the guy, but the trend is that in a three year span a player generally has a down year.  Let's hope everyone else does, too.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2014-06Jun-15</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2014-06Jun-15</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Giving Up Sports Betting For Now</title>
+		<description><![CDATA[<p>The time has come; I have to stop pursuing sports betting, but only temporarily.  I did have success.  I actually found a strategy that allowed me to win over 70% of the spread bets I made.  However, due to the lack of freely available statistics, it took me too long to compile the information each week.  If the information was programmatically easy to come by, I could continue this endeavor.</p>
+<p>The information I need for basketball over/unders is "freely" available.  That is, I can get the statistics I need everyday without having to sit down and do it myself.  I wrote a few scripts and added a couple <code>launchd plists</code> to get the information I need.  The relevant statistics are then sent to my phone via <a href="http://pushover.com" target="_blank">PushOver</a>.  I can look at the match-ups at my leisure wherever I am.  I won't be publishing my results until I have more time to devote to the decision making process.</p>
+<p>This was fun, and by no means am I done with sports betting.  If you do not know, I am a graduate student studying mathematics.  That is where I need to put my undivided attention at this time.  Once my dissertation is finished and I figure out what I want to do with my life (Hint: it won't be sports betting), I will pick it back up recreationally.</p>
+<p>If you have been reading these entries, I thank you.  If you would like to know more about what I tired, what didn't work, and what did work, please do not hesitate to contact me.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-12Dec-19</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-12Dec-19</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Things Keep Changing</title>
+		<description><![CDATA[<p>It seems that each week I find a betting strategy that might work going forward, and that week is a bad for that idea.  This week is no different.  I thought I found a way to narrow down which games to bet on, but I was wrong.  I decided to do what I think was inevitable all along: mold trends and statistics.</p>
+<p>I will ignore the tables I have been giving in the past and jump straight the the ideas I have.  For spread betting, I noticed that my strategies worked very well when the home team was the underdog.  I contribute this to the fact that bad teams play better at home, and teams that travel long distances (west coast team traveling to the east) tends to perform below their average.  I don't always bet on the home team when they are an underdog, but it seems that my strategy balances well with Vegas' (and the public's) perception of these teams.</p>
+<p>Over the past four weeks, when the home team is not favored (so the game is either a pick 'em or the home team is the strict underdog) one of my strategies has won 16 out of 22 bets (72.72%), including 4 out of 5 this week.  I will continue to monitor this idea this week.</p>
+<p>The over/under bets have proven to be very puzzling.  I thought that I had a strong strategy, but it has recently been deemed insufficient for betting purposes.  I mentioned this strategy last week, but the past two weeks have gone very badly.  Overall, it has won 19 out of 37 bets (51.35%).  It still has a chance to turn things around.  In an effort to mold trends and statistics together, I will be keeping a close eye on a teams over/under streaks.  That is, if a team has had a streak of at least 2 games where they were under the total, I will take that into consideration instead of blindly following the numbers.  I will also do the same for teams that have had a streak of 3 games or more going over the total.  Obviously there are certain things that don't fit this mold (a team that has gone over the total 3 weeks in a row playing a team that has gone under the total 3 weeks in a row), but I anticipate that these trends will allow me to be more successful with these bets.</p>
+<p>Things are getting very complicated and I am keeping things closed for many reasons.  However, I will be glad to share all of the things I have been tracking over the past several weeks at the end of the season.  Hopefully I will have some successful and interesting results to share.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-11Nov-12</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-11Nov-12</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Good News and Bad News</title>
+		<description><![CDATA[<p>As I computed numbers for this weeks' games, I knew it was going to be an interesting week.  To start, there was only one game between teams that entered with winning records.  In that game, one of the best quarterbacks in the NFL left that game with a potential <a href="http://espn.go.com/nfl/story/_/id/9929515/aaron-rodgers-green-bay-packers-miss-three-weeks" target="_blank">broken clavicle</a>.  There were also coaches <a href="" target="_blank">collapsing</a> and two 21-point comebacks.  There is some good news that came out of the week and I can't wait to share.</p>
+<p>Even just looking at the numbers, I wasn't happy.  I remember sending a text to someone saying, "If these numbers stay above 56%, I will start betting them next week."  Let's just say I'm not making any bets this week.  One positive thing is (this isn't the foreshadowed good news) I saw it coming.  This means my eye can see when things are questionable which is a huge step forward for me personally.  That's not why you're reading this; you care about the strategies and the numbers:
+<div class="genclear"></div>
+<table border="1" style="float:left;margin-left:25%;margin-top:1em;margin-bottom:1em;">
+<caption>Spread Strategies</caption>
+<tr><th>Strategy 1</th><td>5/13</td></tr>
+<tr><th>Strategy 2</th><td>6/12</td></tr>
+<tr><th>Strategy 3</th><td>8/13</td></tr>
+<tr><th>Strategy 4</th><td>5/11</td></tr>
+</table>
+<table border="1" style="float:left;margin-left:25%;margin-top:1em;margin-bottom:1em;">
+<caption>O/U Strategies</caption>
+<tr><th>Strategy 1</th><td>2/13</td></tr>
+<tr><th>Strategy 2</th><td>9/13</td></tr>
+<tr><th>Strategy 3</th><td>4/13</td></tr>
+<tr><th>Strategy 4</th><td>9/13</td></tr>
+<tr><th>Strategy 5</th><td>5/12</td></tr>
+</table>
+<div class="genclear"></div>
+<br/>
+Strategy 1 went a combined 7 for 26; a winning percentage of 26.92%.  This definitely counterbalances the great week Strategy 1 had <a href="http://blog.thedadams.com/Post.html?post=2013-10Oct-29">last week</a>.  The good news is that this horrible week caused me to look more closely at the trends, and I found a couple things that I would like to share.</p>
+<p>We start with the spread bets.  Taking an average of Strategies 1 and 2, then only betting on games where the home team is the underdog seems to produce good results.  Following this would have produced a winning percentage of 70.59% (12 out of 17) over the past 3 weeks.  This past week when the general strategies did very poorly, this strategy still produced a respectable winning percentage of 57.14% (4 out of 7).</p>
+<p>Now we move on to over/under bets.  This strategy is slightly more complex, but such strategies are common in sports betting.  If Strategy 1 and 3 agree and Strategy 2 is the opposite, then you place a bet using Strategy 1.  In addition, if all three of these strategies imply that you should take the over, then bet the over.  One should ignore all other bets.  Betting this way would have produced a winning percentage of 61.53% (16 out of 26) over the past three weeks.  Last week, this would have have won 2 out of 8 bets.  Not good, but I will take the overall record.</p>
+<p>I have also come up with a <a href="http://www.thesportsgeek.com/sports-betting/what-is-a-unit/" target="_blank">unit based betting strategy</a> that has proved to be successful.  It is based on the difference between the Vegas and my line.  For example, even though the above over/under strategy won only 2 out of 8 bets, this betting strategy would have produced a loss of only $90.  Consistently betting $110 on every over/under would have produced a loss of $540.  This has saved us from losing too much in a bad week, but it will also help us win more during a good week.  Another strategy has produced a winning percentage of only 46.67%, but this betting strategy has actually produced a profit of $1,150 using a unit of $110.  This comes from betting more on games that are "more likely" to win and less on the games that are more questionable.</p>
+<p>I understand that this can get complicated as trends reveal themselves and strategies evolve.  If you have any questions, or think something is unclear, please feel free to leave a comment or contact me on a social network of your choice - see the icons in the welcome pane.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-11Nov-06</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-11Nov-06</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Week Two Trials Went Really Well</title>
+		<description><![CDATA[<p>The second week of testing my strategies has made me a little worried.  It went well - really well.  Call me a pessimist, but the overwhelming success this week has make me question the validity of my strategies.  The success may continue, however it is more likely that the strategies have an epic flaw that got lucky this week.  This is why we test these things.</p>
+<p>I won't waste any time; here are the winning percentages for each strategy:
+<div class="genclear"></div>
+<table border="1" style="float:left;margin-left:25%;margin-top:1em;margin-bottom:1em;">
+<caption>Spread Strategies</caption>
+<tr><th>Strategy 1</th><td>9/12</td></tr>
+<tr><th>Strategy 2</th><td>4/13</td></tr>
+<tr><th>Strategy 3</th><td>5/13</td></tr>
+<tr><th>Strategy 4</th><td>4/12</td></tr>
+</table>
+<table border="1" style="float:left;margin-left:25%;margin-top:1em;margin-bottom:1em;">
+<caption>O/U Strategies</caption>
+<tr><th>Strategy 1</th><td>8/12</td></tr>
+<tr><th>Strategy 2</th><td>5/12</td></tr>
+<tr><th>Strategy 3</th><td>9/13</td></tr>
+<tr><th>Strategy 4</th><td>6/13</td></tr>
+<tr><th>Strategy 5</th><td>6/10</td></tr>
+</table>
+<div class="genclear"></div>
+As you can see, Strategy 1, which is the strategy of interest, did very well in predicting the against-the-spread and over/under outcomes this week.  A winning percentage of 70.8% in a week looks good now, but history shows such percentages are unsustainable.  Combining this with the first weeks' results, Strategy 1 has won 34 out of 53 bets for a winning percentage of 64.15% - extremely good!  Note that if a strategy gives the same exact number as Vegas, that line is not bet at all.  That is the reason for the varying bets in each strategy.</p>
+<p>I will continue to point out the flaw in the system; it requires one to bet on essentially every game.  This is not ideal and I had an idea to fix this last week.  However, that idea has proven extremely ineffective this week.  Theoretically, a high winning percentage is great, but I am still uncomfortable with betting every game.  I will continue to look for strategies to eliminate games and maintain high winning percentages.  For this reason, I will track the "bad" strategies in hopes that they will provide valuable insight to which games to bet and/or which to leave out.</p>
+<p>In closing I would like to mention that I am going to start experimenting with NBA handicapping.  I have started transporting the strategies, but have had little success with the spread bets.  It seems that there is too much variance for my strategy to work with the NBA.  Therefore, I am restricting my experiments with the NBA to over/under bets only.  Specializing will hopefully allow me to be more successful.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-10Oct-29</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-10Oct-29</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>First Week of Trials</title>
+		<description><![CDATA[<p>The first week of handicapping NFL games went as well as can be expected, especially with how badly things went for some of the professional handicappers I follow.  One handicapper lost all four of his Sunday day bets and decided to place two bets of $55,000 each on the Sunday night game.  He won one and lost one.  Here is how I did.</p>
+<p>If you recall from the <a href="http://blog.thedadams.com/Post.html?post=2013-10Oct-19">last post</a>, I have multiple strategies for both the spread and over/under bets on (American) football games.  I've altered things a little bit so I would first like to give an update.  I have three general strategies on the spread and a fourth which is an "average" of the three distinct strategies.  Similarly, I have four strategies for the over/under and one average.  Here are the winning percentages for each (note that there was one push on the over/under bets):
+<div class="genclear"></div>
+<table border="1" style="float:left;margin-left:25%;margin-top:1em;margin-bottom:1em;">
+<caption>Spread Strategies</caption>
+<tr><th>Strategy 1</th><td>8/15</td></tr>
+<tr><th>Strategy 2</th><td>6/15</td></tr>
+<tr><th>Strategy 3</th><td>5/15</td></tr>
+<tr><th>Strategy 4</th><td>7/15</td></tr>
+</table>
+<table border="1" style="float:left;margin-left:25%;margin-top:1em;margin-bottom:1em;">
+<caption>O/U Strategies</caption>
+<tr><th>Strategy 1</th><td>9/14</td></tr>
+<tr><th>Strategy 2</th><td>3/14</td></tr>
+<tr><th>Strategy 3</th><td>3/13</td></tr>
+<tr><th>Strategy 4</th><td>6/14</td></tr>
+<tr><th>Strategy 5</th><td>3/13</td></tr>
+</table>
+<div class="genclear"></div>
+Strategy 1, in both categories, is the strategy in which I am particularly interested.  In case you don't know, a handicapper wants to win at least 56% of the bets they make.  If I were to have used Strategy 1 in both cases for every game, I would have won 58.6% - pretty good.  To put that in terms of money, if I would have placed a bet of $110 on every game last week, I would have had a profit of $396.  Making money some money.</p>
+<p>Betting on every game is also not feasible.  A handicapper would like to have 4 or 5 games per weekend they feel very confident betting.  If I only bet on the games where the Vegas line and my line differ by at least 5, but not greater than 7, I would have had a great weekend.  For example, Vegas had the St. Louis at Carolina game at Carolina -7.  Strategy 1 for the spread calculated a projected line of Carolina -12: a difference of at least 5, but not greater than 7 (in fact, exactly 5).  I would have bet this game.  Doing the same for Strategy 1 for the over/under totals, I would have won 8 out of 12 bets (3 out of 4 on the spread).  Betting $110 on each game would have produced a profit of $360.  Although the profit went down slightly, betting on fewer games is much less risky.</p>
+<p>These strategies are still being developed, but you can see that they have lots of potential.  You can also see that some of them did not work at all this weekend, but that is still valuable information.  I will not adjust anything going into the second week of trials, but moving forward I will be looking to meld these statistics with other information (home/road splits, west coast teams to east coast, injuries, etc) to form a more complete betting strategy.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-10Oct-24</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-10Oct-24</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Trying My Hand at Handicapping</title>
+		<description><![CDATA[<p>It's no secret that I believe math and sports go together.  After designing and analyzing my own <a href="http://blog.thedadams.com/Post.html?post=2013-06-22">baseball statistic</a>, I've decided to try handicapping sports games.  I'm starting with (American) football because it is hands-down the most popular sport in America and arguably the sport with the most betting action.  Depending on the success of this endeavor, I may move on to basketball and/or baseball.  Of course this takes a tremendous amount of time, and it's not something I'm jumping into head-first.</p>
+<p>I've done quite a bit of research and preparation for this announcement.  I've searched for trends in game outcomes relative to closing betting lines.  I've analyzed betting strategies to maximize profits while maintaining winning percentages.  Home dogs, road favorites, over/unders, and first-five inning bets: I've looked at them all!  I've learned nothing.</p>
+<p>There are no patterns.  Teams go up and down.  Vegas handicappers do a great job of noticing trends and adjusting lines to counteract the advantages an ordinary person might come across.  If you try to consistently bet a certain scenario, you may have success for a while, but your luck will eventually run out.  For example, if you bet on home dogs getting 4 or fewer points in 2008, you could have made a killing.  In 2009, you would have lost everything quickly.  So far in 2013, you could have easily tripled your money (the season isn't over however).  I have convinced myself that in order to be a successful handicapper, you must use trends AND statistics.  Unfortunately, getting free NFL teams statistics for the last five years has proven difficult.  Therefore, I have a couple strategies I would like to test for the rest of this NFL season.  I'm not expecting it to go well.  I expect to learn and make adjustment as the season progresses, eliminating poor strategies and coming up with new ones.</p>
+<p>I have two separate strategies involving only team statistics used to guess which team should be favored and by how much.  There is a third strategy which is an "average" of these in some sense.  Over the next ten weeks I will do my best to handicap each game - both the spread and over/under - in hopes of establishing significant statistics which tend to predict the outcomes of football games.  I haven't decided if I will post all my picks beforehand, or simply report a winning percentage each week.  Either way, the reader should have faith that all of my lines have been calculated before each game and the numbers will never be adjusted to skew in my favor.  I really want to know if this is going to work.  Since this is the first week, and the first draft of this post was written on Friday night, I will only report results at the conclusion of the Monday night game.</p>
+<p>I will also say that I will never sell these picks; I am not trying to become a tout to make money.  This is an experiment.  If my abilities become fruitful, I will only post my results after the fact for people to see and experiment with on their own.  In the more likely scenario that this turns out to be an epic failure, having my ideas displayed will also be very interesting.  Well, maybe only interesting to me.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-10Oct-19</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-10Oct-19</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Consistency Index Examples</title>
+		<description><![CDATA[<p>The <a href="http://blog.thedadams.com/Post.html?post=2013-06Jun-22" title="Introduction to the Consistency Indicies">Consistency Indices</a> are two baseball statistics I invented a few months ago.  I've dedicated a lot of my time and computing time to these statistics.  I have calculated both the On-Base Consistency Index (OBCI) and the Hit Consistency Index (HCI) for every batter's career debuting in 1915 or later with at least 2000 plate appearances.  I have also calculated the top indices for each year, three-year span, and five-year span since 1915 (with plate appearance restrictions for each).  All of this is through the 2012 season.  I would like to share some of my thoughts and data.</p>
+<p>Let's start with the career data.  The average OBCI and HCI for all the careers I calculated are 4.758552464799467 and 2.0165131499264994, respectively.  The best careers for OBCI and HCI should not be a surprise: Ted Williams has the highest career OBCI and Joe DiMaggio has the highest career HCI.  Unfortunately I don't have access to game log data for Ty Cobb because he debuted in 1905.  I would expect that he would have the highest career HCI.  Lou Gehrig owns the second highest career OBCI, which did not surprise me either.  However, I was surprised that Ichiro Suzuki has the second highest career HCI.  This made a lot of sense after looking at Ichiro's numbers and recalling that he had an extremely low swing-and-miss rate in his prime.  It validates that both indicies are measuring the correct thing.  Click <a href="#career-obci" class="open-popup-link">here</a> for a list of the top 50 career OBCIs and <a href="#career-hci" title="Career Top HCIs" class="open-popup-link">here</a> for a list of the top 50 career HCIs.  Both indicies are included in each list for comparison and the ordered index is highlighted.</p>
+<p>I would like to note a couple things about top career numbers.  First, I am a little surprised how high Nomar Garciaparra and Derek Jeter are ranked in the career HCI list.  I grew up watching these two players and I would never have guessed they would be 4 and 6 respectively on this list.  Secondly, Miguel Cabrera is on the top 50 OBCI, but not the top 50 HCI.  I found this to be a little surprising.  However, I suspect that when his career is over we might see him in the top 10 in both statistics.</p>
+<p>Next, we turn our attention to single seasons.  A player must have had 400 plate appearances in a season to qualify here.  I made it a little lower than the typical 500 plate appearances to compensate for the early years.  The average single season OBCI and HCI are 6.064497631927045 and 2.8492318181947778.  You can view the top 50 single seasons for OBCI <a href="#ss-obci" title="Single Season OBCI" class="open-popup-link">here</a> and HCI <a href="#ss-hci" title="Single Season HCI" class="open-popup-link">here</a>.  Note how many times Irchiro's name is listed; his rank in the career list begins to make more sense.  You'll also notice that many of the players on the top 50 Single Season OBCI list do not appear on the HCI list.  This is a result of these players getting walked so often that they did not have the opportunity to get very many hits.  This is not to say that they got walked in every plate appearance - the indicies do take that into account - but rather that they may have only had one or two at bats out of five or six plate appearances (see Barry Bonds' 2004 season).</p>
+<p>Finally, we get to the data that most interests me: the three-year and five-year top lists.  I calculated both indicies in three year and five year increments for every player that averaged 400 plate appearances in that span.  The average three-year OBCI and HCI are 5.775338785540019 and 2.515898432026124, while the average five-year OBCI and HCI are 6.213813765426554 and 2.7272567613527263, respectively.  It is interesting that the five-year averages are both higher than the three-year averages.  This suggests that in a three year span, a player will likely have a "slump year," but will recover over a five year span.  You can view the three-year top lists for OBCI <a href="#ts-obci" title="Three Season OBCI" class="open-popup-link">here</a> and HCI <a href="#ts-hci" title="Three Season HCI" class="open-popup-link">here</a>, and the five-year top lists for OBCI <a href="#fs-obci" title="Five Season OBCI" class="open-popup-link">here</a> and HCI <a href="#fs-hci" title="Five Season HCI" class="open-popup-link">here</a>.  You will notice a lot of overlap in these lists.  For example, Ted Williams has the top four spots on the five-year OBCI list, all of which include his 1949 season when he reached base in 84 consecutive games.  With this in mind, it is worth mentioning that Joe DiMaggio does not hold the top spot on the three year list; it is held by George Sisler.  This validates that the indicies are not overly reliant on the longest streaks.</p>
+<p>I find the three-year and five-year data most interesting because it shows how players performed in their prime seasons.  Players have fluke bad seasons as well as fluke great seasons, and as I have already mentioned, the indicies were designed for single seasons.  Players also tend to decline as they reach retirement.  The three to five year window when a player is at their best is when one should judge the consistency of that player.  Also, a team doesn't sign a player for their whole career.  Hence, three-year and five-year data would be of some importance to a team considering signing a free agent.</p>
+<p>In conclusion, the statistics really speak for themselves.  It is obvious that the indicies are attempting to measure the correct thing; players that are well-known for getting hits and getting on base are at or near the top of every list I have presented.  I use the word "attempting" because I believe this is an excellent first step with room for improvement.  I am very excited to share this with everyone and I would really appreciate constructive comments and suggestions.</p>
+
+<div id="career-obci" class="bests-popup mfp-hide">
+<h2>Top 50 Career OBCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th class="sorted">On Base CI</th><th>Hit CI</th></tr>
+<tr><td>Ted Williams</td><td class="sorted">16.606179973943792</td><td>3.8817264478289464</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">15.764827408366914</td><td>4.765449206285452</td></tr>
+<tr><td>Albert Pujols</td><td class="sorted">14.403690476190476</td><td>4.474146586345381</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">13.808631209443448</td><td>6.770853020443962</td></tr>
+<tr><td>Frank Thomas</td><td class="sorted">12.793458781362007</td><td>3.535655812261234</td></tr>
+<tr><td>Jeff Bagwell</td><td class="sorted">12.39647577092511</td><td>3.580976551800654</td></tr>
+<tr><td>Derek Jeter</td><td class="sorted">12.017633990558176</td><td>5.383593269033448</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">11.841176470588236</td><td>2.3924936386768447</td></tr>
+<tr><td>Dom DiMaggio</td><td class="sorted">11.79745767325385</td><td>4.760824778266639</td></tr>
+<tr><td>Hank Greenberg</td><td class="sorted">11.65079365079365</td><td>4.451619514832443</td></tr>
+<tr><td>Joey Votto</td><td class="sorted">11.549329501915707</td><td>3.5124573035965447</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">11.498389307402183</td><td>3.259886036495553</td></tr>
+<tr><td>Dale Alexander</td><td class="sorted">11.43656489709121</td><td>5.284134248665141</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">11.13597193352222</td><td>5.280159642334902</td></tr>
+<tr><td>Ferris Fain</td><td class="sorted">11.074662421532764</td><td>2.351388888888889</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">10.840410952474821</td><td>3.709044099531905</td></tr>
+<tr><td>Arky Vaughan</td><td class="sorted">10.815086887835704</td><td>3.697130829733023</td></tr>
+<tr><td>Manny Ramirez</td><td class="sorted">10.744127962893685</td><td>3.8846865040152725</td></tr>
+<tr><td>Chipper Jones</td><td class="sorted">10.540211406716262</td><td>3.477687144104077</td></tr>
+<tr><td>Earle Combs</td><td class="sorted">10.522058823529411</td><td>5.087179487179488</td></tr>
+<tr><td>Luke Appling</td><td class="sorted">10.482829406272314</td><td>3.4578348225554034</td></tr>
+<tr><td>Prince Fielder</td><td class="sorted">10.438158961881589</td><td>3.032483930211203</td></tr>
+<tr><td>Dick Porter</td><td class="sorted">10.406372549019608</td><td>4.385693121693122</td></tr>
+<tr><td>Paul Waner</td><td class="sorted">10.34780103124052</td><td>4.956968480772581</td></tr>
+<tr><td>Lu Blue</td><td class="sorted">10.309289279147434</td><td>3.0213381420342498</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">10.294103547459253</td><td>4.206169999795311</td></tr>
+<tr><td>Ichiro Suzuki</td><td class="sorted">10.287842488389582</td><td>6.408868184955142</td></tr>
+<tr><td>Charlie Gehringer</td><td class="sorted">10.272608575528283</td><td>4.405017921146953</td></tr>
+<tr><td>Mickey Mantle</td><td class="sorted">10.081602096200635</td><td>2.714128561961564</td></tr>
+<tr><td>Chase Utley</td><td class="sorted">10.069264069264069</td><td>3.452966058653665</td></tr>
+<tr><td>Harlond Clift</td><td class="sorted">10.047619047619047</td><td>2.7803577571379434</td></tr>
+<tr><td>Ralph Kiner</td><td class="sorted">10.047582304526749</td><td>2.5150032615786038</td></tr>
+<tr><td>Eddie Stanky</td><td class="sorted">9.985181485181483</td><td>2.7593594424989774</td></tr>
+<tr><td>Jackie Robinson</td><td class="sorted">9.982998084291188</td><td>3.352668017561635</td></tr>
+<tr><td>Todd Helton</td><td class="sorted">9.924363877822046</td><td>3.780722142291781</td></tr>
+<tr><td>Earl Sheely</td><td class="sorted">9.90793884105986</td><td>3.0771969044027867</td></tr>
+<tr><td>Brian Giles</td><td class="sorted">9.85398466360222</td><td>2.354433497536946</td></tr>
+<tr><td>Chuck Knoblauch</td><td class="sorted">9.829743008314436</td><td>3.9770536074841836</td></tr>
+<tr><td>Miguel Cabrera</td><td class="sorted">9.81929181929182</td><td>4.274975024975025</td></tr>
+<tr><td>Stan Musial</td><td class="sorted">9.813563763973242</td><td>4.105423081934115</td></tr>
+<tr><td>Pete Rose</td><td class="sorted">9.804988083077971</td><td>4.528984572016369</td></tr>
+<tr><td>Richie Ashburn</td><td class="sorted">9.799694779116464</td><td>4.287289353628884</td></tr>
+<tr><td>Ben Chapman</td><td class="sorted">9.76525387900055</td><td>4.143047164416598</td></tr>
+<tr><td>Mel Ott</td><td class="sorted">9.718972986748216</td><td>2.895797358671144</td></tr>
+<tr><td>Bobby Abreu</td><td class="sorted">9.714913733609386</td><td>2.807941376959782</td></tr>
+<tr><td>Ross Youngs</td><td class="sorted">9.710876208721038</td><td>4.473667054021036</td></tr>
+<tr><td>Ed Morgan</td><td class="sorted">9.676421404682275</td><td>3.9327715703202664</td></tr>
+<tr><td>Minnie Minoso</td><td class="sorted">9.65749601275917</td><td>3.6140467486429606</td></tr>
+<tr><td>Joe Vosmik</td><td class="sorted">9.618541033434651</td><td>4.305061436240144</td></tr>
+<tr><td>Al Rosen</td><td class="sorted">9.589962234148281</td><td>3.207835253205825</td></tr>
+</table>
+</div>
+
+<div id="career-hci" class="bests-popup mfp-hide">
+<h2>Top 50 Career HCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th>On Base CI</th><th class="sorted">Hit CI</th></tr>
+<tr><td>Joe DiMaggio</td><td>13.808631209443448</td><td class="sorted">6.770853020443962</td></tr>
+<tr><td>Ichiro Suzuki</td><td>10.287842488389582</td><td class="sorted">6.408868184955142</td></tr>
+<tr><td>George Sisler</td><td>8.623809523809525</td><td class="sorted">6.048398033565012</td></tr>
+<tr><td>Nomar Garciaparra</td><td>8.353252032520325</td><td class="sorted">5.4325236167341435</td></tr>
+<tr><td>Sam Rice</td><td>7.990889398572885</td><td class="sorted">5.391466702019532</td></tr>
+<tr><td>Derek Jeter</td><td>12.017633990558176</td><td class="sorted">5.383593269033448</td></tr>
+<tr><td>Al Simmons</td><td>7.9330503021181</td><td class="sorted">5.310758602268036</td></tr>
+<tr><td>Dale Alexander</td><td>11.43656489709121</td><td class="sorted">5.284134248665141</td></tr>
+<tr><td>Rogers Hornsby</td><td>11.13597193352222</td><td class="sorted">5.280159642334902</td></tr>
+<tr><td>Jacoby Ellsbury</td><td>9.067627627627628</td><td class="sorted">5.276952861952862</td></tr>
+<tr><td>Earle Combs</td><td>10.522058823529411</td><td class="sorted">5.087179487179488</td></tr>
+<tr><td>Heinie Manush</td><td>7.557043650793652</td><td class="sorted">5.051014591883265</td></tr>
+<tr><td>Jose Reyes</td><td>7.884090909090909</td><td class="sorted">5.0140311070368995</td></tr>
+<tr><td>Pie Traynor</td><td>8.715515627924388</td><td class="sorted">4.988356046230809</td></tr>
+<tr><td>Joe Medwick</td><td>7.0566893424036286</td><td class="sorted">4.981026644016839</td></tr>
+<tr><td>Paul Waner</td><td>10.34780103124052</td><td class="sorted">4.956968480772581</td></tr>
+<tr><td>Don Mattingly</td><td>8.231182795698926</td><td class="sorted">4.891350619195046</td></tr>
+<tr><td>Lance Richbourg</td><td>6.8475283606653745</td><td class="sorted">4.889981641751901</td></tr>
+<tr><td>Johnny Hodapp</td><td>5.9489426451641565</td><td class="sorted">4.889786655693961</td></tr>
+<tr><td>Robinson Cano</td><td>7.440028901734105</td><td class="sorted">4.878378378378378</td></tr>
+<tr><td>Victor Martinez</td><td>9.5560301705463</td><td class="sorted">4.8377647714604235</td></tr>
+<tr><td>Michael Young</td><td>8.069444444444445</td><td class="sorted">4.834991241241241</td></tr>
+<tr><td>Lloyd Waner</td><td>6.591089108910892</td><td class="sorted">4.834313725490197</td></tr>
+<tr><td>Ryan Zimmerman</td><td>9.028385357332725</td><td class="sorted">4.815768388440788</td></tr>
+<tr><td>Dustin Pedroia</td><td>9.318550520190442</td><td class="sorted">4.8095377740539025</td></tr>
+<tr><td>Bob Dillinger</td><td>7.546153846153847</td><td class="sorted">4.806204736739088</td></tr>
+<tr><td>Tony Gwynn</td><td>8.881133177570094</td><td class="sorted">4.8013658176448875</td></tr>
+<tr><td>Lou Gehrig</td><td>15.764827408366914</td><td class="sorted">4.765449206285452</td></tr>
+<tr><td>Dom DiMaggio</td><td>11.79745767325385</td><td class="sorted">4.760824778266639</td></tr>
+<tr><td>Kirby Puckett</td><td>6.801822379408587</td><td class="sorted">4.673772204806688</td></tr>
+<tr><td>Freddie Lindstrom</td><td>5.7575357191388585</td><td class="sorted">4.617914165636091</td></tr>
+<tr><td>Damaso Garcia</td><td>5.719628514056225</td><td class="sorted">4.610807528840315</td></tr>
+<tr><td>Jo-Jo Moore</td><td>7.004839009864135</td><td class="sorted">4.6018326417704</td></tr>
+<tr><td>Goose Goslin</td><td>9.137312459230268</td><td class="sorted">4.58858166922683</td></tr>
+<tr><td>Ron LeFlore</td><td>8.157479296066253</td><td class="sorted">4.575787728026534</td></tr>
+<tr><td>Paul Molitor</td><td>9.358355873677793</td><td class="sorted">4.575668288826184</td></tr>
+<tr><td>Frankie Frisch</td><td>8.066466943105238</td><td class="sorted">4.5673056881136525</td></tr>
+<tr><td>Pete Rose</td><td>9.804988083077971</td><td class="sorted">4.528984572016369</td></tr>
+<tr><td>Rod Carew</td><td>8.90375530910807</td><td class="sorted">4.5167728635682165</td></tr>
+<tr><td>Billy Herman</td><td>8.983787073926516</td><td class="sorted">4.474742937007089</td></tr>
+<tr><td>Albert Pujols</td><td>14.403690476190476</td><td class="sorted">4.474146586345381</td></tr>
+<tr><td>Ross Youngs</td><td>9.710876208721038</td><td class="sorted">4.473667054021036</td></tr>
+<tr><td>Hank Greenberg</td><td>11.65079365079365</td><td class="sorted">4.451619514832443</td></tr>
+<tr><td>Vladimir Guerrero</td><td>8.732142857142858</td><td class="sorted">4.423983739837397</td></tr>
+<tr><td>Bill Terry</td><td>8.22882672882673</td><td class="sorted">4.417622080679405</td></tr>
+<tr><td>Charlie Gehringer</td><td>10.272608575528283</td><td class="sorted">4.405017921146953</td></tr>
+<tr><td>Cecil Travis</td><td>7.1953892668178385</td><td class="sorted">4.403823644166992</td></tr>
+<tr><td>Hank Aaron</td><td>7.871349657077244</td><td class="sorted">4.386618876941458</td></tr>
+<tr><td>Dick Porter</td><td>10.406372549019608</td><td class="sorted">4.385693121693122</td></tr>
+<tr><td>Matt Holliday</td><td>9.417567661390088</td><td class="sorted">4.382269503546099</td></tr>
+</table>
+</div>
+
+<div id="ss-hci" class="bests-popup mfp-hide">
+<h2>Top 50 Single Season HCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th>On Base CI</th><th class="sorted">Hit CI</th><th>Year</th></tr>
+<tr><td>Joe DiMaggio</td><td>23.563492063492063</td><td class="sorted">13.573260073260073</td><td>1941</td></tr>
+<tr><td>George Sisler</td><td>17.63888888888889</td><td class="sorted">12.206349206349207</td><td>1922</td></tr>
+<tr><td>Rogers Hornsby</td><td>17.833333333333332</td><td class="sorted">11.480392156862743</td><td>1922</td></tr>
+<tr><td>George Sisler</td><td>12.156862745098039</td><td class="sorted">11.333333333333334</td><td>1925</td></tr>
+<tr><td>Chuck Klein</td><td>17.192307692307693</td><td class="sorted">11.0</td><td>1930</td></tr>
+<tr><td>Heinie Manush</td><td>12.03267973856209</td><td class="sorted">10.918470418470418</td><td>1933</td></tr>
+<tr><td>Al Simmons</td><td>14.861111111111109</td><td class="sorted">10.882352941176471</td><td>1925</td></tr>
+<tr><td>Tommy Holmes</td><td>15.18939393939394</td><td class="sorted">10.685185185185185</td><td>1945</td></tr>
+<tr><td>Ichiro Suzuki</td><td>16.583333333333332</td><td class="sorted">10.017429193899781</td><td>2009</td></tr>
+<tr><td>Pete Rose</td><td>13.9</td><td class="sorted">9.833888888888888</td><td>1978</td></tr>
+<tr><td>Charlie Jamieson</td><td>12.663003663003664</td><td class="sorted">9.765277777777778</td><td>1924</td></tr>
+<tr><td>Ichiro Suzuki</td><td>13.91904761904762</td><td class="sorted">9.73529411764706</td><td>2001</td></tr>
+<tr><td>Joe DiMaggio</td><td>17.606060606060606</td><td class="sorted">9.689083820662768</td><td>1937</td></tr>
+<tr><td>Luis Gonzalez</td><td>15.994949494949495</td><td class="sorted">9.61598440545809</td><td>1999</td></tr>
+<tr><td>Michael Young</td><td>16.495726495726498</td><td class="sorted">9.511111111111111</td><td>2005</td></tr>
+<tr><td>Sam Rice</td><td>11.809722222222222</td><td class="sorted">9.343859649122807</td><td>1924</td></tr>
+<tr><td>George Sisler</td><td>11.940170940170939</td><td class="sorted">9.289760348583878</td><td>1917</td></tr>
+<tr><td>Dom DiMaggio</td><td>10.354166666666666</td><td class="sorted">9.166666666666666</td><td>1949</td></tr>
+<tr><td>Duke Snider</td><td>12.702777777777778</td><td class="sorted">9.057894736842107</td><td>1953</td></tr>
+<tr><td>Mel Almada</td><td>12.946078431372548</td><td class="sorted">9.00388888888889</td><td>1938</td></tr>
+<tr><td>Ichiro Suzuki</td><td>11.88562091503268</td><td class="sorted">8.977777777777778</td><td>2007</td></tr>
+<tr><td>Paul Molitor</td><td>13.944444444444445</td><td class="sorted">8.962962962962964</td><td>1987</td></tr>
+<tr><td>Harvey Kuenn</td><td>12.202991452991453</td><td class="sorted">8.883442265795207</td><td>1959</td></tr>
+<tr><td>Hack Wilson</td><td>14.80952380952381</td><td class="sorted">8.865079365079366</td><td>1929</td></tr>
+<tr><td>Sam Rice</td><td>10.92156862745098</td><td class="sorted">8.801054018445322</td><td>1930</td></tr>
+<tr><td>Paul Waner</td><td>12.198412698412698</td><td class="sorted">8.77450980392157</td><td>1930</td></tr>
+<tr><td>Dante Bichette</td><td>9.083333333333334</td><td class="sorted">8.697222222222223</td><td>1995</td></tr>
+<tr><td>Joe DiMaggio</td><td>15.530303030303031</td><td class="sorted">8.693627450980392</td><td>1940</td></tr>
+<tr><td>Paul Waner</td><td>19.5</td><td class="sorted">8.657894736842104</td><td>1928</td></tr>
+<tr><td>Al Oliver</td><td>9.524366471734893</td><td class="sorted">8.608695652173912</td><td>1974</td></tr>
+<tr><td>Harry Walker</td><td>10.604761904761906</td><td class="sorted">8.596923076923078</td><td>1943</td></tr>
+<tr><td>Dale Alexander</td><td>12.46078431372549</td><td class="sorted">8.57</td><td>1930</td></tr>
+<tr><td>Dave Parker</td><td>11.333333333333334</td><td class="sorted">8.564102564102564</td><td>1977</td></tr>
+<tr><td>Rogers Hornsby</td><td>15.5</td><td class="sorted">8.563492063492063</td><td>1928</td></tr>
+<tr><td>Earle Combs</td><td>14.623931623931625</td><td class="sorted">8.563241106719367</td><td>1931</td></tr>
+<tr><td>Wade Boggs</td><td>21.75462962962963</td><td class="sorted">8.562582345191041</td><td>1985</td></tr>
+<tr><td>Nomar Garciaparra</td><td>11.177777777777777</td><td class="sorted">8.53968253968254</td><td>1998</td></tr>
+<tr><td>Don Mueller</td><td>8.675438596491228</td><td class="sorted">8.483333333333333</td><td>1954</td></tr>
+<tr><td>Lloyd Waner</td><td>12.844017094017095</td><td class="sorted">8.46393762183236</td><td>1929</td></tr>
+<tr><td>George Sisler</td><td>12.738095238095239</td><td class="sorted">8.43939393939394</td><td>1920</td></tr>
+<tr><td>Tony Gwynn</td><td>9.055555555555555</td><td class="sorted">8.436507936507937</td><td>1997</td></tr>
+<tr><td>Ken Boyer</td><td>14.261904761904761</td><td class="sorted">8.419103313840155</td><td>1959</td></tr>
+<tr><td>Al Simmons</td><td>11.800505050505052</td><td class="sorted">8.41299019607843</td><td>1931</td></tr>
+<tr><td>Pie Traynor</td><td>11.073232323232324</td><td class="sorted">8.411764705882353</td><td>1930</td></tr>
+<tr><td>Juan Gonzalez</td><td>12.5</td><td class="sorted">8.404761904761905</td><td>1996</td></tr>
+<tr><td>Goose Goslin</td><td>12.1875</td><td class="sorted">8.4</td><td>1928</td></tr>
+<tr><td>Freddie Lindstrom</td><td>11.041666666666666</td><td class="sorted">8.385964912280702</td><td>1930</td></tr>
+<tr><td>Babe Herman</td><td>10.285714285714286</td><td class="sorted">8.351851851851853</td><td>1929</td></tr>
+<tr><td>Rico Carty</td><td>14.64141414141414</td><td class="sorted">8.323015873015873</td><td>1970</td></tr>
+<tr><td>Hal Trosky</td><td>9.43859649122807</td><td class="sorted">8.319444444444445</td><td>1936</td></tr>
+</table>
+</div>
+
+
+<div id="ss-obci" class="bests-popup mfp-hide">
+<h2>Top 50 Single Season OBCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th class="sorted">On Base CI</th><th>Hit CI</th><th>Year</th></tr>
+<tr><td>Ted Williams</td><td class="sorted">31.04444444444444</td><td>4.488888888888889</td><td>1949</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">25.277777777777775</td><td>5.624615384615384</td><td>1934</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">24.32142857142857</td><td>7.085137085137085</td><td>1941</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">24.04444444444444</td><td>5.503952569169961</td><td>1948</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">23.563492063492063</td><td>13.573260073260073</td><td>1941</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">23.547619047619047</td><td>2.4047619047619047</td><td>2004</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">22.73809523809524</td><td>3.535714285714286</td><td>2003</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">21.75462962962963</td><td>8.562582345191041</td><td>1985</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">21.333333333333332</td><td>6.7592592592592595</td><td>1939</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">20.762962962962963</td><td>3.3958333333333335</td><td>1935</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">20.458333333333332</td><td>2.985057471264368</td><td>2002</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">20.296296296296294</td><td>6.180555555555556</td><td>1936</td></tr>
+<tr><td>Paul Waner</td><td class="sorted">19.5</td><td>8.657894736842104</td><td>1928</td></tr>
+<tr><td>Jim Thome</td><td class="sorted">19.066666666666666</td><td>3.4310344827586206</td><td>1999</td></tr>
+<tr><td>Duke Snider</td><td class="sorted">19.0</td><td>6.680555555555556</td><td>1954</td></tr>
+<tr><td>J.D. Drew</td><td class="sorted">18.85185185185185</td><td>6.756410256410256</td><td>2004</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">18.40740740740741</td><td>5.226970560303894</td><td>1995</td></tr>
+<tr><td>Stan Musial</td><td class="sorted">18.19047619047619</td><td>7.3999999999999995</td><td>1943</td></tr>
+<tr><td>Joe Vosmik</td><td class="sorted">18.136363636363637</td><td>6.825396825396825</td><td>1938</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">18.075757575757574</td><td>3.5278897849462365</td><td>1946</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">17.87878787878788</td><td>6.958333333333333</td><td>1933</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">17.833333333333332</td><td>11.480392156862743</td><td>1922</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">17.7</td><td>6.906204906204906</td><td>1927</td></tr>
+<tr><td>George Sisler</td><td class="sorted">17.63888888888889</td><td>12.206349206349207</td><td>1922</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">17.606060606060606</td><td>9.689083820662768</td><td>1937</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">17.59090909090909</td><td>4.884072580645161</td><td>1932</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">17.517676767676768</td><td>2.7008547008547006</td><td>1996</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">17.496969696969696</td><td>4.725641025641026</td><td>1988</td></tr>
+<tr><td>Ichiro Suzuki</td><td class="sorted">17.383838383838384</td><td>7.578333333333333</td><td>2004</td></tr>
+<tr><td>Lefty O'Doul</td><td class="sorted">17.363636363636363</td><td>7.255411255411256</td><td>1929</td></tr>
+<tr><td>Arky Vaughan</td><td class="sorted">17.35897435897436</td><td>7.164203612479475</td><td>1936</td></tr>
+<tr><td>Woody English</td><td class="sorted">17.32962962962963</td><td>6.097496706192358</td><td>1930</td></tr>
+<tr><td>Mark McGwire</td><td class="sorted">17.2</td><td>3.0044091710758374</td><td>1996</td></tr>
+<tr><td>Chuck Klein</td><td class="sorted">17.192307692307693</td><td>11.0</td><td>1930</td></tr>
+<tr><td>Augie Galan</td><td class="sorted">17.175757575757576</td><td>4.715608465608465</td><td>1945</td></tr>
+<tr><td>Bill Terry</td><td class="sorted">17.0962962962963</td><td>8.092592592592593</td><td>1930</td></tr>
+<tr><td>Ken Williams</td><td class="sorted">17.08787878787879</td><td>5.296666666666667</td><td>1923</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">16.900000000000002</td><td>4.450617283950617</td><td>1999</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">16.863636363636363</td><td>6.255411255411256</td><td>1924</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">16.807692307692307</td><td>5.901477832512316</td><td>1932</td></tr>
+<tr><td>Jim Thome</td><td class="sorted">16.661616161616163</td><td>2.5967741935483875</td><td>2002</td></tr>
+<tr><td>Ichiro Suzuki</td><td class="sorted">16.583333333333332</td><td>10.017429193899781</td><td>2009</td></tr>
+<tr><td>Bob Johnson</td><td class="sorted">16.574074074074073</td><td>3.511111111111111</td><td>1933</td></tr>
+<tr><td>Michael Young</td><td class="sorted">16.495726495726498</td><td>9.511111111111111</td><td>2005</td></tr>
+<tr><td>Ralph Kiner</td><td class="sorted">16.445454545454545</td><td>4.884236453201971</td><td>1949</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">16.38095238095238</td><td>6.021442495126706</td><td>1923</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">16.36111111111111</td><td>4.4782430213464695</td><td>1942</td></tr>
+<tr><td>Albert Pujols</td><td class="sorted">16.32051282051282</td><td>5.570769230769231</td><td>2001</td></tr>
+<tr><td>Alex Rodriguez</td><td class="sorted">16.205128205128204</td><td>3.638095238095238</td><td>2004</td></tr>
+<tr><td>Stan Musial</td><td class="sorted">16.16060606060606</td><td>6.1000000000000005</td><td>1949</td></tr>
+</table>
+</div>
+
+
+<div id="ts-obci" class="bests-popup mfp-hide">
+<h2>Top 50 Three-Seasons OBCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th class="sorted">On Base CI</th><th>Hit CI</th><th>Years</th></tr>
+<tr><td>Ted Williams</td><td class="sorted">34.2968253968254</td><td>5.168458781362008</td><td>1948 - 1950</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">32.07431457431458</td><td>4.315217391304348</td><td>1947 - 1949</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">28.741702741702742</td><td>4.138888888888889</td><td>1949 - 1951</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">27.166666666666668</td><td>3.1549019607843136</td><td>2002 - 2004</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">26.46980676328502</td><td>3.4046918767507</td><td>2001 - 2003</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">25.419103313840157</td><td>5.530748299319728</td><td>1941 - 1943</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">24.832325268817204</td><td>5.455606291222729</td><td>1940 - 1942</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">24.540277777777778</td><td>3.221264367816092</td><td>2003 - 2005</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">24.53833333333333</td><td>4.771604938271605</td><td>1934 - 1936</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">23.097340930674264</td><td>11.510933806146573</td><td>1939 - 1941</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">22.96446243814665</td><td>5.011600641737627</td><td>1939 - 1941</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">22.904905913978496</td><td>5.073082906754993</td><td>1932 - 1934</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">22.627240143369175</td><td>4.53150406504065</td><td>1933 - 1935</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">22.450089126559714</td><td>11.612886382623225</td><td>1940 - 1942</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">21.456315289648625</td><td>4.010533440097613</td><td>1946 - 1948</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">21.370967741935484</td><td>7.018518518518518</td><td>1985 - 1987</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">21.327956989247312</td><td>4.449186991869919</td><td>1935 - 1937</td></tr>
+<tr><td>Duke Snider</td><td class="sorted">21.24124124124124</td><td>6.2807807807807805</td><td>1953 - 1955</td></tr>
+<tr><td>Arky Vaughan</td><td class="sorted">21.199719887955183</td><td>4.773762838468721</td><td>1934 - 1936</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">20.831521739130434</td><td>9.344918699186993</td><td>1941 - 1943</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">19.964675201517306</td><td>5.1963601532567045</td><td>1932 - 1934</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">19.423926767676768</td><td>4.353703703703704</td><td>1995 - 1997</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">19.36936936936937</td><td>4.905982905982906</td><td>1937 - 1939</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">19.318181818181817</td><td>3.003260302556077</td><td>1945 - 1947</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">19.212100764732345</td><td>6.544411987449963</td><td>1984 - 1986</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">18.988095238095237</td><td>8.657340189554345</td><td>1922 - 1924</td></tr>
+<tr><td>Ken Williams</td><td class="sorted">18.939096850861556</td><td>5.507246376811594</td><td>1922 - 1924</td></tr>
+<tr><td>Paul Waner</td><td class="sorted">18.888439046333783</td><td>7.2815597287428275</td><td>1927 - 1929</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">18.85952380952381</td><td>5.712072072072071</td><td>1926 - 1928</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">18.839971550497868</td><td>3.539519140989729</td><td>2000 - 2002</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">18.80952380952381</td><td>7.421146953405018</td><td>1937 - 1939</td></tr>
+<tr><td>Lu Blue</td><td class="sorted">18.564102564102566</td><td>3.224290780141844</td><td>1929 - 1931</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">18.53411306042885</td><td>3.5474747474747477</td><td>1950 - 1952</td></tr>
+<tr><td>Mark McGwire</td><td class="sorted">18.427248677248677</td><td>2.5318761384335158</td><td>1994 - 1996</td></tr>
+<tr><td>Arky Vaughan</td><td class="sorted">18.405291005291005</td><td>5.123931623931624</td><td>1935 - 1937</td></tr>
+<tr><td>Stan Musial</td><td class="sorted">18.226190476190478</td><td>6.346153846153847</td><td>1943 - 1945</td></tr>
+<tr><td>Albert Pujols</td><td class="sorted">18.069467787114846</td><td>4.727932098765432</td><td>2004 - 2006</td></tr>
+<tr><td>Luke Appling</td><td class="sorted">18.046108861898336</td><td>3.647853318034041</td><td>1937 - 1939</td></tr>
+<tr><td>Charlie Gehringer</td><td class="sorted">17.962962962962962</td><td>5.4901764901764905</td><td>1934 - 1936</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">17.867816091954023</td><td>9.4320987654321</td><td>1921 - 1923</td></tr>
+<tr><td>Paul Waner</td><td class="sorted">17.823573573573572</td><td>7.801587301587301</td><td>1928 - 1930</td></tr>
+<tr><td>Mike Schmidt</td><td class="sorted">17.823211875843455</td><td>2.9190613026819925</td><td>1981 - 1983</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">17.74712643678161</td><td>6.355555555555554</td><td>1923 - 1925</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">17.534139402560456</td><td>3.481672394043528</td><td>1996 - 1998</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">17.296586059743955</td><td>3.9275316455696205</td><td>1999 - 2001</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">17.181818181818183</td><td>5.857777777777777</td><td>1986 - 1988</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">17.071428571428573</td><td>4.181578947368421</td><td>1997 - 1999</td></tr>
+<tr><td>George Sisler</td><td class="sorted">17.061264822134387</td><td>12.58068783068783</td><td>1921 - 1923</td></tr>
+<tr><td>George Sisler</td><td class="sorted">17.037037037037038</td><td>10.814327485380117</td><td>1920 - 1922</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">16.941176470588236</td><td>4.085362760020295</td><td>1994 - 1996</td></tr>
+</table>
+</div>
+
+
+<div id="ts-hci" class="bests-popup mfp-hide">
+<h2>Top 50 Three-Seasons HCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th>On Base CI</th><th class="sorted">Hit CI</th><th>Years</th></tr>
+<tr><td>George Sisler</td><td>17.061264822134387</td><td class="sorted">12.58068783068783</td><td>1921 - 1923</td></tr>
+<tr><td>Joe DiMaggio</td><td>22.450089126559714</td><td class="sorted">11.612886382623225</td><td>1940 - 1942</td></tr>
+<tr><td>Joe DiMaggio</td><td>23.097340930674264</td><td class="sorted">11.510933806146573</td><td>1939 - 1941</td></tr>
+<tr><td>George Sisler</td><td>17.037037037037038</td><td class="sorted">10.814327485380117</td><td>1920 - 1922</td></tr>
+<tr><td>Rogers Hornsby</td><td>16.077524893314365</td><td class="sorted">9.696763460375076</td><td>1920 - 1922</td></tr>
+<tr><td>Rogers Hornsby</td><td>17.867816091954023</td><td class="sorted">9.4320987654321</td><td>1921 - 1923</td></tr>
+<tr><td>Joe DiMaggio</td><td>20.831521739130434</td><td class="sorted">9.344918699186993</td><td>1941 - 1943</td></tr>
+<tr><td>Chuck Klein</td><td>16.79047619047619</td><td class="sorted">9.038712921065862</td><td>1928 - 1930</td></tr>
+<tr><td>Rogers Hornsby</td><td>18.988095238095237</td><td class="sorted">8.657340189554345</td><td>1922 - 1924</td></tr>
+<tr><td>Chuck Klein</td><td>16.152439024390244</td><td class="sorted">8.455751545303784</td><td>1929 - 1931</td></tr>
+<tr><td>Rico Carty</td><td>11.362773029439696</td><td class="sorted">8.40778227620333</td><td>1968 - 1970</td></tr>
+<tr><td>Rico Carty</td><td>11.362773029439696</td><td class="sorted">8.40778227620333</td><td>1969 - 1971</td></tr>
+<tr><td>Ichiro Suzuki</td><td>14.094973789700894</td><td class="sorted">8.3366452991453</td><td>2007 - 2009</td></tr>
+<tr><td>Bill Lamar</td><td>10.351478494623656</td><td class="sorted">8.320370370370371</td><td>1923 - 1925</td></tr>
+<tr><td>Rico Carty</td><td>12.093333333333334</td><td class="sorted">8.296296296296296</td><td>1970 - 1972</td></tr>
+<tr><td>Joe DiMaggio</td><td>16.175627240143367</td><td class="sorted">8.259959349593496</td><td>1935 - 1937</td></tr>
+<tr><td>Chuck Klein</td><td>15.9796973052787</td><td class="sorted">8.14920634920635</td><td>1930 - 1932</td></tr>
+<tr><td>Ichiro Suzuki</td><td>14.600358422939067</td><td class="sorted">8.13034188034188</td><td>2000 - 2002</td></tr>
+<tr><td>Harry Walker</td><td>9.05050505050505</td><td class="sorted">8.105263157894738</td><td>1942 - 1944</td></tr>
+<tr><td>Harry Walker</td><td>8.676470588235295</td><td class="sorted">8.097165991902834</td><td>1941 - 1943</td></tr>
+<tr><td>Charlie Jamieson</td><td>14.396825396825397</td><td class="sorted">7.988888888888888</td><td>1922 - 1924</td></tr>
+<tr><td>Nomar Garciaparra</td><td>11.946296296296296</td><td class="sorted">7.946236559139787</td><td>1997 - 1999</td></tr>
+<tr><td>Al Simmons</td><td>11.347427766032418</td><td class="sorted">7.938243597499496</td><td>1929 - 1931</td></tr>
+<tr><td>Heinie Manush</td><td>9.490327380952381</td><td class="sorted">7.857357357357358</td><td>1931 - 1933</td></tr>
+<tr><td>Paul Waner</td><td>17.823573573573572</td><td class="sorted">7.801587301587301</td><td>1928 - 1930</td></tr>
+<tr><td>Nomar Garciaparra</td><td>11.17094017094017</td><td class="sorted">7.744897959183674</td><td>1996 - 1998</td></tr>
+<tr><td>Nomar Garciaparra</td><td>12.154761904761905</td><td class="sorted">7.707885304659499</td><td>1998 - 2000</td></tr>
+<tr><td>Ichiro Suzuki</td><td>11.982099661344945</td><td class="sorted">7.693650793650794</td><td>2008 - 2010</td></tr>
+<tr><td>Ichiro Suzuki</td><td>9.671092278719398</td><td class="sorted">7.685405405405405</td><td>2006 - 2008</td></tr>
+<tr><td>Al Simmons</td><td>11.84973544973545</td><td class="sorted">7.66481652790626</td><td>1923 - 1925</td></tr>
+<tr><td>Heinie Manush</td><td>10.455827067669173</td><td class="sorted">7.612403667934836</td><td>1932 - 1934</td></tr>
+<tr><td>Ichiro Suzuki</td><td>11.820055904961565</td><td class="sorted">7.590366581415175</td><td>2001 - 2003</td></tr>
+<tr><td>Joe Medwick</td><td>10.90713853599516</td><td class="sorted">7.536276002029427</td><td>1935 - 1937</td></tr>
+<tr><td>Pie Traynor</td><td>11.88695315524584</td><td class="sorted">7.531755308786285</td><td>1928 - 1930</td></tr>
+<tr><td>Pete Rose</td><td>13.5121158392435</td><td class="sorted">7.496970680514985</td><td>1976 - 1978</td></tr>
+<tr><td>Sam Rice</td><td>11.366002795248079</td><td class="sorted">7.493781094527364</td><td>1928 - 1930</td></tr>
+<tr><td>George Sisler</td><td>11.91891891891892</td><td class="sorted">7.4533610854147385</td><td>1922 - 1924</td></tr>
+<tr><td>Joe DiMaggio</td><td>18.80952380952381</td><td class="sorted">7.421146953405018</td><td>1937 - 1939</td></tr>
+<tr><td>Sam Rice</td><td>10.876666666666667</td><td class="sorted">7.408602150537635</td><td>1929 - 1931</td></tr>
+<tr><td>Chuck Klein</td><td>11.456521739130435</td><td class="sorted">7.39804292929293</td><td>1927 - 1929</td></tr>
+<tr><td>Sam Rice</td><td>11.864630467571644</td><td class="sorted">7.360847278757728</td><td>1924 - 1926</td></tr>
+<tr><td>Nomar Garciaparra</td><td>8.916666666666666</td><td class="sorted">7.357142857142858</td><td>1995 - 1997</td></tr>
+<tr><td>Joe Medwick</td><td>10.562585232807324</td><td class="sorted">7.318041582830316</td><td>1934 - 1936</td></tr>
+<tr><td>Jacoby Ellsbury</td><td>8.63464696223317</td><td class="sorted">7.307057057057057</td><td>2011 - 2013</td></tr>
+<tr><td>Joe DiMaggio</td><td>14.420707070707072</td><td class="sorted">7.30702547866727</td><td>1936 - 1938</td></tr>
+<tr><td>Paul Waner</td><td>18.888439046333783</td><td class="sorted">7.2815597287428275</td><td>1927 - 1929</td></tr>
+<tr><td>Charlie Jamieson</td><td>14.457456626061278</td><td class="sorted">7.250373931623932</td><td>1923 - 1925</td></tr>
+<tr><td>Joe DiMaggio</td><td>15.174509803921568</td><td class="sorted">7.154280510018214</td><td>1938 - 1940</td></tr>
+<tr><td>Dick Wakefield</td><td>12.569444444444445</td><td class="sorted">7.1380952380952385</td><td>1942 - 1944</td></tr>
+<tr><td>Dick Wakefield</td><td>12.569444444444445</td><td class="sorted">7.1380952380952385</td><td>1943 - 1945</td></tr>
+</table>
+</div>
+
+
+<div id="fs-obci" class="bests-popup mfp-hide">
+<h2>Top 50 Five-Seasons OBCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th class="sorted">On Base CI</th><th>Hit CI</th><th>Years</th></tr>
+<tr><td>Ted Williams</td><td class="sorted">31.055026455026454</td><td>4.297098467561939</td><td>1946 - 1950</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">31.030577956989248</td><td>4.127371273712737</td><td>1945 - 1949</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">30.04338549075391</td><td>4.19195688225539</td><td>1947 - 1951</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">28.95279146141215</td><td>4.6246062428407795</td><td>1948 - 1952</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">26.826704545454547</td><td>3.2985761505212303</td><td>2001 - 2005</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">26.431417624521075</td><td>4.075462962962963</td><td>1949 - 1953</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">24.832325268817204</td><td>5.455606291222729</td><td>1940 - 1944</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">22.96446243814665</td><td>5.011600641737627</td><td>1937 - 1941</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">22.813756613756613</td><td>2.784590824245996</td><td>2002 - 2006</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">22.78251700680272</td><td>4.930859691808597</td><td>1932 - 1936</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">22.450089126559714</td><td>11.612886382623225</td><td>1940 - 1944</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">22.121794871794872</td><td>4.686868686868688</td><td>1933 - 1937</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">21.92207792207792</td><td>5.079480940794809</td><td>1931 - 1935</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">21.456315289648625</td><td>4.010533440097613</td><td>1944 - 1948</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">21.30544217687075</td><td>3.3523809523809525</td><td>2000 - 2004</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">21.043740573152338</td><td>9.585682433508522</td><td>1937 - 1941</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">20.65991127243396</td><td>4.362197198762729</td><td>1934 - 1938</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">19.915850340136053</td><td>4.702562609202096</td><td>1938 - 1942</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">19.915850340136053</td><td>4.702562609202096</td><td>1939 - 1943</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">18.7898265779391</td><td>5.729523392909219</td><td>1985 - 1989</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">18.70024198427102</td><td>8.415214521452144</td><td>1938 - 1942</td></tr>
+<tr><td>Joe DiMaggio</td><td class="sorted">18.30972515856237</td><td>9.807027027027027</td><td>1939 - 1943</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">18.23939393939394</td><td>4.196708213486738</td><td>1995 - 1999</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">18.169753086419753</td><td>4.075862068965518</td><td>1935 - 1939</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">18.032945736434108</td><td>2.1919245505452403</td><td>2003 - 2007</td></tr>
+<tr><td>Lou Gehrig</td><td class="sorted">17.68731865506059</td><td>5.6220277060811235</td><td>1930 - 1934</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">17.68478906714201</td><td>4.00872104981694</td><td>1950 - 1954</td></tr>
+<tr><td>Ted Williams</td><td class="sorted">17.46348980559507</td><td>3.568672839506173</td><td>1951 - 1955</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">17.23954248366013</td><td>7.950730994152047</td><td>1921 - 1925</td></tr>
+<tr><td>Barry Bonds</td><td class="sorted">17.154331450094162</td><td>3.209651257096512</td><td>1999 - 2003</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">17.06393442622951</td><td>5.9332895888014</td><td>1984 - 1988</td></tr>
+<tr><td>Chuck Klein</td><td class="sorted">16.79047619047619</td><td>9.038712921065862</td><td>1926 - 1930</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">16.725541125541124</td><td>8.299433691002173</td><td>1920 - 1924</td></tr>
+<tr><td>Chuck Klein</td><td class="sorted">16.47798463356974</td><td>8.47654970760234</td><td>1927 - 1931</td></tr>
+<tr><td>Albert Pujols</td><td class="sorted">16.359471766848817</td><td>4.432319882071126</td><td>2004 - 2008</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">16.23446327683616</td><td>6.129252466752466</td><td>1923 - 1927</td></tr>
+<tr><td>Rogers Hornsby</td><td class="sorted">16.221595655806183</td><td>7.010978342046304</td><td>1922 - 1926</td></tr>
+<tr><td>Paul Waner</td><td class="sorted">16.159848484848485</td><td>6.527777777777779</td><td>1925 - 1929</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">16.03022533022533</td><td>4.826814031039383</td><td>1932 - 1936</td></tr>
+<tr><td>Luke Appling</td><td class="sorted">16.007424475166413</td><td>4.633121429887599</td><td>1935 - 1939</td></tr>
+<tr><td>Wade Boggs</td><td class="sorted">15.971326164874553</td><td>5.854884725113732</td><td>1983 - 1987</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">15.828207447610433</td><td>4.997410767038544</td><td>1931 - 1935</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">15.826927556487306</td><td>3.6</td><td>1993 - 1997</td></tr>
+<tr><td>Charlie Gehringer</td><td class="sorted">15.770765027322405</td><td>5.6883680555555545</td><td>1934 - 1938</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">15.729390681003585</td><td>4.117592081877796</td><td>1996 - 2000</td></tr>
+<tr><td>Edgar Martinez</td><td class="sorted">15.626130739033963</td><td>4.059784274069988</td><td>1997 - 2001</td></tr>
+<tr><td>Hank Greenberg</td><td class="sorted">15.56850175967823</td><td>5.309909909909909</td><td>1937 - 1941</td></tr>
+<tr><td>Jimmie Foxx</td><td class="sorted">15.545299145299145</td><td>4.727861319966583</td><td>1935 - 1939</td></tr>
+<tr><td>Paul Waner</td><td class="sorted">15.499673969744393</td><td>6.968594217347956</td><td>1927 - 1931</td></tr>
+<tr><td>Albert Pujols</td><td class="sorted">15.428743961352659</td><td>5.839523050049366</td><td>2001 - 2005</td></tr>
+</table>
+</div>
+
+
+<div id="fs-hci" class="bests-popup mfp-hide">
+<h2>Top 50 Five-Seasons HCIs</h2>
+<table border="1" style="margin-left:auto;margin-right:auto;">
+<tr><th>PlayerName</th><th>On Base CI</th><th class="sorted">Hit CI</th><th>Years</th></tr>
+<tr><td>Joe DiMaggio</td><td>22.450089126559714</td><td class="sorted">11.612886382623225</td><td>1940 - 1944</td></tr>
+<tr><td>Joe DiMaggio</td><td>18.30972515856237</td><td class="sorted">9.807027027027027</td><td>1939 - 1943</td></tr>
+<tr><td>Joe DiMaggio</td><td>21.043740573152338</td><td class="sorted">9.585682433508522</td><td>1937 - 1941</td></tr>
+<tr><td>Chuck Klein</td><td>16.79047619047619</td><td class="sorted">9.038712921065862</td><td>1926 - 1930</td></tr>
+<tr><td>George Sisler</td><td>14.112916375494992</td><td class="sorted">8.751028806584362</td><td>1919 - 1923</td></tr>
+<tr><td>George Sisler</td><td>12.135620915032677</td><td class="sorted">8.533730158730158</td><td>1921 - 1925</td></tr>
+<tr><td>Chuck Klein</td><td>16.47798463356974</td><td class="sorted">8.47654970760234</td><td>1927 - 1931</td></tr>
+<tr><td>Joe DiMaggio</td><td>18.70024198427102</td><td class="sorted">8.415214521452144</td><td>1938 - 1942</td></tr>
+<tr><td>Rogers Hornsby</td><td>16.725541125541124</td><td class="sorted">8.299433691002173</td><td>1920 - 1924</td></tr>
+<tr><td>George Sisler</td><td>12.012820512820513</td><td class="sorted">8.13623595505618</td><td>1920 - 1924</td></tr>
+<tr><td>George Sisler</td><td>13.189684569479965</td><td class="sorted">8.028448844884489</td><td>1918 - 1922</td></tr>
+<tr><td>Rogers Hornsby</td><td>17.23954248366013</td><td class="sorted">7.950730994152047</td><td>1921 - 1925</td></tr>
+<tr><td>Ichiro Suzuki</td><td>13.647916666666667</td><td class="sorted">7.689964157706093</td><td>2000 - 2004</td></tr>
+<tr><td>Ichiro Suzuki</td><td>11.163435140700068</td><td class="sorted">7.611753343956733</td><td>2006 - 2010</td></tr>
+<tr><td>Ichiro Suzuki</td><td>11.820055904961565</td><td class="sorted">7.590366581415175</td><td>1999 - 2003</td></tr>
+<tr><td>Chuck Klein</td><td>14.525641025641027</td><td class="sorted">7.5797829811536275</td><td>1928 - 1932</td></tr>
+<tr><td>George Sisler</td><td>9.067236274214594</td><td class="sorted">7.555593685655457</td><td>1922 - 1926</td></tr>
+<tr><td>Nomar Garciaparra</td><td>11.284313725490195</td><td class="sorted">7.555555555555556</td><td>1995 - 1999</td></tr>
+<tr><td>Nomar Garciaparra</td><td>11.315972222222223</td><td class="sorted">7.531654456654457</td><td>1997 - 2001</td></tr>
+<tr><td>Joe DiMaggio</td><td>14.576041666666669</td><td class="sorted">7.48161716171617</td><td>1936 - 1940</td></tr>
+<tr><td>Heinie Manush</td><td>10.703787227949599</td><td class="sorted">7.4522381573229035</td><td>1929 - 1933</td></tr>
+<tr><td>Ichiro Suzuki</td><td>11.17810113760324</td><td class="sorted">7.444082039595499</td><td>2005 - 2009</td></tr>
+<tr><td>Nomar Garciaparra</td><td>10.929292929292929</td><td class="sorted">7.387037037037037</td><td>1996 - 2000</td></tr>
+<tr><td>Joe DiMaggio</td><td>14.420707070707072</td><td class="sorted">7.30702547866727</td><td>1934 - 1938</td></tr>
+<tr><td>Al Simmons</td><td>11.222222222222223</td><td class="sorted">7.299242424242425</td><td>1925 - 1929</td></tr>
+<tr><td>Joe DiMaggio</td><td>15.28395061728395</td><td class="sorted">7.283730158730158</td><td>1935 - 1939</td></tr>
+<tr><td>Heinie Manush</td><td>9.870577485380117</td><td class="sorted">7.2699823165340405</td><td>1930 - 1934</td></tr>
+<tr><td>Rogers Hornsby</td><td>13.60530679933665</td><td class="sorted">7.264724919093851</td><td>1919 - 1923</td></tr>
+<tr><td>Ichiro Suzuki</td><td>12.850864296533905</td><td class="sorted">7.215919701213818</td><td>2001 - 2005</td></tr>
+<tr><td>Al Simmons</td><td>10.28499888218198</td><td class="sorted">7.209391534391535</td><td>1927 - 1931</td></tr>
+<tr><td>George Sisler</td><td>11.967656012176562</td><td class="sorted">7.0939071446353</td><td>1917 - 1921</td></tr>
+<tr><td>Joe Medwick</td><td>11.295454545454547</td><td class="sorted">7.059420289855073</td><td>1935 - 1939</td></tr>
+<tr><td>Al Simmons</td><td>9.652450980392157</td><td class="sorted">7.057798165137615</td><td>1929 - 1933</td></tr>
+<tr><td>Paul Waner</td><td>14.554263565891473</td><td class="sorted">7.056976413753907</td><td>1924 - 1928</td></tr>
+<tr><td>Chuck Klein</td><td>14.121821919290275</td><td class="sorted">7.044802867383513</td><td>1929 - 1933</td></tr>
+<tr><td>Sam Rice</td><td>11.006835597352838</td><td class="sorted">7.018150310971845</td><td>1926 - 1930</td></tr>
+<tr><td>Al Simmons</td><td>9.594598765432098</td><td class="sorted">7.017716860206867</td><td>1928 - 1932</td></tr>
+<tr><td>Rogers Hornsby</td><td>16.221595655806183</td><td class="sorted">7.010978342046304</td><td>1922 - 1926</td></tr>
+<tr><td>Paul Waner</td><td>15.499673969744393</td><td class="sorted">6.968594217347956</td><td>1927 - 1931</td></tr>
+<tr><td>Ichiro Suzuki</td><td>12.2174497428705</td><td class="sorted">6.959619047619047</td><td>2004 - 2008</td></tr>
+<tr><td>Paul Waner</td><td>14.704204204204204</td><td class="sorted">6.902240896358543</td><td>1928 - 1932</td></tr>
+<tr><td>Ichiro Suzuki</td><td>10.38637877831545</td><td class="sorted">6.897540983606558</td><td>2007 - 2011</td></tr>
+<tr><td>Ichiro Suzuki</td><td>11.875429553264604</td><td class="sorted">6.8934820647419075</td><td>2003 - 2007</td></tr>
+<tr><td>Nomar Garciaparra</td><td>10.368253968253969</td><td class="sorted">6.8686868686868685</td><td>1998 - 2002</td></tr>
+<tr><td>Paul Waner</td><td>15.364458247066944</td><td class="sorted">6.824652338811631</td><td>1926 - 1930</td></tr>
+<tr><td>Sam Rice</td><td>9.550520183104453</td><td class="sorted">6.806505478297514</td><td>1927 - 1931</td></tr>
+<tr><td>Sam Rice</td><td>9.807122507122507</td><td class="sorted">6.789836919147263</td><td>1924 - 1928</td></tr>
+<tr><td>Al Simmons</td><td>10.623120089786758</td><td class="sorted">6.778798798798799</td><td>1922 - 1926</td></tr>
+<tr><td>Jim Bottomley</td><td>9.231329690346085</td><td class="sorted">6.682137834036568</td><td>1921 - 1925</td></tr>
+<tr><td>Al Simmons</td><td>9.185077519379846</td><td class="sorted">6.675975975975976</td><td>1930 - 1934</td></tr>
+</table>
+</div>
+
+
+<script>
+$('.open-popup-link').magnificPopup({
+type: 'inline',
+tClose: 'Close',
+closeBtnInside: true,
+key: 'bests'
+});
+</script>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-06Jun-26</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-06Jun-26</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>Introduction to the Consistency Indices</title>
+		<description><![CDATA[<p>One hundred sixty-two games is a long season during which a hitter will go through several hot streaks and slumps.  As a manager makes a lineup in the "dog days of summer," wouldn't it be nice to know which solid, consistent hitter to keep in the middle of the lineup?  A hitter that one could count on to get a hit or get on base nearly every game.  There are advanced metrics that attempt to measure many different aspects of a player's game.  However, I found a small gap; there is no metric that attempts to measure how consistent a batter is at getting hits or on base.  I have developed two statistics that try to measure this.  I call them the "On-Base Consistency Index" (OBCI) and the "Hit Consistency Index" (HCI).  What follows is the idea behind the indices, where I got the data, and how I processed that data.  The next post will contain examples and analysis of specific players, years, and careers.</p>
+<p>Both the OBCI and HCI are constructed using the same fundamental idea: a batter that is "streaky" will have long streaks of games in which they get on base (or get a hit) followed by long streaks of games in which they don't get on base (or don't get a hit).  Of course consistent hitters should have long streaks of games in which they do get on base (or get a hit), but have very short streaks of games where they do not.  To calculate OBCI and HCI, streak lengths are determined from game log data (which will be described later).  Then the streak lengths are compared a few different ways, resulting in one number for each index.  The higher the number, the more consistent the hitter - at least according to these stats.  Until I figure out exactly what I am going to do with these stats, I won't give away the exact formulas used.  I will say that the formulas have changed drastically over the development process, and they are fairly simple; the hardest part of the calculations is gathering the data.  The formula for OBCI and HCI are exactly the same using their respective data.</p>
+<p>One thing that I needed to be careful with were the extreme values.  The record for the longest hitting streak in MLB history is 56 games, set by Joe DiMaggio in 1941.  I struggled with how I was going to handle such streaks for several weeks.  I was attempting to put a value on what happened most often.  With all due respect to Joe DiMaggio and his record - which will likely never be broken - a 56 game hit streak is not something that happens often.  However, such long streaks take a significant chunk of the season and should not be disregarded.  For these reasons, I decided that the top 10&#37; streaks - both success streaks (getting on base or getting a hit) and failure streaks - should be treated specially.  This created a more balanced and understandable number.</p>
+<p>Now to the data.  The information used here was obtained free of charge from and is copyrighted by Retrosheet.  Interested parties may contact Retrosheet at 20 Sunset Rd., Newark, DE 19711 (this statement is required by the Retrosheet license).  They have box scores for every game since 1915 and play-by-play data for most games since 1945 available for <a href="http://www.retrosheet.org/game.htm" title="Retrosheet Download" target="_blank">download</a>.  The data comes in "event files."  The required data is then extracted from these files using the supplied tools.  These tools are <code>.exe</code> programs.  Since I haven't owned a Windows machine in about 8 years, I was forced to use <a href="http://www.macports.org/" title="MacPosts" target="_blank">MacPorts</a> and <a href="http://www.winehq.org/" title="WINE" target="_blank">WINE</a> to run them on my iMac.  I also wrote a small PHP script to run them all at once.  After all the box score and play-by-play data had been extracted, I wrote a Java program to compile the data player by player.  The <a href="http://docs.oracle.com/javase/6/docs/api/java/util/Comparator.html" title="Java Comparator Interface" target="_blank">Comparator Interface</a> was instrumental for this step because I needed the games played by each batter to be in chronological order (they are not given that way by Retrosheet).  Then I wrote the Consistency Index Object that handled the calculations of the OBCI and HCI.  I also wrote a <em>very</em> simple GUI for viewing the indices and related statistics for a desired player.  There is also an option to compare two players at a time, or the same player in two different time periods.</p>
+<p>As I write this post, my computer is hard at work calculating top OBCIs and HCIs for every year from 1915 to 2012.  It is also calculating the top indices for every three and five year period.  All three of these programs are written in Java as well.  Once I have that data and am able to analyze it, I'll write a new post.  I think that data will be very interesting.  It should be noted that a single season of data is almost too little data for these indicies.  You can learn something by analyzing single season data, but there is much more to learn from three-year, five-year, and career data.  If there is any player, year, or years you would like to read about, please leave a comment or contact me and I will be glad to include it.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-06Jun-22</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-06Jun-22</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>How I Created This Blog</title>
+		<description><![CDATA[<p>When I decided to create a blog to log my thoughts and ideas, I didn't want to use any of the existing blogging platforms.  For one, most of the existing (free) blogging sites require you to have a subdomain of their domain (i.e. <code>thedadams.blogspot.com</code>).  Tumblr was the only one I found that did not require this, but I will stay away from it now that it has been purchased by Yahoo.  For another, these sites only give you a fixed number of free themes to work with, and instead of taking the time to write my own theme, I can simply use the CSS files I already have for my <a href="http://thedadams.com">website</a>.  This all led me to create this blog from scratch.  I would like to take this time to describe how I did that.</p>
+<p>The base of the blog consists of three HTML pages (one being the "Credits" page), two CSS files, two JavaScript files, and three PHP scripts.  The first HTML page is the main blog page.  It shows a preview (read: first paragraph) of the five most recent posts.  It also displays the date the post was created, the date it was updated, and a link to the comments of the post (which will be "Disqus-ed" later).  These are all displayed using PHP code in the HTML file.  You may also notice an "Archive" section; this will be discussed later.  The second HTML file displays a desired blog post to the reader.  It uses the <code>$_GET</code> variable to retrieve the desired post.  The PHP code that does this is robust; if the user changes or deletes the "post" entry in the URL, the code handles this by displaying an error message.  The post HTML file also displays dates, comments, and archive mentioned above.  The third HTML file is the credits page.  It lists the appropriate credits and mentions for resources used in the blog.</p>
+<p>The CSS files are self-explanatory.  Yes, there are two.  I decided that I wanted the blog to be responsive.  This gives a bigger, easier to read version for screens with width 680 pixels or smaller.  This is achieved using CSS media types and a viewport meta tag.</p>
+<p>The first of the two JavaScript files is self-explanatory as well; it is the jQuery version 1.9.1 code included via jQuery's CDN.  The second was probably the most troublesome part of the building this blog (at least for me while I learn all of these languages).  If you haven't noticed already, the Archive section on the right has a clickable "hide-and-show" feature.  As the years go by and I create more posts, the years will be listed when the page loads.  A click on a year shows the months of that year which have posts, and a click on the month shows the titles of the posts for that month in the order they were created.  The layout of this section is handled with a PHP script, but this hide-and-show function is handled with the second JavaScript file.</p>
+<p>Not surprisingly, the three PHP files are the "meat and potatoes" of the blog.  The first creates a class called "Post" which is used throughout the blog.  Each Post contains instance variables <code>title, body, dateCreated,</code> and <code>dateUpdated</code> as well as getters and setters for each.  I realize that creating a class for a blog post is a little overkill at this point, but as the blog evolves and features are added, I feel that having a Post class will be beneficial.  The second PHP file creates the layout for the Archive section.  This script searches the relevant directories for posts and puts them in the correct layout.  All the HTML code for the hide-and-show functionality is also added by this PHP script.  The last PHP file uses <a href="http://pushover.net" target="_blank">Pushover's</a> API to send alerts to me when someone visits one of my blog posts (not the blog itself).  This is just temporary; as my blog becomes more established, I won't care about getting these notifications in real-time.  I would like to point out that I did find a way to use Pushover's API without using cURL as they <a href="https://pushover.net/faq#technical-php" target="_blank">suggest</a>.  The server where this blog was developed did not have cURL installed, and I did not have privileges to install it.  Therefore, I had to find this workaround.  If you are interested in how I did this, please leave a comment below and I will be happy to write about it.  However, the current server has cURL.  I switched cURL so that errors and callbacks can be handled.</p>
+<p>The posts are saved in directories according to the date they were posted.  For example, this post is saved in the directory <code>Posts/2013/May/</code> with file name <code>31</code>.  The posts are written in simple HTML so that links and code will render properly.  The first line of the file is the title and the body of the post is everything else.</p>
+<p>There are three other things on which I should comment.  First, there are App.net and Twitter share buttons that go with each post.  Their code was pulled directly from these websites.  The <a href="http://blog.thedadams.com/BlogCredits.html">blog credits</a> page has direct links to the information used.  The header of each page also includes follow buttons for both of these social networks.  The code and resources for these are found in the same places are the share buttons.  Secondly, the comments for this blog are handled by <a href="http://www.disqus.com/" target="_blank">Disqus</a>.  That is a simple and effective solution for me.  Lastly, you may have noticed the social media icons to the right.  They are free and their license and location can be found on the <a href="http://blog.thedadams.com/BlogCredits.html">credits page</a>.  Please feel free to interact with me however possible on those social networks.  My preference is <a href="https://join.app.net" target="_blank">App.net</a>, however, please use whichever is yours.</p>
+<p>Finally, I did test this blog with a few browsers, but if you find any issues please let me know.</p>
+<p><b>Update</b>: <a href="https://alpha.app.net/rikishiama" target="_blank">&#64;rikishiama</a> pointed out that I was lacking an RSS feed.  I have added one along with a link to subscribe on the right.  This file was hand-written, but I will write a PHP script to handle its creation.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-05May-31</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-05May-31</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+
+	<item>
+
+		<title>First Blog Post</title>
+		<description><![CDATA[<p>Hello to you.  My name is Donald Adams and I would like to welcome you to my blog.  One day, while reading one of my favorite iPhone/iPad blog, I ran across an article written about <a href="http://donmelton.com">Don Melton</a>.  He is best known for heading the Safari project at Apple.  He is retired now, but has chosen to share his thoughts and some of his experiences on his blog.  An interesting thing about Mr. Melton is he was not a "tech nerd" as a youngester.  He was actually once in seminary; you might not believe it if you listened to him on <a href="http://www.imore.com" target="_blank">iMore</a>'s <a href="http://www.imore.com/debug" target="_blank">Debug</a> podcast.  The point is he got a late start in computer programming and has inspired me to pursue it myself.  My first project was to code this blog.  My next post will describe how I did that.  For now, I would like to share little bit about myself.</p>
+<p>I usually go by Donnie; I prefer not to be called Don (that's my dad).  I currently live in Tempe, AZ with my wife and my beagle.  I moved to Tempe to attend Arizona State University and pursue my Ph.D. in pure math.  Currently I am studying arithmetic geometry and number theory.  I moved from San Diego where I attended San Diego State for my bachelor's and master's degrees (both in math).  In case you don't know, number theory is the basis of cryptography including the kind used in computer communication.  As I learned the foundations of these cryptosystems, I naturally became interested in programming.  I just never thought of making it a career or a lifestyle.</p>
+<p>I am also a huge sports fan.  I am especially interested in the emerging mathematics and statistics in sports analysis.  I follow a lot of different sports, but I enjoy baseball and basketball more than others.  I am very critical of (American) football and the issues that have come up in the NFL.  I am sure that there will be more than a few posts here expressing my feelings towards the NFL, its participants, and its fans.  My favorite teams are the San Francisco Giants, Los Angeles Clippers, and Dallas Cowboys (maybe that's why I'm so critical of football).  I've followed these teams almost my entire life, and they will be my teams for the rest of it.</p>
+<p>I already have a few ideas for my next posts.  Next, I will write about how I coded this blog.  It was definitely a learning experience I would like to share.  I have also been developing my own baseball statistic which attempts to measure how "streaky" hitters are in Major League Baseball.  I have yet to see anything like it on the popular statistical websites and I am very excited about the results I've been getting.  As soon as I am able to analyze the data more carefully, I will be posting some of the results here.</p>
+<p>Thank you for taking the time to read this post and I hope you return again.  If you feel so inclined, you may follow me on App.net or Twitter by clicking the links in the header.  If you let me know that you found my blog, you can expect a quick follow back.</p>]]></description>
+		<link>http://blog.thedadams.com/Post.html?post=2013-05May-25</link>
+		<guid isPermaLink="false">http://blog.thedadams.com/Post.html?post=2013-05May-25</guid>
+		<pubDate>Tue, 12 Jan 2016 23:31:51 +0000</pubDate>
+
+	</item>
+
+</channel>
+
+</rss>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Configurable</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="main">
+      <div data-role="header" class="jqm-header">
+        <h1>Configure</h1>
+      </div>
+
+      <div>
+        <p>Please set the settings below.  Note that depending on which version of Minimal you are using, not all of the options will work.  If they are not working, please update Minimal by removing it from your "locker" are re-download it.</p>
+      </div>
+
+      <div data-role="content">
+        <div data-role="ui-field-contain">
+          <label for="minute_hands">Hand Show Minutes Or Hour:</label>
+          <select name="minute_hands" id="minute_hands" data-role="slider">
+            <option value="0">Hour</option>
+            <option value="1">Minutes</option>
+          </select>
+        </div>
+      </div>
+
+      <div data-role="content">
+        <div data-role="ui-field-contain">
+          <label for="bluetooth_vibe">Bluetooth Connection Status Vibration:</label>
+          <select name="bluetooth_vibe" id="bluetooth_vibe" data-role="slider">
+            <option value="0">Off</option>
+            <option value="1">On</option>
+          </select>
+        </div>
+      </div>
+
+      <div data-role="content">
+        <div data-role="ui-field-contain">
+          <label for="hourly_vibe">Hourly Vibration:</label>
+          <select name="hourly_vibe" id="hourly_vibe" data-role="slider">
+            <option value="0">Off</option>
+            <option value="1">On</option>
+          </select>
+        </div>
+      </div>
+
+      <div data-role="content">
+        <div data-role="ui-field-contain">
+          <label for="battery_hand">Hand Shows Pebble Battery Level:</label>
+          <select name="battery_hand" id="battery_hand" data-role="slider">
+	        <option value="0">Off</option>
+	        <option value="1">On</option>
+          </select>
+        </div>
+      </div>
+
+      <div data-role="content">
+        <div data-role="ui-field-contain">
+	      <label for="charge_blink">Hand Blinks When Charging:</label>
+	      <select name="charge_blink" id="charge_blink" data-role="slider">
+	        <option value="0">Off</option>
+	        <option value="1">On</option>
+	      </select>
+        </div>
+      </div>
+
+      <div data-role="content">
+        <div data-role="ui-field-contain">
+	      <label for="inverted_colors">Invert Colors:</label>
+	      <select name="inverted_colors" id="inverted_colors" data-role="slider">
+	        <option value="0">Off</option>
+	        <option value="1">On</option>
+	      </select>
+        </div>
+      </div>
+
+      <div class="ui-body ui-body-b">
+	    <fieldset class="ui-grid-a">
+	      <div class="ui-block-a"><button type="submit" data-theme="d" id="b-cancel">Cancel</button></div>
+	      <div class="ui-block-b"><button type="submit" data-theme="a" id="b-submit">Submit</button></div>
+	    </fieldset>
+      </div>
+    </div>
+</div>
+</div>
+<script>
+
+  if(isNaN(parseInt(localStorage.getItem("bluetooth_vibe")))) {
+
+  $("#bluetooth_vibe").val("1");
+
+  } else {
+
+  $("#bluetooth_vibe").val((localStorage.getItem("bluetooth_vibe")));
+
+  }
+
+  if(isNaN(parseInt(localStorage.getItem("minute_hands")))) {
+
+  $("#minute_hands").val("0");
+
+  } else {
+
+  $("#minute_hands").val((localStorage.getItem("minute_hands")));
+
+  }
+
+  if(isNaN(parseInt(localStorage.getItem("hourly_vibe")))) {
+
+  $("#hourly_vibe").val("0");
+
+  } else {
+
+  $("#hourly_vibe").val((localStorage.getItem("hourly_vibe")));
+
+  }
+
+  if(isNaN(parseInt(localStorage.getItem("battery_hand")))) {
+
+  $("#battery_hand").val("1");
+
+  } else {
+
+  $("#battery_hand").val((localStorage.getItem("battery_hand")));
+
+  }
+
+  if(isNaN(parseInt(localStorage.getItem("charge_blink")))) {
+
+  $("#charge_blink").val("1");
+
+  } else {
+
+  $("#charge_blink").val((localStorage.getItem("charge_blink")));
+
+  }
+
+  if(isNaN(parseInt(localStorage.getItem("inverted_colors")))) {
+
+  $("#inverted_colors").val("1");
+
+  } else {
+
+  $("#inverted_colors").val((localStorage.getItem("inverted_colors")));
+
+  }
+
+  function saveOptions() {
+  localStorage.setItem("bluetooth_vibe", $("#bluetooth_vibe").val());
+  localStorage.setItem("hourly_vibe", $("#hourly_vibe").val());
+  localStorage.setItem("battery_hand", $("#battery_hand").val());
+  localStorage.setItem("charge_blink", $("#charge_blink").val());
+  localStorage.setItem("inverted_colors", $("#inverted_colors").val());
+  localStorage.setItem("minute_hands", $("#minute_hands").val());
+
+  var options = {
+  "bluetooth_vibe": parseInt($("#bluetooth_vibe").val()),
+  "hourly_vibe": parseInt($("#hourly_vibe").val()),
+  "battery_hand": parseInt($("#battery_hand").val()),
+  "charge_blink": parseInt($("#charge_blink").val()),
+  "inverted_colors": parseInt($("#inverted_colors").val()),
+  "minute_hands": parseInt($("#minute_hands").val())
+  };
+  return options;
+  }
+
+  $("#b-cancel").click(function() {
+  window.location.href = "pebblejs://close";
+  });
+
+  $("#b-submit").click(function() {
+  window.location.href = "pebblejs://close#" + JSON.stringify(saveOptions());
+
+  });
+
+</script>
+</body>
+</html>
