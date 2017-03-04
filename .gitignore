@@ -1,3 +1,6 @@
 .DS_Store
 php.ini
 sitemap.xml
+PostTags.json
+feed.rss
+blog/Posts/*
