@@ -42,19 +42,57 @@
 
 <body>
     <div id="container">
-        <?php
-    include "header.html";
-    ?>
-            <div class="header-clear"></div>
-            <main>
-                <h1>Contact Me</h1>
-                <p>There are several different ways for you to get in contact with me.</p>
-            </main>
-            <div class="footer-clear"></div>
+        <?php include "header.html";?>
+        <div class="header-clear"></div>
+        <main>
+            <h1>Contact Me</h1>
+            <section class="left">
+                <p>Public key: <a href="https://keybase.io/thedadams" title="Keybase" target="_blank">Keybase</a>, or raw
+                    <a
+                        href="files/public_key.txt" title="Public key file">here</a>
+                </p>
+                <br>
+                <p><a id="th-email" href="">Email</a></p>
+                <br>
+                <p><a id="pt-email" href="">ProtonMail</a>
+                </p>
+                <br>
+                <p><a href="https://telegram.me/thedadams" title="Telegram" target="_blank">Telegram</a></p>
+                <br>
+                <p><a href="https://21.co/thedadams" title="21.co" target="_blank">21.co</a></p>
+                <br>
+                <p>Social:</p>
+                <ul id="social-icons" class="info-list">
+                    <li>
+                        <a href="http://twitter.com/thedadams" target="_blank" title="Twitter"><img class="icon" src="images/twitter.png" alt="twitter" /></a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/pub/donald-adams/36/83b/773" target="_blank" title="Linkedin"><img class="icon" src="images/linkedin.png" alt="linkedin" /></a>
+                    </li>
+                    <li>
+                        <a href="http://facebook.com/thedadams" target="_blank" title="Facebook"><img class="icon" src="images/facebook.png" alt="facebook" /></a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/thedadams" target="_blank" title="Instagram"><img class="icon" src="images/instagram.png" alt="instagram" /></a>
+                    </li>
+                    <li>
+                        <a href="http://www.reddit.com/user/thedadams" target="_blank" title="Reddit"><img class="icon" src="images/reddit.png" alt="reddit" /></a>
+                    </li>
+                    <li>
+                        <a href="http://www.github.com/thedadams" target="_blank" title="Github"><img class="icon" src="images/github.png" alt="github" /></a>
+                    </li>
+                </ul>
+            </section>
+            <section class="right">
+                <img src="images/picture2.jpg" alt="A picture of me" width="75%">
+            </section>
+        </main>
+        <div class="footer-clear"></div>
     </div>
 
     <?php include "footer.html";?>
 
+    <script type="text/javascript" src="js/homeemail.js"></script>
 </body>
 
 </html>
