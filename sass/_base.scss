@@ -180,6 +180,9 @@ hr {
                 color: black;
             }
         }
+        h3 {
+            color: white;
+        }
     }
 }
 
@@ -221,7 +224,7 @@ hr {
 
 @mixin footer($height) {
     footer {
-        font-size: .9em;
+        font-size: .6em;
         height: $height;
         width: 100%;
         ul {

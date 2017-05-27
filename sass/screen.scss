@@ -4,33 +4,26 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "_base.scss";
-$header-height: 3em;
+$header-height: 40px;
 body {
     background-color: #f5f5f5;
 }
 
 @include header($header-height, $orange);
-@include header-clear(4em);
+@include header-clear(2em);
 @include menu;
 @include nav($header-height, 4);
-@include main(100%);
+@include main(96%);
 @include gen-clear(4em);
-main ul {
-    list-style-image: none;
-}
-
 @include left(47%);
+@include right(47%);
+@include sub-info;
+@include strip;
+@include one-third;
 #img-picture {
     float: right;
     width: 98%;
     margin-right: 2%;
-}
-
-@include right(47%);
-@include sub-info;
-.info-list {
-    margin-left: 1em;
-    margin-top: -1em;
 }
 
 #social-icons {
@@ -55,16 +48,13 @@ h1 {
         size: 3.5em;
     }
     margin: {
-        left: 2%;
+        bottom: 0.5em;
     }
 }
 
 h2 {
     font: {
         size: 2.5em;
-    }
-    margin: {
-        left: 2%;
     }
 }
 
@@ -90,4 +80,4 @@ pre {
     }
 }
 
-@include footer(3em);
+@include footer(40px);
