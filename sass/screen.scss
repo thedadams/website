@@ -38,6 +38,14 @@ body {
     }
 }
 
+main ul {
+    list-style-type: disc;
+    margin-left: 2%;
+    li {
+        padding: 0.5em;
+    }
+}
+
 a {
     color: black;
     text-decoration: underline;
