@@ -1,0 +1,130 @@
+<!doctype html>
+
+<head>
+  <meta name="description" content="General Information About Donnie Adams">
+  <meta name="keywords" content="donald, donnie, adams, math, phd, number, theory, geometry, algebraic, birthday, education">
+  <meta charset="UTF-8">
+  <title>Donnie Adams - General - Info</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="images/iphone-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 758px)" href="stylesheets/mobilescreen.css" />
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 759px)" href="stylesheets/screen.css" />
+
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.thedadams.com"]);
+    _paq.push(["setDomains", ["*.thedadams.com"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "//thedadams.com/piwik/";
+      _paq.push(['setTrackerUrl', u + 'piwik.php']);
+      _paq.push(['setSiteId', '2']);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.defer = true;
+      g.src = u + 'piwik.js';
+      s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <noscript>
+    <p><img src="//thedadams.com/piwik/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p>
+  </noscript>
+  <!-- End Piwik Code -->
+</head>
+
+<body>
+  <div id="container">
+    <?php
+    include "header.html";
+    ?>
+      <div class="header-clear"></div>
+      <h1>General Info</h1>
+      <section class="left">
+        <p><strong>Full Name</strong>: Donald Gene Adams, Jr.<br>
+
+          <strong>Age</strong>:
+          <?php $birthday = new DateTime("1986-02-12", new DateTimeZone("America/Los_Angeles"));
+                                   echo $birthday->diff(new DateTime("now", new DateTimeZone("America/Los_Angeles")))->format("%Y");?><br>
+
+          <strong>Education</strong>:</p>
+        <ul class="info-list">
+          <li>
+            <p>M.A. Mathematics, SDSU<br>B.S. Mathematics, SDSU</p>
+          </li>
+        </ul>
+
+        <p><strong>Public key</strong>:</p>
+        <ul class="info-list">
+          <li>
+            <p><a href="https://keybase.io/thedadams" title="Keybase">Keybase</a>, or you can access it directly <a href="files/public_key.txt"
+                title="Public key file">here</a></p>
+          </li>
+        </ul>
+
+        <p><strong>Favorite Quote</strong>:</p>
+        <ul class="info-list">
+          <li>
+            <p>"One reason why mathematics enjoys special esteem, above all other sciences, is that its laws are absolutely
+              certain and indisputable, while those of other sciences are to some extent debatable and in constant danger
+              of being overthrown by newly discovered facts.” <br>-Albert Einstein</p>
+          </li>
+        </ul>
+
+        <p><strong>Favorite Sports Teams</strong>:</p>
+        <ul class="info-list">
+          <li>
+            <p>San Francisco Giants<br>Los Angeles Clippers<br>Dallas Cowboys</p>
+          </li>
+        </ul>
+
+        <p><strong>Personal Info</strong>:</p>
+        <ul class="info-list">
+          <li>
+            <p>Married, no children, a beagle named Diego.</p>
+          </li>
+        </ul>
+
+        <p><strong>Social</strong>:</p>
+        <ul id="social-icons" class="info-list">
+          <li>
+            <a href="http://twitter.com/thedadams" target="_blank" title="Twitter"><img class="icon" src="images/twitter.png" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="http://www.linkedin.com/pub/donald-adams/36/83b/773" target="_blank" title="Linkedin"><img class="icon" src="images/linkedin.png" alt="linkedin" /></a>
+          </li>
+          <li>
+            <a href="http://facebook.com/thedadams" target="_blank" title="Facebook"><img class="icon" src="images/facebook.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="http://instagram.com/thedadams" target="_blank" title="Instagram"><img class="icon" src="images/instagram.png" alt="instagram" /></a>
+          </li>
+          <li>
+            <a href="http://www.reddit.com/user/thedadams" target="_blank" title="Reddit"><img class="icon" src="images/reddit.png" alt="reddit" /></a>
+          </li>
+          <li>
+            <a href="http://www.github.com/thedadams" target="_blank" title="Github"><img class="icon" src="images/github.png" alt="github" /></a>
+          </li>
+        </ul>
+
+        <p>If you would like to send me a message and guarantee a response, you can find me on <a href="https://21.co/thedadams"
+            title="21.co" target="_blank">21.co</a>.</p>
+      </section>
+
+      <div class="footer-clear"></div>
+  </div>
+
+  <?php
+   include "footer.html";
+   ?>
+
+</body>
+
+</html>

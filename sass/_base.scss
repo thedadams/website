@@ -1,0 +1,239 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout/sticky-footer";
+$orange: #dd3300;
+$purple: #002266;
+@include font-face("cool-font", font-files("Roboto-Regular-webfont.woff", "Roboto-Regular-webfont.ttf", "Roboto-Regular-webfont.svg"), "Roboto-Regular-webfont.eot", bold, normal);
+@include font-face("cool-font", font-files("Roboto-Light-webfont.woff", "Roboto-Light-webfont.ttf", "Roboto-Light-webfont.svg"), "Roboto-Light-webfont.eot", normal, normal);
+@include font-face("cool-font", font-files("Roboto-Italic-webfont.woff", "Roboto-Italic-webfont.ttf", "Roboto-Italic-webfont.svg"), "Roboto-Italic-webfont.eot", bold, italic);
+@include font-face("cool-font", font-files("Roboto-LightItalic-webfont.woff", "Roboto-LightItalic-webfont.ttf", "Roboto-LightItalic-webfont.svg"), "Roboto-LightItalic-webfont.eot", normal, italic);
+ul,
+ol {
+    list-style-position: inside;
+}
+
+body {
+    font-family: cool-font, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: bold;
+}
+
+code,
+pre {
+    font-family: monospace;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 34, 102, 0), rgba(0, 34, 102, 0.75), rgba(0, 34, 102, 0));
+    width: 94%;
+    margin-right: 3%;
+}
+
+@mixin header($height, $color) {
+    header {
+        width: 100%;
+        height: $height;
+        background: $color;
+    }
+}
+
+@mixin header-clear($height) {
+    .header-clear {
+        height: $height;
+        @include transition(height 0.3s ease-out);
+    }
+}
+
+@mixin nav($height, $num) {
+    nav {
+        a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: black;
+            }
+        }
+        @media screen and (min-width: 759px) {
+            ul {
+                @include display-flex;
+                @include justify-content(space-around);
+                li {
+                    height: $height;
+                    text-align: center;
+                    @include display-flex;
+                    @include align-items(center);
+                }
+            }
+            a {
+                font-size: 1.5em;
+            }
+        }
+        @media screen and (max-width: 758px) {
+            @include transition(top 0.3s ease-out);
+            position: relative;
+            top: -($height * ($num+1));
+            width: 100%;
+            clear: both;
+            background-color: $orange;
+            ul {
+                @include display-flex;
+                @include flex-direction(column);
+                @include justify-content(space-between);
+                li {
+                    height: $height;
+                    width: 100%;
+                    text-align: center;
+                    @include display-flex;
+                    @include align-items(center);
+                }
+            }
+            a {
+                font-size: 1.7em;
+                font-weight: bold;
+                width: 100%;
+            }
+            &.show {
+                top: 0em;
+            }
+        }
+    }
+}
+
+@mixin menu {
+    #menu {
+        @media screen and (min-width: 759px) {
+            display: none;
+        }
+        font-size: 1.7em;
+        font-weight: bold;
+        color: white;
+        float: right;
+        margin-right: 2%;
+        margin-top: 0.5em;
+        text-decoration: none;
+    }
+}
+
+@mixin main($width) {
+    main {
+        width: $width;
+        margin-left: ((100 - $width) / 2);
+    }
+}
+
+@mixin left($width) {
+    section.left {
+        width: $width;
+        float: left;
+        margin-left: 2%;
+    }
+}
+
+@mixin right($width) {
+    @media screen and (min-width: 759px) {
+        section.right {
+            width: $width;
+            float: right;
+            margin-right: 2%;
+        }
+    }
+    @media screen and (max-width: 758px) {
+        section.right {
+            width: $width;
+            float: left;
+            margin-left: 2%;
+        }
+    }
+}
+
+@mixin strip {
+    .strip {
+        width: 100%;
+        background-color: $purple;
+        color: white;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        a {
+            color: white;
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
+
+@mixin one-third {
+    @media screen and (min-width: 759px) {
+        .one-third {
+            width: 29%;
+            margin-left: 2%;
+            padding: 1%;
+            float: left;
+        }
+    }
+    @media screen and (max-width: 758px) {
+        .one-third {
+            width: 96%;
+            margin-left: 2%;
+            margin: {
+                top: 3em;
+                bottom: 3em;
+            }
+        }
+    }
+}
+
+@mixin sub-info {
+    .sub-info {
+        width: 90%;
+        margin-left: 5%;
+        padding: 1em;
+    }
+}
+
+@mixin gen-clear($height) {
+    .gen-clear {
+        height: $height;
+        clear: both;
+    }
+}
+
+@mixin footer($height) {
+    footer {
+        font-size: .9em;
+        height: $height;
+        width: 100%;
+        ul {
+            @include display-flex;
+            @include justify-content(space-between);
+            li {
+                display: inline-block;
+                height: $height;
+                @include display-flex(inline-flex);
+                @include align-items(flex-end);
+            }
+        }
+    }
+    @include sticky-footer($height, "#container", ".footer-clear", "footer");
+}
