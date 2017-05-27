@@ -1,0 +1,92 @@
+<!doctype html>
+
+<head>
+    <meta name="description" content="General Information About Donnie Adams">
+    <meta name="keywords" content="donald, donnie, adams, math, programming, education, past projects, working">
+    <meta charset="UTF-8">
+    <title>Donnie Adams - Past Projects -</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="images/iphone-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 758px)" href="stylesheets/mobilescreen.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 759px)" href="stylesheets/screen.css" />
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.thedadams.com"]);
+        _paq.push(["setDomains", ["*.thedadams.com"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//thedadams.com/piwik/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '2']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//thedadams.com/piwik/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Piwik Code -->
+</head>
+
+<body>
+    <div id="container">
+        <?php include "header.html";?>
+        <div class="header-clear"></div>
+        <main>
+            <h1>Past Projects</h1>
+            <section class="sub-info">
+                <h3>Pebble Watchfaces</h3>
+                <p>I am the proud owner of a Kickstarter Edition Pebble Smartwatch. It no longer works and I have switched to
+                    an Apple Watch, but I truly enjoyed my Pebble. To continue my journey of programming, I decided to write
+                    a few watchfaces for my Pebble. You can read more about them <a href="http://thedadams.com/watchface/Watchfaces.html"
+                        title="My Pebble Watchfaces">here</a>. The most popular one was the <a href="http://thedadams.com/watchface/Minimal.html"
+                        title="Minimal Watchface">Minimal</a> watchface.</p>
+                <br>
+                <p>Pebble has since been purchased by Fitbit. I put all the code for these watchfaces on my <a href="https://github.com/thedadams"
+                        title="Github account">Github account</a>.</p>
+            </section>
+            <br>
+            <hr>
+            <br>
+            <section class="sub-info">
+                <h3>Consistency Index</h3>
+                <p>I have always been into sports, especially baseball. My father is a big baseball fan and definitely passed
+                    that down to me. When I decided to teach myself to program, I waned my first project to involved math
+                    and sports. This lead me to invent the Consistency Index (CI).</p>
+                <br>
+                <p>There are two versions of CI: one for batting average and one for on-base percentage. The general idea is
+                    that "streaky" hitters will have long durations when they do well followed by long durations of no success.
+                    On the other hand, consistent hitters will have success most of the time with very short periods of no
+                    success. The CI uses this idea to attempt to distinguish between hitters that are consistent and inconsistent.</p>
+                <br>
+                <p>I would like to acknowledge a couple things. First, this is the project I used to teach myself how to program.
+                    Therefore, the code is ugly. I hope to eventually clean it up, but for now you can view the project on
+                    <a href="https://github.com/thedadams/ConsistencyIndex" title="Consistency Index on Github">Github</a>.
+                    Secondly, as I have learned more about baseball and statistics, I realize that part of the idea is flawed.
+                    For example, there is a weighting, but that weighting is essentially arbitrary. I hope to fix this one
+                    day as well.</p>
+                <br>
+                <p>I wrote a few blog posts about it, which you can see <a href="http://blog.thedadams.com/Archive.html?tag=consistency+index"
+                        title="Consistency Index blog posts">here</a>.</p>
+            </section>
+        </main>
+        <div class="footer-clear"></div>
+    </div>
+
+    <?php include "footer.html";?>
+
+</body>
+
+</html>
