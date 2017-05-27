@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "_base.scss";
-$header-height: 3em;
+$header-height: 40px;
 body {
     background-color: #f5f5f5;
 }
@@ -14,19 +14,18 @@ body {
 @include gen-clear(0.5em);
 @include menu;
 @include nav($header-height, 5);
-@include main(100%);
-main ul {
-    list-style-image: none;
-}
-
+@include main(96%);
 @include left(96%);
+@include right(96%);
+@include strip;
+@include one-third;
+@include sub-info;
 #img-picture {
     width: 94%;
     float: right;
     margin-right: 2%;
 }
 
-@include right(96%);
 section.right,
 section.left {
     h1,
@@ -35,70 +34,4 @@ section.left {
     }
 }
 
-@include strip;
-@include one-third;
-@include sub-info;
-.info-list {
-    margin-left: 1em;
-}
-
-#social-icons {
-    list-style-image: none;
-    text-align: center;
-    @include display-flex;
-    @include flex-wrap(wrap);
-    li {
-        margin: 0em;
-        display: inline-block;
-        @include flex(1 0);
-    }
-}
-
-a {
-    color: black;
-    text-decoration: underline;
-}
-
-h1 {
-    font: {
-        size: 3.5em;
-    }
-    margin: {
-        left: 2%;
-    }
-}
-
-h2 {
-    font: {
-        size: 2.5em;
-    }
-    margin: {
-        left: 2%;
-    }
-}
-
-h3 {
-    font: {
-        size: 2.5em;
-    }
-    color: $purple;
-}
-
-p {
-    font-size: 1.3em;
-    line-height: 1.5em;
-}
-
-pre {
-    font-size: 1.3em;
-    float: left;
-    margin: {
-        left: 3em;
-        right: 3em;
-    }
-    span {
-        color: red;
-    }
-}
-
-@include footer(3em);
+@include footer(40px);

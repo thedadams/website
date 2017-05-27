@@ -32,6 +32,68 @@ strong {
     font-weight: bold;
 }
 
+#social-icons {
+    list-style-image: none;
+    text-align: center;
+    @include display-flex;
+    @include flex-wrap(wrap);
+    li {
+        margin: 0em;
+        display: inline-block;
+        @include flex(1 0);
+    }
+}
+
+main ul {
+    list-style-type: disc;
+    margin-left: 2%;
+    li {
+        padding: 0.5em;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+h1 {
+    font: {
+        size: 3.5em;
+    }
+    margin: {
+        bottom: 0.5em;
+    }
+}
+
+h2 {
+    font: {
+        size: 2.5em;
+    }
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-bottom: 0.25em;
+    color: $purple;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+pre {
+    font-size: 1.3em;
+    float: left;
+    margin: {
+        left: 3em;
+        right: 3em;
+    }
+    span {
+        color: red;
+    }
+}
+
 code,
 pre {
     font-family: monospace;
@@ -70,6 +132,7 @@ hr {
         a {
             color: white;
             text-decoration: none;
+            font-size: 20px;
             &:hover {
                 color: black;
             }
@@ -84,9 +147,6 @@ hr {
                     @include display-flex;
                     @include align-items(center);
                 }
-            }
-            a {
-                font-size: 1.5em;
             }
         }
         @media screen and (max-width: 758px) {
@@ -109,7 +169,6 @@ hr {
                 }
             }
             a {
-                font-size: 1.7em;
                 font-weight: bold;
                 width: 100%;
             }
@@ -125,12 +184,12 @@ hr {
         @media screen and (min-width: 759px) {
             display: none;
         }
-        font-size: 1.7em;
+        font-size: 25px;
         font-weight: bold;
         color: white;
         float: right;
         margin-right: 2%;
-        margin-top: 0.5em;
+        margin-top: 7px;
         text-decoration: none;
     }
 }
@@ -224,7 +283,7 @@ hr {
 
 @mixin footer($height) {
     footer {
-        font-size: .6em;
+        font-size: 0.6em;
         height: $height;
         width: 100%;
         ul {
