@@ -99,6 +99,14 @@ pre {
     font-family: monospace;
 }
 
+img {
+    display: block;
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
 .icon {
     width: 40px;
     height: 40px;

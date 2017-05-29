@@ -21,9 +21,7 @@ body {
 @include strip;
 @include one-third;
 #img-picture {
-    float: right;
     width: 98%;
-    margin-right: 2%;
 }
 
 @include footer(40px);
