@@ -20,8 +20,4 @@ body {
 @include sub-info;
 @include strip;
 @include one-third;
-#img-picture {
-    width: 98%;
-}
-
 @include footer(40px);
