@@ -8,7 +8,7 @@ $thisTuesday->add(new DateInterval('P' . (14 - $thisTuesday->format("w") + 2) % 
 
 $file = fopen(dirname(__FILE__) . "/NoBall.dat","r");
 //LAST DATE SCHEDULED
-$scheduledTo = date_create("06/27/2017", $timeZone);
+$scheduledTo = date_create("08/29/2017", $timeZone);
 date_modify($scheduledTo,"-1 day"); // Take one day away to make the code work properly.
 while(!feof($file)) {
   $date = date_create(trim(fgets($file)) . " 23:59:59",$timeZone);
@@ -46,7 +46,7 @@ while(!feof($file)) {
       }
     } else {
         $date->add($dateIntervalOf7Days);
-      echo "There is basketball this week (" . $thisTuesday->format("F jS") . ") at St. Theresa!  Lace 'em up and come on out!  See you at 7:30pm.<br><br>";
+      echo "There is basketball this week (" . $thisTuesday->format("F jS") . ") at St. Theresa!  Lace 'em up and come on out!  See you at 6:00pm.<br><br>";
       echo "The next scheduled night off is ";
       echo $date->format("l, F jS.  ");
       echo "Please mark your calendar.  ";
