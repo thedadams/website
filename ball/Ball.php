@@ -55,7 +55,7 @@ while(!feof($file)) {
   } elseif(feof($file)) {
     $dateIntervalOf7Days->d = 1;
     $scheduledTo->add($dateIntervalOf7Days);
-    echo "There is basketball this week (" . $thisTuesday->format("F jS") . ") at St. Theresa!  Lace 'em up and come on out!  See you at 7:30pm.<br/><br/>";
+    echo "There is basketball this week (" . $thisTuesday->format("F jS") . ") at St. Theresa!  Lace 'em up and come on out!  See you at 6:00pm.<br/><br/>";
     echo "As of right now, we have basketball every week through Tuesday, " . $scheduledTo->format("F jS, Y") . ".  ";
     echo "If something changes, we will update this site to let everyone know.";
   }
