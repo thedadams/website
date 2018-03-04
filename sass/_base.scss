@@ -294,16 +294,23 @@ hr {
         font-size: 0.6em;
         height: $height;
         width: 100%;
-        ul {
-            @include display-flex;
-            @include justify-content(space-between);
-            li {
-                display: inline-block;
-                height: $height;
-                @include display-flex(inline-flex);
-                @include align-items(flex-end);
-            }
+        p {
+            width: 100%;
         }
     }
     @include sticky-footer($height, "#container", ".footer-clear", "footer");
+}
+
+#credits {
+    float: left;
+}
+
+#copyright {
+    float: right;
+}
+
+#buycoffee {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
 }
