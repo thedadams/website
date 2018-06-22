@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
 	<?php
 	/* This script takes the post using the $_GET variable and displays it to the user.
@@ -31,40 +32,52 @@
 		$error = true;
 	}
 	?>
-	<title>thedadams - <?php echo $displayPost->getTitle() . " - " . $displayPost->getDateCreated()->format("Y/m/d");?></title>
-	<meta name="description" content="Donnie Adams' Blog">
-	<meta name="keywords" content="donald, donnie, adams, math, blog, baseball, basketball, school, college, teaching">
-	<meta property="og:image" content="images/thedadams.png"/>
-	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="favicon.ico"/>
-	<link rel="apple-touch-icon" href="images/iphone-icon.png"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" type="text/css" media="screen and (max-width: 650px)" href="stylesheets/mobilescreen.css"/>
-	<link rel="stylesheet" type="text/css" media="screen and (min-width: 651px)" href="stylesheets/screen.css"/>
-	<link rel="alternate" href="/feed.rss" type="application/rss+xml" title="RSS Feed"/>
-	<link rel="stylesheet" type="text/css" href="magnific-popup/magnific-popup.css"/>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="magnific-popup/jquery.magnific-popup.js"></script>
+		<title>thedadams -
+			<?php echo $displayPost->getTitle() . " - " . $displayPost->getDateCreated()->format("Y/m/d");?>
+		</title>
+		<meta name="description" content="Donnie Adams' Blog">
+		<meta name="keywords" content="donald, donnie, adams, math, blog, baseball, basketball, school, college, teaching">
+		<meta property="og:image" content="images/thedadams.png" />
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="images/iphone-icon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 650px)" href="stylesheets/mobilescreen.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-width: 651px)" href="stylesheets/screen.css" />
+		<link rel="alternate" href="/feed.rss" type="application/rss+xml" title="RSS Feed" />
+		<link rel="stylesheet" type="text/css" href="magnific-popup/magnific-popup.css" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="magnific-popup/jquery.magnific-popup.js"></script>
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["setCookieDomain", "*.thedadams.com"]);
-  _paq.push(["setDomains", ["*.thedadams.com"]]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//thedadams.com/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//thedadams.com/piwik/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+		<!-- Piwik -->
+		<script type="text/javascript">
+			var _paq = _paq || [];
+			/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+			_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+			_paq.push(["setCookieDomain", "*.thedadams.com"]);
+			_paq.push(["setDomains", ["*.thedadams.com"]]);
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function () {
+				var u = "//thedadams.com/piwik/";
+				_paq.push(['setTrackerUrl', u + 'piwik.php']);
+				_paq.push(['setSiteId', '2']);
+				var d = document,
+					g = d.createElement('script'),
+					s = d.getElementsByTagName('script')[0];
+				g.type = 'text/javascript';
+				g.async = true;
+				g.defer = true;
+				g.src = u + 'piwik.js';
+				s.parentNode.insertBefore(g, s);
+			})();
+		</script>
+		<noscript>
+			<p>
+				<img src="//thedadams.com/piwik/piwik.php?idsite=2&rec=1" style="border:0;" alt="" />
+			</p>
+		</noscript>
+		<!-- End Piwik Code -->
 </head>
 
 <body>
@@ -72,11 +85,11 @@
 		<?php
 		include "header.html";
 		?>
-		<div class="header-clear"></div>
-		<section class="left">
-			<?php
+			<div class="header-clear"></div>
+			<section class="left">
+				<?php
 			if ($error) {
-				echo "<h2>I'm sorry, but it seems that you are trying to access a post that does not exists.  It may be because you altered the URL above or because the post you are trying to view has been moved.  If you believe you have reached this in error, please contact me via <a href=\"https://alpha.app.net/thedadams\" title=\"App.net\">App.net</a> or <a href=\"https://twitter.com/thedadams\">Twitter</a>.</h2>";
+				echo "<p>I'm sorry, but it seems that you are trying to access a post that does not exists.  It may be because you altered the URL above or because the post you are trying to view has been moved.  If you believe you have reached this in error, please contact me via <a href=\"https://twitter.com/thedadams\">Twitter</a>.</p>";
 			} else {
 				echo "<br><h2>" . $displayPost->getTitle() . "</h2>";
 				echo "<p><span>Posted on " . $displayPost->getDateCreated()->format("m/d/Y"). "</span></p>";
@@ -85,16 +98,20 @@
 				echo "<span>Updated on " . $displayPost->getDateUpdated()->format("m/d/Y") . "</span><br><br><br></p>";
 }
 ?>
-</section>
-<section class="right">
-	<?php
+			</section>
+			<section class="right">
+				<?php
 	date_default_timezone_set("America/Phoenix");
 	include "BlogRight.html";
 	?>
-</div>
-<div class="footer-clear"></div>
-</div>
-<footer><a href="BlogCredits.html" title="Blog Credits">Credits &amp; Acknowledgments</a><div class="footercolor"></footer>
-</div>
+	</div>
+	<div class="footer-clear"></div>
+	</div>
+	<footer>
+		<a href="BlogCredits.html" title="Blog Credits">Credits &amp; Acknowledgments</a>
+		<div class="footercolor">
+	</footer>
+	</div>
 </body>
+
 </html>
