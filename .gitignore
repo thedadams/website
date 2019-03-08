@@ -3,5 +3,5 @@ php.ini
 sitemap.xml
 PostTags.json
 feed.rss
-blog/Posts/*
-.sass-cache/*
+blog/Posts
+.vscode
