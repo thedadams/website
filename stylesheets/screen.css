@@ -369,6 +369,7 @@ nav a:hover {
         display: flex;
         -webkit-align-items: center;
         align-items: center;
+        margin-top: 0.3em;
     }
 
     nav a {
