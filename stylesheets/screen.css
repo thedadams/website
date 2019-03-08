@@ -350,6 +350,10 @@ nav a:hover {
 }
 
 @media screen and (min-width: 759px) {
+    header {
+        height: 50px;
+    }
+
     nav ul {
         display: -webkit-flex;
         display: flex;
