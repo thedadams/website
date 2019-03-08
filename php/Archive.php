@@ -52,13 +52,13 @@ function displayPosts($postsToDisplay, $startDate, &$newestPostDisplayedDate, &$
             fgets($file); // Get the blank line between the title and body.
             $post->setBody(fgets($file)); // Pull just the first paragraph for a preview.
             fclose($file);
-            $preview = $backward ? $preview . "<h4><a href=\"Post.html?post=" : "<hr/><br>" . $preview;
-            $preview = $backward ? $preview . $startDate->format("Y-mM-d") . "\" title=\"" . $post->getTitle() . "\">" . $post->getTitle() . "</a></h4>" : "<span><br>Updated on " . $post->getDateUpdated()->format("m/d/Y") . "</span></p>" . $preview;
+            $preview = $backward ? $preview . "<h3><a href=\"Post.html?post=" : "<hr/><br>" . $preview;
+            $preview = $backward ? $preview . $startDate->format("Y-mM-d") . "\" title=\"" . $post->getTitle() . "\">" . $post->getTitle() . "</a></h3>" : "<span><br>Updated on " . $post->getDateUpdated()->format("m/d/Y") . "</span></p>" . $preview;
             $preview = $backward ? $preview . "<p><span>Posted on " . $post->getDateCreated()->format("m/d/Y"). "</span></p>" : "<p><a href=\"Post.html?post=". $startDate->format("Y-mM-d") . "\" title=\"" . $post->getTitle() . "\">Read&nbsp;more...</a><br>" . $preview;
             $preview = $backward ? $preview . $post->getBody() : $post->getBody() . $preview;
             $preview = $backward ? $preview . "<p><a href=\"Post.html?post=". $startDate->format("Y-mM-d") . "\" title=\"" . $post->getTitle() . "\">Read&nbsp;more...</a><br>" : "<p><span>Posted on " . $post->getDateCreated()->format("m/d/Y"). "</span></p>" . $preview;
-            $preview = $backward ? $preview . "<span><br>Updated on " . $post->getDateUpdated()->format("m/d/Y") . "</span></p>" : $startDate->format("Y-mM-d") . "\" title=\"" . $post->getTitle() . "\">" . $post->getTitle() . "</a></h4>" . $preview;
-            $preview = $backward ? $preview . "<hr/><br>" : "<h4><a href=\"Post.html?post=" . $preview;
+            $preview = $backward ? $preview . "<span><br>Updated on " . $post->getDateUpdated()->format("m/d/Y") . "</span></p>" : $startDate->format("Y-mM-d") . "\" title=\"" . $post->getTitle() . "\">" . $post->getTitle() . "</a></h3>" . $preview;
+            $preview = $backward ? $preview . "<hr/><br>" : "<h3><a href=\"Post.html?post=" . $preview;
             $counter++;
         }
         if($backward) {

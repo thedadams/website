@@ -54,7 +54,7 @@
 			if ($error) {
 				echo "<p>I'm sorry, but it seems that you are trying to access a post that does not exists.  It may be because you altered the URL above or because the post you are trying to view has been moved.  If you believe you have reached this in error, please contact me via <a href=\"https://twitter.com/thedadams\">Twitter</a>.</p>";
 			} else {
-				echo "<br><h2>" . $displayPost->getTitle() . "</h2>";
+				echo "<br><h3>" . $displayPost->getTitle() . "</h3>";
 				echo "<p><span>Posted on " . $displayPost->getDateCreated()->format("m/d/Y"). "</span></p>";
 				echo $displayPost->getBody();
 				echo "<p>Tags: " . getTagStringFromArray($displayPost->getTags(), "Archive.html?tag=") . "<br>";
