@@ -219,8 +219,44 @@ h3 {
     color: #026
 }
 
+h4 {
+    font-size: 2em;
+}
+
+h4 a {
+    text-decoration: none
+}
+
+h5 {
+    font-size: 1.5em;
+    margin-top: 1em
+}
+
 p {
     line-height: 1.5em
+}
+
+p span {
+    font-size: .7em
+}
+
+.archive {
+    text-align: center;
+}
+
+p a.full-archive-link {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.newer-nav {
+    float: left;
+    clear: left;
+}
+
+.older-nav {
+    float: right;
+    clear: right;
 }
 
 pre {
@@ -406,6 +442,45 @@ section.left {
         float: left;
         margin-left: 2%
     }
+}
+
+.blog-left {
+    width: 90%;
+    float: left;
+    margin-left: 5%
+}
+
+.blog-left h1 {
+    margin-bottom: 0em;
+}
+
+#archive {
+    width: 90%;
+    float: left;
+    clear: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#archive h4,
+#archive h5 {
+    text-align: center;
+}
+
+#archive ul {
+    list-style: square url("../images/collapsed-black.png")
+}
+
+#tags {
+    list-style-image: none;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+li ul li {
+    font-size: 0.9em
 }
 
 .strip {

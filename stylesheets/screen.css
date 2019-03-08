@@ -447,7 +447,7 @@ section.left {
     }
 }
 
-section.blog-left {
+.blog-left {
     width: 75%;
     float: left;
     margin-left: 2%
