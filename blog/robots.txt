@@ -1,8 +1,0 @@
-User-agent: *
-
-Disallow: /php/
-Disallow: /images/
-Disallow: /Archive.js
-Disallow: /Posts/
-
-sitemap: http://blog.thedadams.com/sitemap.xml

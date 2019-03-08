@@ -220,8 +220,40 @@ h3 {
     color: #026
 }
 
+h4 {
+    font-size: 2em;
+}
+
+h4 a {
+    text-decoration: none
+}
+
+h5 {
+    font-size: 1.5em;
+    margin-top: 1em
+}
+
 p {
     line-height: 1.5em
+}
+
+p span {
+    font-size: .7em
+}
+
+p a.full-archive-link {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.newer-nav {
+    float: left;
+    clear: left;
+}
+
+.older-nav {
+    float: right;
+    clear: right;
 }
 
 pre {
@@ -264,7 +296,8 @@ hr {
 }
 
 #copyright {
-    float: right
+    float: right;
+    font-size: 1em;
 }
 
 #buycoffee {
@@ -331,7 +364,12 @@ nav a:hover {
         display: -webkit-flex;
         display: flex;
         -webkit-align-items: center;
-        align-items: center
+        align-items: center;
+    }
+
+    nav a {
+        font-variant: small-caps;
+        font-size: 1.5em;
     }
 }
 
@@ -407,6 +445,44 @@ section.left {
         float: left;
         margin-left: 2%
     }
+}
+
+section.blog-left {
+    width: 75%;
+    float: left;
+    margin-left: 2%
+}
+
+.blog-left h1 {
+    margin-bottom: 0em;
+}
+
+#archive {
+    width: 18%;
+    float: right;
+    clear: right;
+    margin-right: 0%
+}
+
+#archive h4,
+#archive h5 {
+    text-align: center;
+}
+
+#archive ul {
+    list-style: square url("../images/collapsed-black.png")
+}
+
+#tags {
+    list-style-image: none;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+li ul li {
+    font-size: 0.9em
 }
 
 .sub-info {

@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+	<?php
+	/* This script takes the post using the $_GET variable and displays it to the user.
+	* It is robust in that it checks to make sure the post exists and that the $_GET
+	* variable has not be tampered with.  Note that the script assumes that the first
+	* line of the file is the title of the post.
+	*/
+	include_once "php/Post.php";
+	include_once "php/Archive.php";
+	date_default_timezone_set("America/Phoenix");
+	$error = false;
+	$postString = $_GET["post"];
+	if (strlen(utf8_decode($postString)) > 12 && checkdate(substr($postString, 5, 2), substr($postString, 11), substr($postString, 0, 4)) && file_exists("Posts/" . str_replace("-", "/", $postString))) {
+		$displayPost = new Post(substr($postString, 0, 5) . substr($postString, 5, 2) . substr($postString, 10), date_create("@" . filemtime("Posts/" . str_replace("-", "/", $postString)))->format("Y/m/d"));
+		$file = fopen("Posts/" . str_replace("-","/", $postString)	,"r");
+		$displayPost->setTitle(trim(fgets($file)));
+		while(!feof($file)) {
+			$nextLine = fgets($file);
+			if(strpos($nextLine, "#tags:") === false) {
+				$displayPost->appendToBody($nextLine);
+			} else {
+				$nextLine = substr($nextLine, 6);
+				$displayPost->setTags(explode(",", $nextLine));
+			}
+		}
+		fclose($file);
+	} else {
+		$displayPost = new Post("now","now");
+		$error = true;
+	}
+	?>
+		<title>thedadams -
+			<?php echo $displayPost->getTitle() . " - " . $displayPost->getDateCreated()->format("Y/m/d");?>
+		</title>
+		<meta name="description" content="Donnie Adams' Blog">
+		<meta name="keywords" content="donald, donnie, adams, math, blog, baseball, basketball, school, college, teaching">
+		<meta property="og:image" content="images/thedadams.png" />
+		<meta charset="UTF-8">
+		<?php include "common.html";?>
+</head>
+
+<body>
+	<div id="container">
+		<?php
+		include "header.html";
+		?>
+			<div class="header-clear"></div>
+			<main>
+			<section class="blog-left">
+				<?php
+			if ($error) {
+				echo "<p>I'm sorry, but it seems that you are trying to access a post that does not exists.  It may be because you altered the URL above or because the post you are trying to view has been moved.  If you believe you have reached this in error, please contact me via <a href=\"https://twitter.com/thedadams\">Twitter</a>.</p>";
+			} else {
+				echo "<br><h2>" . $displayPost->getTitle() . "</h2>";
+				echo "<p><span>Posted on " . $displayPost->getDateCreated()->format("m/d/Y"). "</span></p>";
+				echo $displayPost->getBody();
+				echo "<p>Tags: " . getTagStringFromArray($displayPost->getTags(), "Archive.html?tag=") . "<br>";
+				echo "<span>Updated on " . $displayPost->getDateUpdated()->format("m/d/Y") . "</span><br><br><br></p>";
+}
+?>
+			</section>
+			<section id="archive">
+				<?php
+	date_default_timezone_set("America/Phoenix");
+	include "BlogRight.html";
+	?>
+	</section>
+			</main>
+			<div class="footer-clear"></div>
+	</div>
+	<?php include "footer.html";?>
+</body>
+
+</html>
