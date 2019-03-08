@@ -1,1 +1,443 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}@font-face{font-family:"cool-font";src:url('/fonts/Roboto-Regular-webfont.eot?1495877366');src:url('/fonts/Roboto-Regular-webfont.eot?&1495877366#iefix') format('embedded-opentype'),url('/fonts/Roboto-Regular-webfont.woff?1495877366') format('woff'),url('/fonts/Roboto-Regular-webfont.ttf?1495877366') format('truetype'),url('/fonts/Roboto-Regular-webfont.svg?1495877366') format('svg');font-weight:bold;font-style:normal}@font-face{font-family:"cool-font";src:url('/fonts/Roboto-Light-webfont.eot?1495877366');src:url('/fonts/Roboto-Light-webfont.eot?&1495877366#iefix') format('embedded-opentype'),url('/fonts/Roboto-Light-webfont.woff?1495877366') format('woff'),url('/fonts/Roboto-Light-webfont.ttf?1495877366') format('truetype'),url('/fonts/Roboto-Light-webfont.svg?1495877366') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:"cool-font";src:url('/fonts/Roboto-Italic-webfont.eot?1495877366');src:url('/fonts/Roboto-Italic-webfont.eot?&1495877366#iefix') format('embedded-opentype'),url('/fonts/Roboto-Italic-webfont.woff?1495877366') format('woff'),url('/fonts/Roboto-Italic-webfont.ttf?1495877366') format('truetype'),url('/fonts/Roboto-Italic-webfont.svg?1495877366') format('svg');font-weight:bold;font-style:italic}@font-face{font-family:"cool-font";src:url('/fonts/Roboto-LightItalic-webfont.eot?1495877366');src:url('/fonts/Roboto-LightItalic-webfont.eot?&1495877366#iefix') format('embedded-opentype'),url('/fonts/Roboto-LightItalic-webfont.woff?1495877366') format('woff'),url('/fonts/Roboto-LightItalic-webfont.ttf?1495877366') format('truetype'),url('/fonts/Roboto-LightItalic-webfont.svg?1495877366') format('svg');font-weight:normal;font-style:italic}strong{font-weight:bold}ul,ol{list-style-position:inside}body{font-family:cool-font, Helvetica, sans-serif;width:100%;height:100%}#container{width:100%}h1,h2,h3,h4,h5,h6{font-weight:bold}.icon{height:40px;width:40px}html,body{height:100%}#container{clear:both;min-height:100%;height:auto !important;height:100%;margin-bottom:-3.5em}#container .footer-clear{height:3.5em}footer{clear:both;position:relative;height:3.5em}hr{width:94%;margin-left:2%}body{background-color:#ffffff}header{width:100%;height:5.5em;position:fixed;background:#d30;z-index:99}header{position:static;padding-top:1em}#container{overflow-y:hidden}main{min-height:100%;width:100%;margin-left:0%}main ul{list-style-image:none}section.left{width:67%;float:left;clear:left;margin-left:2%}@media screen and (min-width: 759px){section.right{width:30%;float:right;clear:right;margin-right:0%}}@media screen and (max-width: 758px){section.right{width:30%;float:left;clear:left}}.right{background-color:#026;color:white;padding-bottom:1000em;margin-bottom:-1000em}.right h4,.right h5{text-align:center}.right a{color:white}#social-icons{list-style-image:none;text-align:center;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap}#social-icons li{margin:0em;display:inline-block;-webkit-flex:1 0;flex:1 0}#tags{list-style-image:none;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap}a{color:black;text-decoration:underline}a:hover{color:blue}h1{font-size:4em;margin-left:1%;color:white;padding-top:.2em}h1 a{color:white;text-decoration:none}h1 a:hover{color:black;text-decoration:underline}h1 span{font-size:.15em}h2{font-size:3.5em;color:#026;margin-top:.5em}h3{font-size:2.5em;margin-left:2%;margin-top:.5em;margin-bottom:-.5em;padding:0em}h3 a{text-decoration:none}h4{font-size:2em;margin-top:1em}p{margin-left:4%;margin-right:4%;margin-top:2%;margin-bottom:2%;line-height:1.7em}p span{font-size:.5em}p.archive{text-align:center}p a.full-archive-link{margin-left:1em;margin-right:1em}.right ul{list-style:square url("../images/collapsed-white.png")}ol{list-style:decimal}li{font-size:1.3em;line-height:1.7em;margin-left:15%}li ul li{font-size:1em}.newer-nav{float:left;clear:left}.older-nav{float:right;clear:right}pre{margin-left:5%;margin-right:7%;padding:1em;overflow:auto;font-family:monospace;line-height:1.45;background-color:#eeeeee;border-radius:.5em;word-break:normal}code{font-family:monospace;background-color:#eeeeee;padding:3px;border-radius:3px}footer{font-size:.7em;text-align:center;height:20px;width:100%}.footercolor{float:right;width:30%;background:#026;height:100%}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+
+q,
+blockquote {
+    quotes: none
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none
+}
+
+a img {
+    border: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+strong {
+    font-weight: bold
+}
+
+ul,
+ol {
+    list-style-position: inside
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 100%;
+    height: 100%
+}
+
+#container {
+    width: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Garamond',
+        serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.icon {
+    height: 40px;
+    width: 40px
+}
+
+html,
+body {
+    height: 100%
+}
+
+#container {
+    clear: both;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -3.5em
+}
+
+#container .footer-clear {
+    height: 3.5em
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 3.5em
+}
+
+hr {
+    width: 94%;
+    margin-left: 2%
+}
+
+body {
+    background-color: #ffffff
+}
+
+header {
+    width: 100%;
+    height: 5.5em;
+    position: fixed;
+    background: #d30;
+    z-index: 99
+}
+
+header {
+    position: static;
+    padding-top: 1em
+}
+
+#container {
+    overflow-y: hidden
+}
+
+main {
+    min-height: 100%;
+    width: 100%;
+    margin-left: 0%
+}
+
+main ul {
+    list-style-image: none
+}
+
+section.left {
+    width: 67%;
+    float: left;
+    clear: left;
+    margin-left: 2%
+}
+
+@media screen and (min-width: 759px) {
+    section.right {
+        width: 30%;
+        float: right;
+        clear: right;
+        margin-right: 0%
+    }
+}
+
+@media screen and (max-width: 758px) {
+    section.right {
+        width: 30%;
+        float: left;
+        clear: left
+    }
+}
+
+.right {
+    background-color: #026;
+    color: white;
+    padding-bottom: 1000em;
+    margin-bottom: -1000em
+}
+
+.right h4,
+.right h5 {
+    text-align: center
+}
+
+.right a {
+    color: white
+}
+
+#social-icons {
+    list-style-image: none;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+#social-icons li {
+    margin: 0em;
+    display: inline-block;
+    -webkit-flex: 1 0;
+    flex: 1 0
+}
+
+#tags {
+    list-style-image: none;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+a {
+    color: black;
+    text-decoration: underline
+}
+
+a:hover {
+    color: blue
+}
+
+h1 {
+    font-size: 4em;
+    margin-left: 1%;
+    color: white;
+    padding-top: .2em
+}
+
+h1 a {
+    color: white;
+    text-decoration: none
+}
+
+h1 a:hover {
+    color: black;
+    text-decoration: underline
+}
+
+h1 span {
+    font-size: .15em
+}
+
+h2 {
+    font-size: 3.5em;
+    color: #026;
+    margin-top: .5em
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-left: 2%;
+    margin-top: .5em;
+    margin-bottom: -.5em;
+    padding: 0em
+}
+
+h3 a {
+    text-decoration: none
+}
+
+h4 {
+    font-size: 2em;
+    margin-top: 1em
+}
+
+p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 1.7em
+}
+
+p span {
+    font-size: .8em
+}
+
+p.archive {
+    text-align: center
+}
+
+p a.full-archive-link {
+    margin-left: 1em;
+    margin-right: 1em
+}
+
+.right ul {
+    list-style: square url("../images/collapsed-white.png")
+}
+
+ol {
+    list-style: decimal
+}
+
+li {
+    font-size: 1.3em;
+    line-height: 1.7em;
+    margin-left: 15%
+}
+
+li ul li {
+    font-size: 1em
+}
+
+.newer-nav {
+    float: left;
+    clear: left
+}
+
+.older-nav {
+    float: right;
+    clear: right
+}
+
+pre {
+    margin-left: 5%;
+    margin-right: 7%;
+    padding: 1em;
+    overflow: auto;
+    font-family: monospace;
+    line-height: 1.45;
+    background-color: #eeeeee;
+    border-radius: .5em;
+    word-break: normal
+}
+
+code {
+    font-family: monospace;
+    background-color: #eeeeee;
+    padding: 3px;
+    border-radius: 3px
+}
+
+footer {
+    font-size: .7em;
+    text-align: center;
+    height: 20px;
+    width: 100%
+}
+
+.footercolor {
+    float: right;
+    width: 30%;
+    background: #026;
+    height: 100%
+}
