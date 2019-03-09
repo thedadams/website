@@ -58,13 +58,13 @@
 				//$content = $content . "<p>";
 				if($newestPostDisplayedDate < $overallNewestPostDate) {
 					$newestPostDisplayedDate->modify("+1 day");
-					$content = $content . "<a class=\"newer-nav\" href=\"Blog.html?st=" . $newestPostDisplayedDate->format("mdY") . "&back=f\" title=\"Newer Posts\">&lt;&lt; Newer Posts</a>";
+					$content = $content . "<a class=\"newer-nav\" href=\"Blog.html?st=" . $newestPostDisplayedDate->format("mdY") . "&back=f\" title=\"Newer Posts\">&laquo; Newer Posts</a>";
 				}
 					// This is needed to offset the difference in time the two dates were created.
 				$oldestPostDisplayedDate->setTime(0, 0, 0);
 				if($oldestPostDisplayedDate > $overallOldestPostDate) {
 					$oldestPostDisplayedDate->modify("-1 day");
-					$content = $content . "<a  class=\"older-nav\" href=\"Blog.html?st=" . $oldestPostDisplayedDate->format("mdY") . "\" title=\"Older Posts\">Older Posts &gt;&gt;</a>";
+					$content = $content . "<a  class=\"older-nav\" href=\"Blog.html?st=" . $oldestPostDisplayedDate->format("mdY") . "\" title=\"Older Posts\">Older Posts &raquo;</a>";
 				}
 
 				$content = $content . "<br><br>";
