@@ -294,9 +294,7 @@ img {
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 34, 102, 0), rgba(0, 34, 102, 0.75), rgba(0, 34, 102, 0));
-    width: 94%;
-    margin-right: 3%
+    background: rgba(0, 34, 102, 0.75);
 }
 
 #credits {
