@@ -451,29 +451,40 @@ section.left {
 }
 
 .blog-left {
-    width: 75%;
+    width: 63%;
     float: left;
-    margin-left: 2%
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .blog-left h1 {
-    margin-bottom: 0em;
+    margin-left: -7%;
 }
 
 #archive {
     width: 18%;
     float: right;
     clear: right;
-    margin-right: 0%
+    margin-right: 0%;
 }
 
 #archive h4,
 #archive h5 {
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #archive ul {
-    list-style: square url("../images/collapsed-black.png")
+    list-style: square inside url("../images/collapsed-black.png");
+    font-size: 16px;
+}
+
+#archive ul li ul {
+    margin-left: 13px;
+}
+
+#archive ul li ul li ol {
+    margin-left: 13px;
 }
 
 #tags {
@@ -484,14 +495,26 @@ section.left {
     flex-wrap: wrap
 }
 
-li ul li {
-    font-size: 0.9em
-}
-
 .sub-info {
-    width: 90%;
+    float: left;
+    width: 26%;
     margin-left: 4%;
     padding: 1%
+}
+
+.sub-info-half {
+    float: left;
+    width: 39%;
+    margin-left: 4%;
+    margin-bottom: 12px;
+    padding: 1%
+}
+
+.sub-info-full {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 31.5px;
 }
 
 .strip {

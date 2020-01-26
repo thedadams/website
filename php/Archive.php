@@ -50,7 +50,7 @@ function displayPosts($postsToDisplay, $startDate, &$newestPostDisplayedDate, &$
             $file = fopen("Posts/" . $startDate->format("Y/mM/d"),"r");
             $post->setTitle(trim(fgets($file)));
             fgets($file); // Get the blank line between the title and body.
-            $post->setBody(fgets($file)); // Pull just the first paragraph for a preview.
+            $post->setBody(fgets($file) . "\n" . fgets($file) . "\n" . fgets($file)); // Pull just the first two paragraphs for a preview.
             fclose($file);
             $preview = $backward ? $preview . "<h3><a href=\"Post.html?post=" : "<hr/><br>" . $preview;
             $preview = $backward ? $preview . $startDate->format("Y-mM-d") . "\" title=\"" . $post->getTitle() . "\">" . $post->getTitle() . "</a></h3>" : "<span><br>Updated on " . $post->getDateUpdated()->format("m/d/Y") . "</span></p>" . $preview;

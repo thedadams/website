@@ -458,11 +458,10 @@ section.left {
 }
 
 #archive {
-    width: 90%;
+    width: 70%;
     float: left;
     clear: left;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 
 #archive h4,
@@ -471,7 +470,11 @@ section.left {
 }
 
 #archive ul {
-    list-style: square url("../images/collapsed-black.png")
+    list-style: square inside url("../images/collapsed-black.png")
+}
+
+#archive ul li ul li ol {
+    margin-left: 13px;
 }
 
 #tags {
@@ -480,10 +483,6 @@ section.left {
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap
-}
-
-li ul li {
-    font-size: 0.9em
 }
 
 .strip {
