@@ -477,6 +477,10 @@ section.left {
     margin-left: 13px;
 }
 
+#archive ul li ul li ol li a {
+    display: block;
+}
+
 #tags {
     list-style-image: none;
     display: -webkit-flex;

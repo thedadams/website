@@ -479,11 +479,15 @@ section.left {
     font-size: 16px;
 }
 
-#archive ul li ul {
-    margin-left: 13px;
+#archive ul li ul li {
+    margin-left: -5px;
 }
 
-#archive ul li ul li ol {
+#archive ul li ul li ol li a {
+    display: block;
+}
+
+#archive ul li ul {
     margin-left: 13px;
 }
 

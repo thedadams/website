@@ -21,7 +21,7 @@ function buildQuickArchive() {
 	   		    $file = fopen("Posts/" . $years[$i] . "/" . $months[$j] . "/" . $days[$k], "r");
 	   		    $title = trim(fgets($file));
 	   		    fclose($file);
-	   			echo "<li value=\"" . $days[$k] . "\"><a href=\"Post.html?post=";
+	   			echo "<li value=\"" . $days[$k] . "\">" . $days[$k] . " - " . "<a href=\"Post.html?post=";
 	   			echo $years[$i] . "-" . $months[$j] . "-" . $days[$k];
 	   			echo "\" title=\"" . $title . "\">" . $title . "</a></li>";
 	   		}
