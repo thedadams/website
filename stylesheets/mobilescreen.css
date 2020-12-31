@@ -252,16 +252,6 @@ p a.full-archive-link {
     margin-right: 5%;
 }
 
-.newer-nav {
-    float: left;
-    clear: left;
-}
-
-.older-nav {
-    float: right;
-    clear: right;
-}
-
 pre {
     font-size: 1.3em;
     float: left;
@@ -383,7 +373,7 @@ nav a:hover {
         -webkit-transition: top .3s ease-out;
         transition: top .3s ease-out;
         position: relative;
-        top: -240px;
+        top: -280px;
         width: 100%;
         clear: both;
         background-color: #d30
@@ -423,16 +413,18 @@ main {
     margin-left: 2%
 }
 
-section.left {
+.left {
     width: 96%;
-    float: left;
     margin-left: 2%
+}
+
+.left img {
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 759px) {
     section.right {
         width: 96%;
-        float: right;
         margin-right: 2%
     }
 }
@@ -440,14 +432,12 @@ section.left {
 @media screen and (max-width: 758px) {
     section.right {
         width: 96%;
-        float: left;
         margin-left: 2%
     }
 }
 
 .blog-left {
     width: 90%;
-    float: left;
     margin-left: 5%
 }
 
@@ -491,8 +481,8 @@ section.left {
     width: 100%;
     background-color: #026;
     color: white;
-    margin-top: 3%;
-    margin-bottom: 3%
+    padding-top: 3%;
+    padding-bottom: 3%
 }
 
 .strip a {
@@ -501,6 +491,12 @@ section.left {
 
 .strip a:hover {
     color: black
+}
+
+.strip h2 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .strip h3 {
@@ -512,7 +508,6 @@ section.left {
         width: 29%;
         margin-left: 2%;
         padding: 1%;
-        float: left
     }
 }
 
@@ -531,10 +526,15 @@ section.left {
     padding: 1%
 }
 
-section.right h1,
-section.right h2,
-section.left h1,
-section.left h2 {
+.two-thirds {
+    width: 96%;
+    margin-left: 2%;
+}
+
+.right h1,
+.right h2,
+.left h1,
+.left h2 {
     text-align: center
 }
 
