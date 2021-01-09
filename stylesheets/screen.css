@@ -418,25 +418,25 @@ main {
     clear: both
 }
 
-.left {
-    width: 47%;
+.half {
+    width: 45%;
     display: inline-block;
     vertical-align: middle;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
-.left img {
-    margin-left: 15%;
+.right-align {
+    text-align: right;
+}
+
+.half img {
     margin-bottom: 20px;
+    width: 100%;
     max-width: 750px;
 }
 
 @media screen and (min-width: 759px) {
-    .right {
-        width: 47%;
-        display: inline-block;
-        vertical-align: middle;
-    }
-
     .two-thirds {
         width: 60%;
         display: inline-block;
@@ -445,9 +445,6 @@ main {
 }
 
 @media screen and (max-width: 758px) {
-    .right {
-        width: 47%;
-    }
     .two-thirds {
         width: 47%%;
     }

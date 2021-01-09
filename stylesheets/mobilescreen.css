@@ -413,27 +413,20 @@ main {
     margin-left: 2%
 }
 
-.left {
+.half {
     width: 96%;
     margin-left: 2%
 }
 
-.left img {
+
+.half img {
     margin-bottom: 20px;
+    width: 100%;
 }
 
-@media screen and (min-width: 759px) {
-    section.right {
-        width: 96%;
-        margin-right: 2%
-    }
-}
-
-@media screen and (max-width: 758px) {
-    section.right {
-        width: 96%;
-        margin-left: 2%
-    }
+.half img {
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .blog-left {
