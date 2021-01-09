@@ -188,6 +188,10 @@ strong {
     flex: 1 0
 }
 
+#social-icons li img {
+    width: 40px;
+}
+
 main ul {
     list-style-type: disc;
     margin-left: 2%
