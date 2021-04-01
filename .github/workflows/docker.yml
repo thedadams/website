@@ -1,0 +1,25 @@
+name: docker
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Login to registry
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ secrets.DOCKERREGISTRY }}
+          username: ${{ secrets.DOCKERREGISTRY_USERNAME }}
+          password: ${{ secrets.DOCKERREGISTRY_PASSWORD }}
+      - name: Build and push
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: registry.dadams.solutions/thedadams-website:latest
