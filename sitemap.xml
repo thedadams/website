@@ -1,587 +1,587 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+	<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://thedadams.com/</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Home.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/About.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Projects.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Blog.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Contact.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Research.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastProjects.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Credits.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2017-05May-21</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2017-05May-13</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2017-03Mar-31</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2017-03Mar-30</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2017-03Mar-05</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2017-03Mar-03</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2016-10Oct-28</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2016-06Jun-13</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2016-03Mar-21</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2016-01Jan-15</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2015-07Jul-16</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2015-05May-13</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2015-03Mar-09</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2014-12Dec-30</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2014-12Dec-26</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2014-06Jun-19</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2014-06Jun-15</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-12Dec-19</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-11Nov-12</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-11Nov-06</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-10Oct-29</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-10Oct-24</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-10Oct-19</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-06Jun-26</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-06Jun-22</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-05May-31</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2013-05May-25</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Blog.html?st=10272016</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/watchface/Watchfaces.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/watchface/Minimal.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Fall2016.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Spring2016.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Fall2015.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Summer2015.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Spring2015.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Fall2014.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Spring2014.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Fall2013.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Summer2013.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Spring2013.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Fall2012.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/Fall2011.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/Syllabus.pdf</loc>
-  <lastmod>2017-04-01T06:44:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/MathHandout.pdf</loc>
-  <lastmod>2017-04-01T06:44:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/FinalStudy.pdf</loc>
-  <lastmod>2017-04-01T06:44:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/265Syl.doc</loc>
-  <lastmod>2017-04-01T06:44:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2017-05-13</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=tech</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=death</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=1password</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=life</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=family</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=sports</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=fantasy</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=programming</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=work</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=education</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=teaching</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=sleep</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=productivity</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=interview</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=jobs</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=google</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=apple</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=apple+watch</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=pebble</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=opinion</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=sleep+cycle</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=how-to</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=cloudflare</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Post.html?post=2015-03Mar-16</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=animal+testing</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=howard</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=consistency+index</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=baseball</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=personal</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=development</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=stats</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?tag=betting</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?year=2016</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/BlogCredits.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Blog.html?st=06142016&amp;back=f</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Blog.html?st=12292014</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/watchface/ContrastDots.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/watchface/VerticalDials.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/MAT267Syllabus.pdf</loc>
-  <lastmod>2017-04-01T06:44:53+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/Spring2015Week1.pdf</loc>
-  <lastmod>2017-04-01T06:44:53+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/Spring2015Week2.pdf</loc>
-  <lastmod>2017-04-01T06:44:54+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/Fall2013MAT266.pdf</loc>
-  <lastmod>2017-04-01T06:44:53+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/TrigReview.pdf</loc>
-  <lastmod>2017-04-01T06:44:54+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/DerivativeReview.pdf</loc>
-  <lastmod>2017-04-01T06:44:52+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/IntegrationReview.pdf</loc>
-  <lastmod>2017-04-01T06:44:53+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/FieldDiagrams.html</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/Spring2013AllProbs.pdf</loc>
-  <lastmod>2017-04-01T06:44:53+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/Fall2012AllProbs.pdf</loc>
-  <lastmod>2017-04-01T06:44:52+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/PastSemesters/files/Fall2011AllProbs.pdf</loc>
-  <lastmod>2017-04-01T06:44:52+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?year=2015</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?year=2017</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Blog.html?st=12272014&amp;back=f</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Blog.html?st=10282013</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?year=2014</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Blog.html?st=10252013&amp;back=f</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://thedadams.com/Archive.html?year=2013</loc>
-  <lastmod>2019-03-08T04:51:29+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
+	<url>
+		<loc>https://thedadams.com/</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>1.00</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Home.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/About.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Projects.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Blog.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Contact.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Research.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastProjects.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Credits.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2017-05May-21</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2017-05May-13</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2017-03Mar-31</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2017-03Mar-30</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2017-03Mar-05</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2017-03Mar-03</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2016-10Oct-28</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2016-06Jun-13</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2016-03Mar-21</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2016-01Jan-15</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2015-07Jul-16</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2015-05May-13</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2015-03Mar-09</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2014-12Dec-30</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2014-12Dec-26</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2014-06Jun-19</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2014-06Jun-15</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-12Dec-19</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-11Nov-12</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-11Nov-06</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-10Oct-29</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-10Oct-24</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-10Oct-19</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-06Jun-26</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-06Jun-22</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-05May-31</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2013-05May-25</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Blog.html?st=10272016</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/watchface/Watchfaces.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/watchface/Minimal.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Fall2016.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Spring2016.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Fall2015.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Summer2015.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Spring2015.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Fall2014.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Spring2014.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Fall2013.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Summer2013.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Spring2013.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Fall2012.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/Fall2011.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/Syllabus.pdf</loc>
+		<lastmod>2017-04-01T06:44:54+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/MathHandout.pdf</loc>
+		<lastmod>2017-04-01T06:44:53+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/FinalStudy.pdf</loc>
+		<lastmod>2017-04-01T06:44:53+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/265Syl.doc</loc>
+		<lastmod>2017-04-01T06:44:52+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2017-05-13</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=tech</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=death</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=1password</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=life</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=family</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=sports</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=fantasy</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=programming</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=work</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=education</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=teaching</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=sleep</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=productivity</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=interview</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=jobs</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=google</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=apple</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=apple+watch</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=pebble</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=opinion</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=sleep+cycle</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=how-to</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=cloudflare</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Post.html?post=2015-03Mar-16</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=animal+testing</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=howard</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=consistency+index</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=baseball</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=personal</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=development</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=stats</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?tag=betting</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?year=2016</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/BlogCredits.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Blog.html?st=06142016&amp;back=f</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Blog.html?st=12292014</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/watchface/ContrastDots.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/watchface/VerticalDials.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.51</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/MAT267Syllabus.pdf</loc>
+		<lastmod>2017-04-01T06:44:53+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/Spring2015Week1.pdf</loc>
+		<lastmod>2017-04-01T06:44:53+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/Spring2015Week2.pdf</loc>
+		<lastmod>2017-04-01T06:44:54+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/Fall2013MAT266.pdf</loc>
+		<lastmod>2017-04-01T06:44:53+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/TrigReview.pdf</loc>
+		<lastmod>2017-04-01T06:44:54+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/DerivativeReview.pdf</loc>
+		<lastmod>2017-04-01T06:44:52+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/IntegrationReview.pdf</loc>
+		<lastmod>2017-04-01T06:44:53+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/FieldDiagrams.html</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/Spring2013AllProbs.pdf</loc>
+		<lastmod>2017-04-01T06:44:53+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/Fall2012AllProbs.pdf</loc>
+		<lastmod>2017-04-01T06:44:52+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/PastSemesters/files/Fall2011AllProbs.pdf</loc>
+		<lastmod>2017-04-01T06:44:52+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?year=2015</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?year=2017</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Blog.html?st=12272014&amp;back=f</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Blog.html?st=10282013</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.41</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?year=2014</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.33</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Blog.html?st=10252013&amp;back=f</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.33</priority>
+	</url>
+	<url>
+		<loc>https://thedadams.com/Archive.html?year=2013</loc>
+		<lastmod>2019-03-08T04:51:29+00:00</lastmod>
+		<priority>0.26</priority>
+	</url>
 
 
 </urlset>

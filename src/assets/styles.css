@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    .h-116 {
+        height: 38rem;
+    }
+
+    a {
+        @apply underline;
+    }
+
+    h1 {
+        @apply text-6xl;
+        @apply mb-4;
+    }
+
+    h2 {
+        @apply text-4xl;
+        @apply mb-2;
+    }
+
+    h3 {
+        @apply text-xl;
+        @apply mb-2;
+    }
+
+    .j-link {
+        @apply underline;
+        @apply hover:cursor-pointer;
+        @apply select-none;
+    }
+}
