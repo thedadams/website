@@ -3,3 +3,4 @@ php.ini
 .vscode
 node_modules/
 dist/
+.idea/
