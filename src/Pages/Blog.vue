@@ -66,11 +66,11 @@ function dateFromString(s: string): string {
 							<div v-html="blog.getDisplayedPost().body"></div>
 							<div class="flex flex-row">
 								<p class="mr-1">Tags:</p>
-								<p v-for="tag in blog.getDisplayedPost().tags" class="mr-2 capitalize"><a
-									:href="'/archive.html?tag='+tag">{{ tag }}</a>
-								</p>
+								<p v-for="tag in blog.getDisplayedPost().tags" class="mr-2 capitalize j-link"
+								   @click="blog.displayTagArchive(tag)">
+									{{ tag }}</p>
 							</div>
-							<p class="text-xs mt-1.5">Updated on {{ blog.getDisplayedPost().updated }}</p>
+							<p class="text-xs mt-3">Updated on {{ blog.getDisplayedPost().updated }}</p>
 							<p class="j-link text-orange-400 mt-6" @click="blog.back()">« Back</p>
 						</div>
 					</div>
