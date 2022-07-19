@@ -126,8 +126,12 @@ export class Blog {
 		if (this.displayTitle != "") {
 			this.displayTitle = ""
 			this.displayType = this.previousDisplayType
-		} else if (this.displayTag != "") this.displayTag = ""
-		else if (this.displayYear != 0) {
+		} else if (this.displayTag != "") {
+			this.displayTag = ""
+			if (this.previousDisplayType != Display.Tags) {
+				this.displayType = this.previousDisplayType
+			}
+		} else if (this.displayYear != 0) {
 			this.displayYear = 0
 			this.displayType = this.previousDisplayType
 		}
