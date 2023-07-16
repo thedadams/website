@@ -12,10 +12,15 @@ export default defineConfig({
 			"@": fileURLToPath(new URL("./src", import.meta.url)),
 		},
 	},
+	server: {
+		open: "/home.html",
+		port: 3000,
+	},
 	root: ".",
 	build: {
 		rollupOptions: {
 			input: {
+				main: resolve(__dirname, "home.html"),
 				"home.html": resolve(__dirname, "home.html"),
 				"about.html": resolve(__dirname, "about.html"),
 				"basketball.html": resolve(__dirname, "basketball.html"),

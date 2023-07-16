@@ -6,12 +6,13 @@ import {reactive} from "vue"
 let urlParams = new URLSearchParams(window.location.search)
 let sections = urlParams.get("post")?.split("-")
 let post: Post
-
 const blog = reactive(new Blog("https://raw.githubusercontent.com/thedadams/blogposts/main/", "Posts.json", "PostTags.json"))
-blog.getAndBuildPreview(!sections)
+blog.getAndBuildPreview()
 if (sections) {
 	blog.updateDisplayedPost("", sections[0], sections[1], sections[2])
 }
+
+const host = window.location.protocol + "//" + window.location.host
 
 function onClick(event: Event) {
 	const e = (event.target as HTMLAnchorElement).parentElement as HTMLLIElement
@@ -46,7 +47,7 @@ function dateFromString(s: string): string {
 			<div :class="{'order-last': !blog.hasDisplayPost()}" class="md:order-first md:col-span-4">
 				<section v-if="blog.displayType === Display.Posts">
 					<div v-if="blog.hasDisplayPost()">
-						<div v-if="blog.getDisplayedPost().errorOccurred()">
+						<div v-if="blog.getDisplayedPost()?.errorOccurred()">
 							<!-- Bad post query string -->
 							<div class="text-center">
 								<div class="mb-3">
@@ -61,12 +62,16 @@ function dateFromString(s: string): string {
 						</div>
 						<div v-else>
 							<p class="j-link text-orange-400" @click="blog.back()">« Back</p>
-							<h1 class="text-blue-400">{{ blog.getDisplayedPost().title }}</h1>
+							<h1 class="text-blue-400"><a :href="blog.getDisplayedPost()?.getLink(host)"
+														 class="no-underline">{{
+									blog.getDisplayedPost().title
+								}}</a>
+							</h1>
 							<p class="text-xs mb-2">Posted on {{ blog.getDisplayedPost().created }}</p>
-							<div v-html="blog.getDisplayedPost().body"></div>
-							<div class="flex flex-row">
+							<div v-html="blog.getDisplayedPost()?.body"></div>
+							<div class="flex flex-row mt-2">
 								<p class="mr-1">Tags:</p>
-								<p v-for="tag in blog.getDisplayedPost().tags" class="mr-2 capitalize j-link"
+								<p v-for="tag in blog.getDisplayedPost()?.tags" class="mr-2 capitalize j-link"
 								   @click="blog.displayTagArchive(tag)">
 									{{ tag }}</p>
 							</div>
@@ -94,13 +99,13 @@ function dateFromString(s: string): string {
 								<div v-for="title in blog.previewTitles" class="py-6">
 									<div v-if="blog.posts.has(title)">
 										<h2 class="j-link text-blue-400 no-underline"
-											@click="blog.updateDisplayedPost(title, blog.posts.get(title).year,blog.posts.get(title).month,blog.posts.get(title).day)">
+											@click="blog.updateDisplayedPost(title, blog.posts.get(title)?.year,blog.posts.get(title)?.month,blog.posts.get(title)?.day)">
 											{{ title }}</h2>
 										<p class="text-xs mb-2">Posted on {{ blog.posts.get(title).created }}</p>
 										<div
-											v-html="blog.posts.get(title).body.split('\n').splice(0, 3).join('\n')"></div>
+											v-html="blog.posts.get(title)?.body?.split('\n').splice(0, 3).join('\n')"></div>
 										<p class="j-link"
-										   @click="blog.updateDisplayedPost(title, blog.posts.get(title).year,blog.posts.get(title).month,blog.posts.get(title).day)">
+										   @click="blog.updateDisplayedPost(title, blog.posts.get(title)?.year,blog.posts.get(title)?.month,blog.posts.get(title)?.day)">
 											Read more...</p>
 										<p class="text-xs mt-5">Updated on {{ blog.posts.get(title).updated }}</p>
 									</div>

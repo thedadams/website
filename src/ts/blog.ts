@@ -5,17 +5,21 @@ export class Post extends Fetcher<Post> {
 	public tags?: string
 	public updated?: string
 	public body?: string
-	public year: string
-	public month: string
-	public day: string
+	public year?: string
+	public month?: string
+	public day?: string
 	public readonly created: string
 
-	constructor(baseURL: string, year: string, month: string, day: string) {
+	constructor(baseURL: string, year: string | undefined, month: string | undefined, day: string | undefined) {
 		super(`${baseURL}${year}/${month}/${day}`)
 		this.year = year
 		this.month = month
 		this.day = day
-		this.created = month.substring(0, 2) + "/" + day + "/" + year
+		this.created = month?.substring(0, 2) + "/" + day + "/" + year
+	}
+
+	public getLink(host: string): string {
+		return `${host}/blog.html?post=${this.year}-${this.month}-${this.day}`
 	}
 }
 
@@ -100,12 +104,10 @@ export class Blog {
 		this.tags = new Tags(this.baseURL + tagsPath)
 	}
 
-	public getAndBuildPreview(buildPreview: boolean): void {
+	public getAndBuildPreview(): void {
 		if (!this.archive.hasFetched()) {
 			this.archive.get(() => {
-				if (buildPreview) {
-					this.buildPreview(true).then(previewTitles => this.previewTitles = previewTitles)
-				}
+				this.buildPreview(true).then(previewTitles => this.previewTitles = previewTitles)
 			})
 		}
 	}
@@ -114,9 +116,9 @@ export class Blog {
 		this.tags.get()
 	}
 
-	public updateDisplayedPost(title: string, year: string, month: string, day: string): void {
+	public updateDisplayedPost(title: string, year: string | undefined, month: string | undefined, day: string | undefined): void {
 		this.getPost(title, year, month, day).then(() => {
-			this.displayTitle = title
+			if (title) this.displayTitle = title
 			this.previousDisplayType = this.displayType
 			this.displayType = Display.Posts
 		})
@@ -147,6 +149,7 @@ export class Blog {
 	}
 
 	public hasDisplayPost(): boolean {
+		console.log(this.displayTitle)
 		return this.posts.has(this.displayTitle)
 	}
 
@@ -241,11 +244,14 @@ export class Blog {
 		return Promise.resolve(previewTitles)
 	}
 
-	private async getPost(title: string, year: string, month: string, day: string) {
+	private async getPost(title: string, year: string | undefined, month: string | undefined, day: string | undefined) {
 		if (!this.posts.has(title) && year) {
 			const p = new Post(this.baseURL + "Posts/", year, month, day)
 			p.get(() => {
-				if (p.title) this.posts.set(p.title, p)
+				if (p.title) {
+					this.posts.set(p.title, p)
+					if (!title) this.displayTitle = p.title
+				}
 			})
 		}
 	}
