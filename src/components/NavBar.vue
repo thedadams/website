@@ -12,7 +12,7 @@ const toggleNav = () => (showMenu.value = !showMenu.value)
 
 <template>
 	<nav :class="{'mb-60': showMenu}"
-		 class="h-16 flex justify-between px-8 transition transition-all duration-500 ease-in-out">
+		 class="h-16 flex justify-between px-8 transition-all duration-500 ease-in-out">
 		<div class="flex items-center">
 			<a href="/home.html">
 				<img alt="" class="max-h-12" loading="lazy" src="/thedadamsLogo.png"/>
@@ -20,7 +20,7 @@ const toggleNav = () => (showMenu.value = !showMenu.value)
 		</div>
 		<div
 			:class="{'translate-y-16': showMenu, '-translate-y-60': !showMenu}"
-			class="flex-col sm:flex-row items-center transition transition-all duration-500 ease-in-out sm:translate-y-6">
+			class="flex-col sm:flex-row items-center transition-all duration-500 ease-in-out sm:translate-y-6">
 			<NavBarItem :current='page === "home"' page="home"/>
 			<NavBarItem :current='page === "about"' page="about"/>
 			<NavBarItem :current='page === "projects"' page="projects"/>

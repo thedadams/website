@@ -12,9 +12,10 @@ import Half from "../components/Half.vue"</script>
 		<Half>
 			<template v-slot:left>
 				<h2 class="text-blue-400">Day Job</h2>
-				<p>I am currently a Software Engineer at <a href="https://pryon.com" target="_blank" title="Pryon">Pryon
-				</a>, working remotely from Ohio. I am excited to be working in the AI space. The team I am on is very
-					experienced and I am learning a lot about all aspects of the software development lifecycle.</p>
+				<p>I am currently a Staff Software Engineer at <a href="https://acorn.io" target="_blank"
+																  title="Acorn Labs, Inc">Acorn Labs</a>, working
+					remotely from Ohio. I am excited to be back working in the Kubernetes space, and with people I
+					admire and respect.</p>
 			</template>
 			<template v-slot:right>
 				<h2 class="text-blue-400">Freelance</h2>
@@ -31,9 +32,8 @@ import Half from "../components/Half.vue"</script>
 			<template v-slot:left>
 				<h2 class="text-blue-400">Math</h2>
 				<p>While I did discontinue pursuit of a PhD in mathematics, I will continue to read about and research
-					mathematical topics. Right now, I am reviewing<a href="https://en.wikipedia.org/wiki/Iwasawa_theory"
-																	 target="_blank">Iwasawa Theory</a> in order to
-					strengthen my Galois theory, class field theory, and homology theory knowledge.</p>
+					mathematical topics. Right now, I am exploring some of the prime conjectures like the Twin Prime
+					Conjecture and Goldbach's Conjecture.</p>
 				<br>
 				<p>You can see more information about my previous research<a href="/research.html"
 																			 title="Research">here</a>.</p>
@@ -41,9 +41,10 @@ import Half from "../components/Half.vue"</script>
 			<template v-slot:right>
 				<h2 class="text-blue-400">Coaching</h2>
 				<p>I enjoy coaching basketball at the high school level. Teaching young men and women the fundamentals
-					of the game and watching them grow as a team is edifying. Previously, I coached boys basketball
-					at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the lower levels and assistant
-					at the varsity level.</p>
+					of the game and watching them grow as a team is edifying. I am currently the head JV boys basketball
+					coach at <a href="https://www.hawken.edu" target="_blank">Hawken Upper School</a>. Previously, I
+					coached boys basketball at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the
+					lower levels and assistant at the varsity level.</p>
 				<br>
 				<p>I have a page dedicated to my <a href="/basketball.html">coaching experience and philosophy</a>.</p>
 			</template>
