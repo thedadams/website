@@ -33,7 +33,8 @@ export default defineConfig({
 				"projects.html": resolve(__dirname, "projects.html"),
 				"research.html": resolve(__dirname, "research.html"),
 				"verticaldials.html": resolve(__dirname, "verticaldials.html"),
-				"watchfaces.html": resolve(__dirname, "watchfaces.html")
+				"watchfaces.html": resolve(__dirname, "watchfaces.html"),
+				"uses.html": resolve(__dirname, "uses.html")
 			},
 		},
 	},
