@@ -15,9 +15,8 @@ import Centered from "../components/Centered.vue"</script>
 			<li>All mathematics displayed on these pages uses
 				<a href="http://www.mathjax.org" target="_blank" title="MathJax">MathJax</a>.
 			</li>
-			<li>I use <a href="https://matomo.org" title="Matomo">Matomo</a> to collect analytics and track threats to
-				my
-				website. No personal information is collected.
+			<li>I use <a href="https://www.goatcounter.com/" title="Goat Counter">Goat Counter</a> to collect analytics
+				and track threats to my website. No personal information is collected.
 			</li>
 		</ul>
 	</Centered>

@@ -26,13 +26,16 @@ const toggleNav = () => (showMenu.value = !showMenu.value)
 			<NavBarItem :current='page === "projects"' page="projects"/>
 			<NavBarItem :current='page === "basketball"' page="basketball"/>
 			<NavBarItem :current='page === "blog"' page="blog"/>
+			<NavBarItem :current='page === "uses"' page="uses"/>
 			<NavBarItem :current='page === "links"' page="links"/>
 		</div>
 		<div class="flex sm:hidden" @click="toggleNav">
 			<button class=" text-gray-400 hover:text-gray-600 focus:outline-none" type="button">
 				<svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-					<path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-						  fill-rule="evenodd"></path>
+					<path
+						d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+						fill-rule="evenodd">
+					</path>
 				</svg>
 			</button>
 		</div>
