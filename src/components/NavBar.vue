@@ -11,7 +11,7 @@ const toggleNav = () => (showMenu.value = !showMenu.value)
 </script>
 
 <template>
-	<nav :class="{'mb-60': showMenu}"
+	<nav :class="{'mb-80': showMenu}"
 		 class="h-16 flex justify-between px-8 transition-all duration-500 ease-in-out">
 		<div class="flex items-center">
 			<a href="/home.html">
@@ -19,7 +19,7 @@ const toggleNav = () => (showMenu.value = !showMenu.value)
 			</a>
 		</div>
 		<div
-			:class="{'translate-y-16': showMenu, '-translate-y-60': !showMenu}"
+			:class="{'translate-y-16': showMenu, '-translate-y-80': !showMenu}"
 			class="flex-col sm:flex-row items-center transition-all duration-500 ease-in-out sm:translate-y-6">
 			<NavBarItem :current='page === "home"' page="home"/>
 			<NavBarItem :current='page === "about"' page="about"/>
