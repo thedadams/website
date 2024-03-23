@@ -17,26 +17,22 @@ import Centered from "../components/Centered.vue"</script>
 			<div>
 				<h2>Software</h2>
 				<p>I enjoy building all different kinds of projects from websites to analytic programs to educational
-					software.
-					Check out what I am <a href="/projects.html" title="Projects">currently working on</a> or my
-					<a href="/pastprojects.html" title="Past Projects">past projects</a>.</p>
+					software. Check out what I am <a href="/projects.html" title="Projects">currently working on</a> or
+					my<a href="/pastprojects.html" title="Past Projects">past projects</a>.</p>
 			</div>
 			<div>
 				<h2>Mathematics</h2>
 				<p>My formal education is in math where I have <a href="/research.html">published papers</a> in
-					peer-reviewed
-					journals. Mathematical research will always be in my life, whether I am researching a new problem or
-					building
-					an analytics project for a sport I follow.
+					peer-reviewed journals. Mathematical research will always be in my life, whether I am researching a
+					new problem or building an analytics project for a sport I follow.
 				</p>
 			</div>
 			<div>
 				<h2>Coaching</h2>
 				<p>Coaching basketball has become a big part of my life. I have experience coaching at the high school
-					level:
-					beginners to future D-1 athletes. Checkout my
-					<a href="/basketball.html" title="Coaching experience and philosophy">experience and
-						philosophy</a>.</p>
+					level: beginners to future D-1 athletes. Checkout my
+					<a href="/basketball.html" title="Coaching experience and philosophy">experience and philosophy</a>.
+				</p>
 			</div>
 		</div>
 	</Centered>

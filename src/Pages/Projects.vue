@@ -12,10 +12,11 @@ import Half from "../components/Half.vue"</script>
 		<Half>
 			<template v-slot:left>
 				<h2 class="text-blue-400">Day Job</h2>
-				<p>I am currently a Staff Software Engineer at <a href="https://acorn.io" target="_blank"
-																  title="Acorn Labs, Inc">Acorn Labs</a>, working
-					remotely from Ohio. I am excited to be back working in the Kubernetes space, and with people I
-					admire and respect.</p>
+				<p>I am currently a Software Architect at <a href="https://acorn.io" target="_blank"
+															 title="Acorn Labs, Inc">Acorn Labs</a>, working
+					remotely from Ohio. We have recently pivoted from a Kubernetes application deployment framework to
+					an open-source natural language programming project called GPTScript. Being in this new space has
+					provide a lot of opportunities for learning and improving my skills.</p>
 			</template>
 			<template v-slot:right>
 				<h2 class="text-blue-400">Freelance</h2>
@@ -52,9 +53,8 @@ import Half from "../components/Half.vue"</script>
 		<Half>
 			<template v-slot:left>
 				<h2 class="text-blue-400">Hobby</h2>
-				<p>I have several hobby projects in mind at any one time. Currently, I am working on an HTML form email
-					backend. I am planning to use it for personal use, but may turn into something I can open to others
-					if the opportunity arises.</p>
+				<p>I have several hobby projects in mind at any one time. Currently, I am not working on anything in
+					particular as I mull over some ideas.</p>
 				<br>
 				<p>You can read about some of my past hobby projects
 					<a href="/pastprojects.html" title="Past Hobby Projects">here</a>. </p>

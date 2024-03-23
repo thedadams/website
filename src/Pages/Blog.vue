@@ -169,30 +169,13 @@ function dateFromString(s: string): string {
 			</div>
 			<div class="flex-1">
 				<section>
-					<h3 class="text-center text-blue-400">Quick Archive</h3>
-					<div class="px-24 md:px-8">
-						<ul v-for="year in blog.archive.years" class="collapsed">
-							<li><p class="j-link" @click="onClick">{{ year.year }}</p></li>
-							<ul v-for="month in year.months" class="collapsed" hidden>
-								<li><p class="j-link" @click="onClick">{{ month.month.substring(2) }}</p></li>
-								<ul v-for="day in month.days" class="no-arrow" hidden>
-									<li v-for="title in day.titles">
-										<p class="j-link py-2 no-click"
-										   @click="blog.updateDisplayedPost(title, year.year, month.month, day.day)">
-											{{ day.day }} - {{ title }}
-										</p>
-									</li>
-								</ul>
-							</ul>
-						</ul>
-					</div>
 					<div class="mt-4 grid grid-cols-2 justify-items-center">
-						<h3 class="text-blue-400 col-span-2">Full Archive</h3>
+						<h2 class="text-blue-400 col-span-2">Archive</h2>
 						<p class="j-link" @click="blog.displayYearArchive(0)">By Year</p>
 						<p class="j-link" @click="blog.displayTagArchive('')">By Category</p>
 						<hr>
-						<a :href="blog.baseURL + 'feed.rss'" class="col-span-2"
-						   title="Subscribe to the Feed">Subscribe</a>
+						<a :href="blog.baseURL + 'feed.rss'" class="col-span-2 pt-2 text-sm"
+						   title="Subscribe to the Feed">Subscribe via RSS</a>
 					</div>
 				</section>
 			</div>
