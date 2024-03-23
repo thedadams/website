@@ -56,8 +56,8 @@ import Half from "../components/Half.vue"</script>
 				<p>I have several hobby projects in mind at any one time. Currently, I am not working on anything in
 					particular as I mull over some ideas.</p>
 				<br>
-				<p>You can read about some of my past hobby projects
-					<a href="/pastprojects.html" title="Past Hobby Projects">here</a>. </p>
+				<p>You can read about some of my past hobby projects <a href="/pastprojects.html"
+																		title="Past Hobby Projects">here</a>. </p>
 			</template>
 		</Half>
 	</Centered>

@@ -14,7 +14,7 @@ import Half from "../components/Half.vue"</script>
 					State University. I also discontinued my Doctorate in math at Arizona State University. My research
 					areas included arithmetic and algebraic geometry, number theory, and commutative algebra. These
 					areas have applications to cryptography, communications, machine learning, and theoretical physics.
-					I have a few<a href="/research.html" title="Research">publications</a>, and I continue dabbling in
+					I have a few <a href="/research.html" title="Research">publications</a>, and I continue dabbling in
 					mathematics as my software career progresses.</p>
 			</template>
 			<template v-slot:right>
@@ -39,7 +39,7 @@ import Half from "../components/Half.vue"</script>
 					building software in my spare time. The best way to learn a new language or technology is to jump in
 					head-first and build something. I enjoy working in Go, Python, and Rust, and I have tried to
 					build something interesting with each language. You can check out my
-					<a href="/pastprojects.html" title="Past Projects">past projects page</a>to get more information. I
+					<a href="/pastprojects.html" title="Past Projects">past projects page</a> to get more information. I
 					still do some work on the side with my business, and am always interested in building new things and
 					learning new frameworks. If you have something interesting you would like to talk about, feel free
 					to <a href="links.html" title="Contact me">contact me</a>.</p>
@@ -52,7 +52,7 @@ import Half from "../components/Half.vue"</script>
 					volunteer assistant coach for the varsity team. I enjoyed it tremendously, and was given the
 					opportunity to be a head coach at the lower levels. I has been extremely rewarding to be involved in
 					the young men's growth on an off of the court. You can ready more about my efforts and coaching
-					philosophy<a href="/basketball.html">here</a>.</p>
+					philosophy <a href="/basketball.html">here</a>.</p>
 			</template>
 			<template v-slot:right>
 				<img alt="Basketball picture" src="/basketball.jpg">
