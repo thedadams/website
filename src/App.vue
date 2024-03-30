@@ -16,7 +16,6 @@ defineProps<{
 		<main class="flex-grow">
 			<MainBody/>
 		</main>
-		<script defer src="https://tinylytics.app/embed/GsAcK6TEuzZ-cVQ_p2Fz.js"></script>
 		<footer>
 			<Footer/>
 		</footer>
