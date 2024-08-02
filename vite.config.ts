@@ -20,7 +20,7 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                "/": resolve(__dirname, "home.html"),
+                ".": resolve(__dirname, "home.html"),
                 "home.html": resolve(__dirname, "home.html"),
                 "about.html": resolve(__dirname, "about.html"),
                 "basketball.html": resolve(__dirname, "basketball.html"),
