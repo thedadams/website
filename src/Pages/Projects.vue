@@ -36,15 +36,16 @@ import Half from "../components/Half.vue"</script>
 					mathematical topics. Right now, I am exploring some of the prime conjectures like the Twin Prime
 					Conjecture and Goldbach's Conjecture.</p>
 				<br>
-				<p>You can see more information about my previous research<a href="/research.html"
+				<p>You can see more information about my previous research <a href="/research.html"
 																			 title="Research">here</a>.</p>
 			</template>
 			<template v-slot:right>
 				<h2 class="text-blue-400">Coaching</h2>
 				<p>I enjoy coaching basketball at the high school level. Teaching young men and women the fundamentals
 					of the game and watching them grow as a team is edifying. I am currently the head JV boys basketball
-					coach at <a href="https://www.hawken.edu" target="_blank">Hawken Upper School</a>. Previously, I
-					coached boys basketball at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the
+					coach at <a href="https://www.gilmour.org" target="_blank">Gilmour Academy</a>. Previously, I was
+					the head JV and varsity assistant boys basketball coach at Hawken Upper School. And, prior to that,
+					I coached boys basketball at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the
 					lower levels and assistant at the varsity level.</p>
 				<br>
 				<p>I have a page dedicated to my <a href="/basketball.html">coaching experience and philosophy</a>.</p>
