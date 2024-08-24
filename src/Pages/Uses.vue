@@ -7,7 +7,7 @@ import Centered from "../components/Centered.vue"</script>
 		<Centered class="ml-8">
 			<p>A list of the things I use and find useful for my work and personal life. Inspired by <a
 				href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span
-				class="italic text-gray-400 text-sm">Last updated: October 7th, 2023</span>
+				class="italic text-gray-400 text-sm">Last updated: August 24th, 2024</span>
 			</p>
 			<h2 class="mt-6 text-blue-400">Hardware</h2>
 			<ul class="list-inside list-disc ml-6">
