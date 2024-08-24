@@ -15,19 +15,20 @@ import Centered from "../components/Centered.vue"</script>
 					72"Mx60"R
 				</li>
 				<li class="py-1.5"><span class="font-semibold">Work Computer</span>: MacBook Pro 16" (2022) with M1 Max,
-					32GB RAM, 1TB
-					SSD
+					32GB RAM, 1TB SSD
+				</li>
+				<li class="py-1.5"><span class="font-semibold">Secondary Work Computer</span>: Lenovo ThinkPad T14 Gen 5,
+					16GB RAM, 512GB SSD
 				</li>
 				<li class="py-1.5"><span class="font-semibold">Personal Computer</span>: MacBook Pro 14" (2021) with M1
-					Pro, 32GB RAM,
-					1TB SSD
+					Pro, 32GB RAM, 1TB SSD
 				</li>
 				<li class="py-1.5"><span class="font-semibold">Phone</span>: iPhone 14 Pro with 128GB</li>
 				<li class="py-1.5"><span class="font-semibold">Watch</span>: Apple Watch Series 6, 44mm, Cellular</li>
 				<li class="py-1.5"><span class="font-semibold">Monitor</span>: Apple Studio Display</li>
 				<li class="py-1.5"><span class="font-semibold">Keyboard</span>: Keychron Q11 Split Design</li>
 				<li class="py-1.5"><span class="font-semibold">Mouse</span>: Logitech MX Master Wireless Mouse</li>
-				<li class="py-1.5"><span class="font-semibold">Headphones</span>: Sennheiser HD 439</li>
+				<li class="py-1.5"><span class="font-semibold">Headphones</span>: Sennheiser HD 660S2</li>
 				<li class="py-1.5"><span class="font-semibold">Microphone</span>: Blue Yeti with pop filter</li>
 				<li class="py-1.5"><span class="font-semibold">Thunderbolt Hub</span>: SonnetTech Echo 20 Thunderbolt 4
 					SuperDock
@@ -47,11 +48,9 @@ import Centered from "../components/Centered.vue"</script>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Analog Tools</h2>
 			<ul class="list-inside list-disc ml-6">
-				<li class="py-1.5"><span class="font-semibold">Notebook</span>: Baron Fig Confidant, Flagship</li>
-				<li class="py-1.5"><span class="font-semibold">Pen</span>: Uni Jetstream 4&1 Multi Pen</li>
-				<li class="py-1.5"><span class="font-semibold">Notebook Cover</span>: Galen Leather Baron Fig Confidant
-					Cover
-				</li>
+				<li class="py-1.5"><span class="font-semibold">Notebook</span>: Baron Fig Confidant, Flagship, Dot Grid</li>
+				<li class="py-1.5"><span class="font-semibold">Pen</span>: Stilform AEON Pure Pencil, Aluminum, Black</li>
+				<li class="py-1.5"><span class="font-semibold">Notebook Case</span>: Baron Fig Guardian Pro, Fig Wine</li>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Software</h2>
 			<ul class="list-inside list-disc ml-6">
@@ -62,13 +61,13 @@ import Centered from "../components/Centered.vue"</script>
 				<li class="py-1.5"><span class="font-semibold">Password Manager</span>: 1Password</li>
 				<li class="py-1.5"><span class="font-semibold">Web Browser</span>: Arc</li>
 				<li class="py-1.5"><span class="font-semibold">Crypto Wallet</span>: Exodus</li>
-				<li class="py-1.5"><span class="font-semibold">RSS Reader</span>: Inoreader</li>
+				<li class="py-1.5"><span class="font-semibold">RSS Reader</span>: NetNewWire</li>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Services</h2>
 			<ul class="list-inside list-disc ml-6">
 				<li class="py-1.5"><span class="font-semibold">VPN</span>: VPN Unlimited</li>
 				<li class="py-1.5"><span class="font-semibold">Music Streaming</span>: Apple Music</li>
-				<li class="py-1.5"><span class="font-semibold">Video Streaming</span>: Netflix, Max, YouTube TV</li>
+				<li class="py-1.5"><span class="font-semibold">Video Streaming</span>: Netflix, YouTube TV</li>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Randoms</h2>
 			<ul class="list-inside list-disc ml-6">
