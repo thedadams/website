@@ -7,7 +7,7 @@ import Centered from "../components/Centered.vue"</script>
 		<Centered class="ml-8">
 			<p>A list of the things I use and find useful for my work and personal life. Inspired by <a
 				href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span
-				class="italic text-gray-400 text-sm">Last updated: August 24th, 2024</span>
+				class="italic text-gray-400 text-sm">Last updated: October 6th, 2024</span>
 			</p>
 			<h2 class="mt-6 text-blue-400">Hardware</h2>
 			<ul class="list-inside list-disc ml-6">
@@ -40,10 +40,10 @@ import Centered from "../components/Centered.vue"</script>
 				<li class="py-1.5"><span class="font-semibold">IDE</span>: JetBrains All-Product Pack, mostly GoLand
 				</li>
 				<li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: Codeium</li>
-				<li class="py-1.5"><span class="font-semibold">Terminal</span>: Alacritty</li>
+				<li class="py-1.5"><span class="font-semibold">Terminal</span>: Apple Terminal</li>
 				<li class="py-1.5"><span class="font-semibold">Shell</span>: (oh-my-)zsh</li>
 				<li class="py-1.5"><span class="font-semibold">Shell Prompt</span>: Starship</li>
-				<li class="py-1.5"><span class="font-semibold">Font</span>: Victor Nerd Font Mono</li>
+				<li class="py-1.5"><span class="font-semibold">Font</span>: SF Mono</li>
 				<li class="py-1.5"><span class="font-semibold">Local Containerization</span>: Rancher Desktop</li>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Analog Tools</h2>
@@ -58,10 +58,10 @@ import Centered from "../components/Centered.vue"</script>
 				<li class="py-1.5"><span class="font-semibold">Menu Bar Organizer</span>: Bartender</li>
 				<li class="py-1.5"><span class="font-semibold">System Monitor</span>: iStat Menus</li>
 				<li class="py-1.5"><span class="font-semibold">Podcast Player</span>: Pocket Casts</li>
-				<li class="py-1.5"><span class="font-semibold">Password Manager</span>: 1Password</li>
-				<li class="py-1.5"><span class="font-semibold">Web Browser</span>: Arc</li>
+				<li class="py-1.5"><span class="font-semibold">Password Manager</span>: Apple Passwords</li>
+				<li class="py-1.5"><span class="font-semibold">Web Browser</span>: Safari</li>
 				<li class="py-1.5"><span class="font-semibold">Crypto Wallet</span>: Exodus</li>
-				<li class="py-1.5"><span class="font-semibold">RSS Reader</span>: NetNewWire</li>
+				<li class="py-1.5"><span class="font-semibold">RSS Reader</span>: Apple Reading List</li>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Services</h2>
 			<ul class="list-inside list-disc ml-6">
