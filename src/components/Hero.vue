@@ -20,8 +20,8 @@ const lines = props.blurb?.split("\n")
 			</div>
 		</div>
 
-		<div class="flex items-center justify-center w-full h-116 sm:w-2/3">
-			<img :src="source" alt="Me!" class="object-cover w-full h-full rounded-md">
+		<div class="flex items-center justify-center sm:w-2/3">
+			<img :src="source" alt="Me!" class="object-contain w-full h-full rounded-md">
 		</div>
 	</div>
 </template>
