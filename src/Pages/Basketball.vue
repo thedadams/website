@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import Centered from "../components/Centered.vue"
-import Hero from "../components/Hero.vue"</script>
+import Hero from "../components/Hero.vue"
+</script>
 
 <template>
 	<Centered>
