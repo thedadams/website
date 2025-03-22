@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-import Centered from "../components/Centered.vue"</script>
+import Centered from "../components/Centered.vue";
+</script>
 
 <template>
 	<Centered gap>
@@ -7,7 +8,7 @@ import Centered from "../components/Centered.vue"</script>
 		<Centered class="ml-8">
 			<p>A list of the things I use and find useful for my work and personal life. Inspired by <a
 				href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span
-				class="italic text-gray-400 text-sm">Last updated: January 26th, 2025</span>
+				class="italic text-gray-400 text-sm">Last updated: March 22nd, 2025</span>
 			</p>
 			<h2 class="mt-6 text-blue-400">Hardware</h2>
 			<ul class="list-inside list-disc ml-6">
@@ -40,13 +41,12 @@ import Centered from "../components/Centered.vue"</script>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Development Tools</h2>
 			<ul class="list-inside list-disc ml-6">
-				<li class="py-1.5"><span class="font-semibold">IDE</span>: JetBrains All-Product Pack, mostly GoLand
-				</li>
-				<li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: Jet Brains AI</li>
-				<li class="py-1.5"><span class="font-semibold">Terminal</span>: Apple Terminal</li>
+				<li class="py-1.5"><span class="font-semibold">IDE</span>: Windsurf</li>
+				<li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: Codeium</li>
+				<li class="py-1.5"><span class="font-semibold">Terminal</span>: Ghostty</li>
 				<li class="py-1.5"><span class="font-semibold">Shell</span>: Elvish</li>
 				<li class="py-1.5"><span class="font-semibold">Shell Prompt</span>: Starship</li>
-				<li class="py-1.5"><span class="font-semibold">Font</span>: SF Mono</li>
+				<li class="py-1.5"><span class="font-semibold">Font</span>: VictorMono Nerd Font</li>
 				<li class="py-1.5"><span class="font-semibold">Local Containerization</span>: Rancher Desktop</li>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Analog Tools</h2>
@@ -66,11 +66,16 @@ import Centered from "../components/Centered.vue"</script>
 				<li class="py-1.5"><span class="font-semibold">Launcher</span>: Spotlight</li>
 				<li class="py-1.5"><span class="font-semibold">Menu Bar Organizer</span>: Bartender</li>
 				<li class="py-1.5"><span class="font-semibold">System Monitor</span>: iStat Menus</li>
-				<li class="py-1.5"><span class="font-semibold">Podcast Player</span>: Pocket Casts</li>
+				<li class="py-1.5"><span class="font-semibold">Podcast Player</span>: Apple Podcasts</li>
 				<li class="py-1.5"><span class="font-semibold">Password Manager</span>: Apple Passwords</li>
+				<li class="py-1.5"><span class="font-semibold">Notes</span>: Apple Notes</li>
+				<li class="py-1.5"><span class="font-semibold">Calendar</span>: Apple Calendar</li>
+				<li class="py-1.5"><span class="font-semibold">Todo List</span>: Apple Reminders</li>
 				<li class="py-1.5"><span class="font-semibold">Web Browser</span>: Safari</li>
 				<li class="py-1.5"><span class="font-semibold">Crypto Wallet</span>: Exodus</li>
 				<li class="py-1.5"><span class="font-semibold">RSS Reader</span>: Apple Reading List, Tapestry</li>
+				<li class="py-1.5"><span class="font-semibold">Email</span>: Apple Mail</li>
+				<li class="py-1.5"><span class="font-semibold">Language Learning</span>: Babbel</li>
 			</ul>
 			<h2 class="mt-6 text-blue-400">Services</h2>
 			<ul class="list-inside list-disc ml-6">
