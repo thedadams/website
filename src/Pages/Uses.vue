@@ -84,6 +84,12 @@ import Centered from "../components/Centered.vue";
         <li class="py-1.5"><span class="font-semibold">Music Streaming</span>: Apple Music</li>
         <li class="py-1.5"><span class="font-semibold">Video Streaming</span>: Netflix & YouTube TV</li>
       </ul>
+      <h2 class="mt-6 text-blue-400">Supported Podcasts</h2>
+      <ul class="list-inside list-disc ml-6">
+        <li class="py-1.5"><span class="font-semibold">Techmeme Ride Home</span></li>
+        <li class="py-1.5"><span class="font-semibold">Soft Skills Engineering</span></li>
+        <li class="py-1.5"><span class="font-semibold">Fallthrough</span></li>
+      </ul>
       <h2 class="mt-6 text-blue-400">Randoms</h2>
       <ul class="list-inside list-disc ml-6">
         <li class="py-1.5"><span class="font-semibold">Water Bottle</span>: Hydrate Spark Pro, 32oz</li>
