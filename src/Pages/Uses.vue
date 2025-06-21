@@ -44,7 +44,7 @@ import Centered from "../components/Centered.vue";
         <li class="py-1.5"><span class="font-semibold">IDE</span>: Jet Brains All Products Pack</li>
         <li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: Windsurf & Jetbrains AI</li>
         <li class="py-1.5"><span class="font-semibold">AI Coding Agent</span>: Claude Code, Junie & Cascade</li>
-        <li class="py-1.5"><span class="font-semibold">Terminal</span>: Warp</li>
+        <li class="py-1.5"><span class="font-semibold">Terminal</span>: Ghostty</li>
         <li class="py-1.5"><span class="font-semibold">Shell</span>: zsh</li>
         <li class="py-1.5"><span class="font-semibold">Shell Prompt</span>: Starship</li>
         <li class="py-1.5"><span class="font-semibold">Font</span>: VictorMono Nerd Font</li>
