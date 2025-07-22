@@ -8,7 +8,7 @@ import Centered from "../components/Centered.vue";
     <Centered class="ml-8">
       <p>A list of the things I use and find useful for my work and personal life. Inspired by <a
         href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span
-        class="italic text-gray-400 text-sm">Last updated: June 14th, 2025</span>
+        class="italic text-gray-400 text-sm">Last updated: July 22nd, 2025</span>
       </p>
       <h2 class="mt-6 text-blue-400">Hardware</h2>
       <ul class="list-inside list-disc ml-6">
@@ -44,7 +44,7 @@ import Centered from "../components/Centered.vue";
         <li class="py-1.5"><span class="font-semibold">IDE</span>: Jet Brains All Products Pack</li>
         <li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: Windsurf & Jetbrains AI</li>
         <li class="py-1.5"><span class="font-semibold">AI Coding Agent</span>: Claude Code, Junie & Cascade</li>
-        <li class="py-1.5"><span class="font-semibold">Terminal</span>: Ghostty</li>
+        <li class="py-1.5"><span class="font-semibold">Terminal</span>: Warp</li>
         <li class="py-1.5"><span class="font-semibold">Shell</span>: zsh</li>
         <li class="py-1.5"><span class="font-semibold">Shell Prompt</span>: Starship</li>
         <li class="py-1.5"><span class="font-semibold">Font</span>: VictorMono Nerd Font</li>
