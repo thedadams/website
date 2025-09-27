@@ -12,7 +12,7 @@ import Centered from "../components/Centered.vue";
         <a href="https://uses.tech" target="_blank" title="uses.tech"
           >uses.tech</a
         >.<br /><span class="italic text-gray-400 text-sm"
-          >Last updated: September 6th, 2025</span
+          >Last updated: September 27th, 2025</span
         >
       </p>
       <h2 class="mt-6 text-blue-400">Hardware</h2>
@@ -72,16 +72,20 @@ import Centered from "../components/Centered.vue";
       <h2 class="mt-6 text-blue-400">Development Tools</h2>
       <ul class="list-inside list-disc ml-6">
         <li class="py-1.5"><span class="font-semibold">Editor</span>: Zed</li>
+        <li class="py-1.5"><span class="font-semibold">Git GUI</span>: Fork</li>
+        <li class="py-1.5">
+          <span class="font-semibold">API Testing</span>: Insomnia
+        </li>
         <li class="py-1.5">
           <span class="font-semibold">AI Coding Assistant</span>: Zeta, GitHub
           Copilot
         </li>
         <li class="py-1.5">
           <span class="font-semibold">AI Coding Agent</span>: Claude Code,
-          GitHub Coplilot, Warp, Zeta
+          GitHub Coplilot, Zeta
         </li>
         <li class="py-1.5">
-          <span class="font-semibold">Terminal</span>: Warp
+          <span class="font-semibold">Terminal</span>: Ghostty
         </li>
         <li class="py-1.5"><span class="font-semibold">Shell</span>: zsh</li>
         <li class="py-1.5">
@@ -92,7 +96,7 @@ import Centered from "../components/Centered.vue";
         </li>
         <li class="py-1.5">
           <span class="font-semibold">Local Containerization</span>: Rancher
-          Desktop
+          Desktop, Apple Containers
         </li>
       </ul>
       <h2 class="mt-6 text-blue-400">Analog Tools</h2>
@@ -173,12 +177,24 @@ import Centered from "../components/Centered.vue";
       <h2 class="mt-6 text-blue-400">Supported Podcasts</h2>
       <ul class="list-inside list-disc ml-6">
         <li class="py-1.5">
-          <span class="font-semibold">Techmeme Ride Home</span>
+          <span class="font-semibold">
+            <a
+              href="https://pocketcasts.com/podcast/tech-brew-ride-home/fb0048c0-0123-0136-c264-7d73a919276a"
+            >
+              Tech Brew Ride Home
+            </a>
+          </span>
         </li>
         <li class="py-1.5">
-          <span class="font-semibold">Soft Skills Engineering</span>
+          <span class="font-semibold">
+            <a href="https://softskills.audio/">Soft Skills Engineering</a>
+          </span>
         </li>
-        <li class="py-1.5"><span class="font-semibold">Fallthrough</span></li>
+        <li class="py-1.5">
+          <span class="font-semibold">
+            <a href="https://fallthrough.transistor.fm/">Fallthrough</a>
+          </span>
+        </li>
       </ul>
       <h2 class="mt-6 text-blue-400">Randoms</h2>
       <ul class="list-inside list-disc ml-6">
