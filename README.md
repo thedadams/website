@@ -18,8 +18,8 @@ This site has been migrated from a Vue.js multi-page application to a Jekyll sta
 - `_includes/` - Reusable components (navbar, footer)
 - `_posts/` - Blog posts in Markdown format
 - `_data/` - Data files (links.json)
+- `assets/images/` - Static assets (images, PDFs, etc.)
 - `*.md` - Page content files
-- `public/` - Static assets (images, PDFs, etc.)
 
 ## Local Development
 
@@ -54,9 +54,10 @@ The site automatically deploys to GitHub Pages via the `.github/workflows/jekyll
 
 ## Migration Notes
 
-This site was previously a Vue.js application. The old Vue files remain in the repository for reference but are excluded from Jekyll processing. Key migration changes:
+This site was migrated from a Vue.js application to Jekyll. Key migration changes:
 
 - Converted 14 Vue pages to Markdown/HTML
 - Converted 31 blog posts to Jekyll format  
 - Replaced dynamic data fetching with static data files
 - Simplified deployment using GitHub Pages
+- Organized all static assets in `assets/images/` directory
