@@ -31,6 +31,24 @@ exclude:
   - "*.ts"
   - "*.vue"
   - env.d.ts
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  # Exclude old Vue HTML files - we have .md versions now
+  - about.html
+  - basketball.html
+  - blog.html
+  - contrastdots.html
+  - credits.html
+  - home.html
+  - links.html
+  - minimal.html
+  - pastprojects.html
+  - projects.html
+  - research.html
+  - uses.html
+  - verticaldials.html
+  - watchfaces.html
 
 # Include files
 include:
