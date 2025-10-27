@@ -1,0 +1,16 @@
+<nav class="h-16 flex justify-between px-8">
+  <div class="flex items-center">
+    <a href="/">
+      <img alt="Logo" class="max-h-12" loading="lazy" src="/thedadamsLogo.png"/>
+    </a>
+  </div>
+  <div class="flex items-center space-x-4">
+    <a href="/" class="{% if page.url == '/' or page.url == '/index.html' %}text-orange-400{% else %}hover:text-orange-400{% endif %}">Home</a>
+    <a href="/about.html" class="{% if page.url == '/about.html' %}text-orange-400{% else %}hover:text-orange-400{% endif %}">About</a>
+    <a href="/projects.html" class="{% if page.url == '/projects.html' %}text-orange-400{% else %}hover:text-orange-400{% endif %}">Projects</a>
+    <a href="/basketball.html" class="{% if page.url == '/basketball.html' %}text-orange-400{% else %}hover:text-orange-400{% endif %}">Basketball</a>
+    <a href="/blog.html" class="{% if page.url == '/blog.html' or page.layout == 'post' %}text-orange-400{% else %}hover:text-orange-400{% endif %}">Blog</a>
+    <a href="/uses.html" class="{% if page.url == '/uses.html' %}text-orange-400{% else %}hover:text-orange-400{% endif %}">Uses</a>
+    <a href="/links.html" class="{% if page.url == '/links.html' %}text-orange-400{% else %}hover:text-orange-400{% endif %}">Links</a>
+  </div>
+</nav>
