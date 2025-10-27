@@ -34,6 +34,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - public
   # Exclude old Vue HTML files - we have .md versions now
   - about.html
   - basketball.html
@@ -53,6 +54,10 @@ exclude:
 # Include files
 include:
   - _data
+
+# Keep public folder files at root level in output
+keep_files:
+  - public
 
 # Collections
 collections:
