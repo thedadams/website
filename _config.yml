@@ -1,0 +1,55 @@
+# Jekyll configuration for thedadams.com
+title: Donnie Adams
+email: donnie@thedadams.com
+description: >-
+  Software engineer, mathematician, and basketball coach.
+  Personal website and blog.
+baseurl: ""
+url: "https://thedadams.com"
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins: []
+
+# Exclude from processing
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vite.config.ts
+  - tsconfig.json
+  - tsconfig.app.json
+  - tsconfig.vite-config.json
+  - tsconfig.vitest.json
+  - tailwind.config.js
+  - postcss.config.js
+  - Dockerfile
+  - .dockerignore
+  - .github
+  - src
+  - "*.ts"
+  - "*.vue"
+  - env.d.ts
+
+# Include files
+include:
+  - _data
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

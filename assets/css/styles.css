@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+    html {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    @font-face {
+        font-family: 'Nunito';
+        src: url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200,400..1000;1,200..1000&display=swap');
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    }
+
+    .h-116 {
+        height: 38rem;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    a {
+        @apply underline;
+    }
+
+    h1 {
+        @apply text-6xl;
+        @apply mb-4;
+        @apply font-semibold;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    h2 {
+        @apply text-4xl;
+        @apply mb-2;
+        @apply font-semibold;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    h3 {
+        @apply text-xl;
+        @apply mb-2;
+        @apply font-semibold;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .j-link {
+        @apply underline;
+        @apply hover:cursor-pointer;
+        @apply select-none;
+    }
+}
