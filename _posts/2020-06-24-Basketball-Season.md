@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Basketball Season"
+date: 2020-06-24
+tags: ["basketball", "coaching"]
+updated: "04/02/2021"
+author: "Donnie"
+---
+
+<p>I have had the pleasure of coaching basketball at St. Mary's High School in Phoenix, AZ for the past three years. Being a part of a successful program has been a tremendously rewarding experience. My first year, I was a volunteer coach and helped with the varsity team. In my second year, I was the head coach of the freshman team. Last year, my third, I was the head junior varsity coach. That progression has allowed me to grow as a coach, and, having mostly the same team two years in a row, allowed us to improve as a team. In fact, the team improved so much from freshman to JV that I am inspired to write this post.</p>
+<br>
+<p>My first year as a head coach was a bumpy one for everyone. I am the first to admit that I was not a good role model. As a player, I had the reputation of being passionate and aggressive. I believe that this gave me an edge as a player, but as a coach I came across as hot-headed and abusive to the refs. The young men on the team were understanding of my passion and I believe they saw most of my yelling as "having their back." However, I know that it was unprofessional and I am sure that it was part of the reason why we didn't have as many wins as we wanted.</p>
+<br>
+<p>Speaking of wins, we didn't have many. The freshman team as whole &#8212; including me &#8212; had a lot to learn. Many of the young men on the team had never played organized basketball before that season. It was a struggle, but we were able to scrape out a 3-13 record. Two of those wins were in overtime where our best player hit game winning shots. I am proud to say that, except for one player in one game, every one of the 17 players played in every game. The players did an excellent job learning the game and the fundamentals and I am very proud of the season that we had.</p>
+<br>
+<p>As I said, the following season I was "promoted" to head JV coach. This was positive because it was technically a promotion, but also because I would be coaching the same players from the previous year. I knew that we had a rough season the year before, but I was encouraged by the progress we made and the three new players that were added to the team. The team worked hard in practice and it was soon obvious that they were able to do things on the court that they couldn't begin to demonstrate the previous year. I should also add that one of the players that played games with us did not practice with us. In the AIA, players are allowed to play 6 total quarters at various levels per game night. There was one player on the varsity team that would not be getting much playing time at that level, so he played with the JV team to get more experience. It is a common practice, but it is difficult for teams because plays are not always the same at all three levels. We did the best we could to have as much overlap as possible, however, the JV team very rarely ran set plays on offense because of the differences.</p>
+<br>
+<p>I could not be prouder of the team for the progress they made and the things they were able to do on the court. We spent a lot of time practicing defense and defensive rotations. The young men were able to do things that I have never seen any other JV team do. For example when a defensive player gets beat off the dribble, it is the responsibility of the defenders on the opposite side of the court (called the help-side defenders) to get in front of the offensive player to slow down the player or to become the new defender. This is called rotating on defensive. It does happen that because of a quick offensive player or a pass, the defense must rotate several times in one possession. There were several instances where the JV team was able to rotate three times in succession and stop the offense from scoring. In fact, in one such game where the team was able to do this several times, they overcame a 9-point deficit in the fourth quarter to win the game. In another game, even the referees were impressed and made several comments to our bench during the game.</p>
+<br>
+<p>Wins and losses are not always a good measure of the progress of a team. For example, even though the freshman team the year before won just 3 games, they made great progress that obviously carried over to the next season. However, when comparing wins and losses across seasons with the same team and playing the same opponents (and even the same coach) can tell you a lot about how a team was able to improve. It is remarkable that after going 3-13 the JV team had a record of 15-3.</p>
+<br>
+<p>And I am proud to say that all 15 players played in all 18 games.</p>
+<br>

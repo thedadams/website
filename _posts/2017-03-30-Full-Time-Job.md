@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Full-Time Job"
+date: 2017-03-30
+tags: ["life", "work", "education", "teaching"]
+updated: "04/02/2021"
+author: "Donnie"
+---
+
+<p>I have been in school for 26 years continuously without more than a summer break. That has been my full-time job to this point. I have been interviewing at <a href="http://blog.thedadams.com/blog.html?post=2017-03Mar-03">places like Google</a>, but I recently accepted a job offer that I never thought I would entertain.</p>
+<br>
+<p>It is very common that one teaches while they are in graduate school. In math, everyone teaches while they are in graduate school. When I started teaching, I didn't enjoy it. I found it difficult to motivate myself when I felt that the students were not motivated. I complained about my students and put in minimal effort. When I told people I was studying math, they would often ask me if I wanted to be a teacher. My response was always, "Absolutely not!" However, I have had a mind-shift in the last couple years. I began to think that I might be teaching past my time in graduate school. If that was going to happen, then I needed to be more dedicated to teaching, to my students, and to understanding how people learn. Ultimately I found that a deep desire for student success and understanding goes a long way.</p>
+<br>
+<p>Beginning next school year I will be teaching math, physical sciences, computer programming, and possibly coaching basketball at a high school in Phoenix, Arizona. I will also be helping the school redesign its math and science curriculum to promote active and integrated learning. I never thought that my future would be in education, and I have never been more excited for something considered to be work.</p>
+<br>
+<p>It's interesting how life comes together. I do believe in God, and I do believe that there is something bigger at work here. Can it really just be a coincidence that this opportunity came to me one week after Google told me they weren't going to offer me a position? It might sound crazy, but I may have stumbled upon my calling.</p>
+<br>

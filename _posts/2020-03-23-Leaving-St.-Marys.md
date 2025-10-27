@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Leaving St. Mary's"
+date: 2020-03-23
+tags: ["life", "work", "programming", "career"]
+updated: "04/02/2021"
+author: "Donnie"
+---
+
+<p>I previously wrote about a <a href="blog.html?post=2017-03Mar-30">full-time position</a> I accepted to teach math, physics, and computer programming at St. Mary's High School in Phoenix. The decision process to accept the position was a very long and difficult one, but, in the end, it turned out to be the right one. I learned more from the kids at St. Mary's than they learned from me. However, I ended up leaving my job at St. Mary's to pursue a new career in software development.</p>
+<br>
+<p>When I first started telling people that I was leaving St. Mary's, they're first response was to ask me about the school where I was going to teach next. I don't think I could teach at any other high school. I loved my time at St. Mary's and, while there were issues I had with the school, I wouldn't have left to teach somewhere else. The move I made was about pursuing a career in a field that I have wanted to work in for some time as well as doing what was in the best interest of my family. It was very difficult to leave St. Mary's. Some of the students and faculty members in my House (SM has a <a href="https://en.wikipedia.org/wiki/House_system" target="_blank">House System</a>) threw me a surprise going-away party during which I was a mess. I've never cried in front of that many people before, but I was truly sad to be leaving the faculty and students that impacted me greatly. In the end, however, I knew that I was making the right decision.</p>
+<br>
+<p>I had a few different interviews after I decided to leave, but one stood out. There were the typical coding questions, but, at the end of the interview, the interviewer sat down with me and just had a conversation. We talked about all sorts of things including what the job would be like if it worked out, but there was much more to it than that. I left feeling confident about my performance and the position. The recruiter contacted me a few days later to say the interviewer felt the same way. I was called back to interview with the VP of Engineering and was later offered the position. They made the decision very easy for me and I accepted without countering. They took a chance on hiring a high school math teacher who liked to write software during his free time. I couldn't be more grateful for the opportunity they gave me.</p>
+<br>
+<p>I've been a professional software developer for about 10 months now, building applications that people use all around the world (I know this because I get bugs from them all the time). I was introduced to a product that had given the company some issues in the recent past and was asked to make it better. I'm proud to say that I have done that, mostly independently. I've fixed bugs, implemented new features, transitioned the cloud component of the product to Docker and Kubernetes, and incorporated Prometheus metrics and Grafana visualization. It has been a tremendous learning experience and I am looking forward to the future of my new career.</p>
+<br>
