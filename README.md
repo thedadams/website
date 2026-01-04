@@ -46,18 +46,3 @@ bundle exec jekyll serve
 ## Deployment
 
 The site automatically deploys to GitHub Pages via the `.github/workflows/jekyll.yml` workflow on pushes to the `main` branch.
-
-## Content Sources
-
-- **Links**: Statically embedded from [thedadams/links](https://github.com/thedadams/links) repository
-- **Blog Posts**: Statically embedded from [thedadams/blogposts](https://github.com/thedadams/blogposts) repository
-
-## Migration Notes
-
-This site was migrated from a Vue.js application to Jekyll. Key migration changes:
-
-- Converted 14 Vue pages to Markdown/HTML
-- Converted 31 blog posts to Jekyll format  
-- Replaced dynamic data fetching with static data files
-- Simplified deployment using GitHub Pages
-- Organized all static assets in `assets/images/` directory
