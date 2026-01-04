@@ -4,3 +4,12 @@ php.ini
 node_modules/
 dist/
 .idea/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+.bundle/

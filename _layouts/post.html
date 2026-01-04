@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <a href="/blog.html" class="back-link">« Back to Blog</a>
+  
+  <h1 class="text-4xl font-bold text-blue-400 mt-4">{{ page.title }}</h1>
+  
+  <p class="text-xs mb-4">Posted on {{ page.date | date: "%m/%d/%Y" }}</p>
+  
+  <div class="prose prose-lg max-w-none">
+    {{ content }}
+  </div>
+  
+  {% if page.tags %}
+  <div class="flex flex-row mt-6">
+    <p class="mr-1 font-semibold">Tags:</p>
+    {% for tag in page.tags %}
+    <a href="/blog.html#tag-{{ tag | slugify }}" class="mr-2 capitalize">{{ tag }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+  {% if page.updated %}
+  <p class="text-xs mt-3">Updated on {{ page.updated }}</p>
+  {% endif %}
+  
+  <a href="/blog.html" class="back-link mt-6 block">« Back to Blog</a>
+</div>

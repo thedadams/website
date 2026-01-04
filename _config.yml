@@ -1,0 +1,42 @@
+# Jekyll configuration for thedadams.com
+title: Donnie Adams
+email: donnie@thedadams.com
+description: >-
+  Software engineer, mathematician, and basketball coach.
+  Personal website and blog.
+baseurl: ""
+url: "https://thedadams.com"
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins_dir: []
+
+# Exclude from processing
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - .github
+
+# Include files
+include:
+  - _data
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

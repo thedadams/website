@@ -1,0 +1,12 @@
+{% assign current_year = 'now' | date: "%Y" %}
+<div class="mt-8 text-sm grid grid-cols-5 gap-0">
+  <div class="self-end col-span-2">
+    <a href="/credits.html" title="Credits">Credits</a>
+  </div>
+  <div class="place-self-center py-0.5">
+    <a href="/" title="Home"><img alt="Logo" class="h-8" src="/assets/images/thedadamsLogo.png"/></a>
+  </div>
+  <div class="place-self-end col-span-2">
+    <p>&copy;2012-{{ current_year }} Donnie Adams</p>
+  </div>
+</div>
