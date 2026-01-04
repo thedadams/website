@@ -9,14 +9,14 @@ title: Past Projects
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div>
       <h2 class="text-2xl font-bold text-blue-400 mb-3">Pebble Watchfaces</h2>
-      <p>I am the proud owner of a Kickstarter Edition Pebble Smartwatch. It no longer works and I have switched to an Apple Watch, but I truly enjoyed my Pebble. To continue my journey of programming, I decided to write a few watchfaces for my Pebble. You can read more about them <a href="/watchfaces.html" title="My Pebble Watchfaces" class="text-blue-400 hover:underline">here</a>. The most popular one was the <a href="/minimal.html" title="Minimal Watchface" class="text-blue-400 hover:underline">Minimal</a> watchface.</p>
+      <p>I am the proud owner of a Kickstarter Edition Pebble Smartwatch. It no longer works and I have switched to an Apple Watch, but I truly enjoyed my Pebble. To continue my journey of programming, I decided to write a few watchfaces for my Pebble. You can read more about them <a href="/watchfaces.html" title="My Pebble Watchfaces">here</a>. The most popular one was the <a href="/minimal.html" title="Minimal Watchface">Minimal</a> watchface.</p>
       <br>
-      <p>Pebble has since been purchased by Fitbit. I put all the code for these watchfaces on my <a href="https://github.com/thedadams" title="Github account" class="text-blue-400 hover:underline">Github account</a>.</p>
+      <p>Pebble has since been purchased by Fitbit. I put all the code for these watchfaces on my <a href="https://github.com/thedadams" title="Github account">Github account</a>.</p>
     </div>
     
     <div>
       <h2 class="text-2xl font-bold text-blue-400 mb-3">My blog</h2>
-      <p>After I built my website (see below), I wanted a place to write about the things I had learned. Naturally, I wanted to build my own solution rather than use another service. It turned out to be a great way to learn some PHP. The entire site consists of two HTML5 files with some PHP, Javascript, and plaintext files on the webserver. I even wrote a script that generates the RSS feed, adds new tags for the files, and uploads all the information to the webserver. I wrote about how I <a href="/blog.html" title="How I Created This Blog" class="text-blue-400 hover:underline">created</a> and <a href="/blog.html" title="Blog 2.0" class="text-blue-400 hover:underline">updated</a> my blog.</p>
+      <p>After I built my website (see below), I wanted a place to write about the things I had learned. Naturally, I wanted to build my own solution rather than use another service. It turned out to be a great way to learn some PHP. The entire site consists of two HTML5 files with some PHP, Javascript, and plaintext files on the webserver. I even wrote a script that generates the RSS feed, adds new tags for the files, and uploads all the information to the webserver. I wrote about how I <a href="/blog.html" title="How I Created This Blog">created</a> and <a href="/blog.html" title="Blog 2.0">updated</a> my blog.</p>
     </div>
   </div>
   
@@ -36,9 +36,9 @@ title: Past Projects
       <br>
       <p>There are two versions of CI: one for batting average and one for on-base percentage. The general idea is that "streaky" hitters will have long durations when they do well followed by long durations of no success. On the other hand, consistent hitters will have success most of the time with very short periods of no success. The CI uses this idea to attempt to distinguish between hitters that are consistent and inconsistent.</p>
       <br>
-      <p>I would like to acknowledge a couple things. First, this is the project I used to teach myself how to program. Therefore, the code is ugly. I hope to eventually clean it up, but for now you can view the project on <a href="https://github.com/thedadams/ConsistencyIndex" title="Consistency Index on Github" class="text-blue-400 hover:underline">Github</a>. Secondly, as I have learned more about baseball and statistics, I realize that part of the idea is flawed. For example, there is a weighting, but that weighting is essentially arbitrary. I hope to fix this one day as well.</p>
+      <p>I would like to acknowledge a couple things. First, this is the project I used to teach myself how to program. Therefore, the code is ugly. I hope to eventually clean it up, but for now you can view the project on <a href="https://github.com/thedadams/ConsistencyIndex" title="Consistency Index on Github">Github</a>. Secondly, as I have learned more about baseball and statistics, I realize that part of the idea is flawed. For example, there is a weighting, but that weighting is essentially arbitrary. I hope to fix this one day as well.</p>
       <br>
-      <p>I wrote a few blog posts about it, which you can see <a href="/blog.html" title="Consistency Index blog posts" class="text-blue-400 hover:underline">here</a>.</p>
+      <p>I wrote a few blog posts about it, which you can see <a href="/blog.html" title="Consistency Index blog posts">here</a>.</p>
     </div>
   </div>
 </div>

@@ -7,7 +7,7 @@ title: Uses
   <h1 class="text-4xl font-bold mb-4">Uses</h1>
   
   <div class="ml-8">
-    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech" class="text-blue-400 hover:underline">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: September 27th, 2025</span></p>
+    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: September 27th, 2025</span></p>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Hardware</h2>
     <ul class="list-inside list-disc ml-6">
@@ -75,9 +75,9 @@ title: Uses
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Supported Podcasts</h2>
     <ul class="list-inside list-disc ml-6">
-      <li class="py-1.5"><span class="font-semibold"><a href="https://pocketcasts.com/podcast/tech-brew-ride-home/fb0048c0-0123-0136-c264-7d73a919276a" class="text-blue-400 hover:underline">Tech Brew Ride Home</a></span></li>
-      <li class="py-1.5"><span class="font-semibold"><a href="https://softskills.audio/" class="text-blue-400 hover:underline">Soft Skills Engineering</a></span></li>
-      <li class="py-1.5"><span class="font-semibold"><a href="https://fallthrough.transistor.fm/" class="text-blue-400 hover:underline">Fallthrough</a></span></li>
+      <li class="py-1.5"><span class="font-semibold"><a href="https://pocketcasts.com/podcast/tech-brew-ride-home/fb0048c0-0123-0136-c264-7d73a919276a" >Tech Brew Ride Home</a></span></li>
+      <li class="py-1.5"><span class="font-semibold"><a href="https://softskills.audio/" >Soft Skills Engineering</a></span></li>
+      <li class="py-1.5"><span class="font-semibold"><a href="https://fallthrough.transistor.fm/" >Fallthrough</a></span></li>
     </ul>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Randoms</h2>

@@ -1,15 +1,80 @@
 [
-    {"name": "TidyCal", "url": "https://tidycal.com/thedadams", "description": "Schedule some time to chat. Anything you want.", "fileUrl": "https://assets.tidycal.com/img/logo-icon.svg"},
-    {"name": "Email", "url": "mailto:donnie@thedadams.com", "description": "Just a simple email address.", "fileUrl": "/email.png"},
-    {"name": "Telegram", "url": "https://telegram.me/thedadams", "description": "Telegram is my preferred messaging platform.", "fileUrl": "/telegram.png"},
-    {"name": "Proton Mail", "url": "mailto:thedadams@protonmail.com", "description": "Proton Mail is an easy way to send encrypted email. No crypto knowledge necessary.", "fileUrl": "/protonMail.png"},
-    {"name": "Public Key", "url": "/public_key.txt", "description": "If your message needs a little more security, download my public key.", "fileUrl": "/publicKey.png"},
-    {"name": "Keybase", "url": "https://keybase.io/thedadams", "description": "Keybase is a handy way to handy way to store public PGP keys and try to solve the key validation problem. It includes a chat as well.", "fileUrl": "/keybase.png"},
-    {"name": "Mastodon", "url": "https://techhub.social/@thedadams", "description": "On the Fediverse", "fileUrl": "/mastodon.svg"},
-    {"name": "X", "url": "https://x.com/thedadams", "description": "Love it or hate it, its the best place to get and share information.", "fileUrl": "https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg"},
-    {"name": "LinkedIn", "url": "https://www.linkedin.com/in/thedadams", "description": "You can see my professional journey, accomplishments, and contacts.", "fileUrl": "/linkedin.png"},
-    {"name": "Facebook", "url": "https://facebook.com/thedadams", "description": "Mostly used for keeping in touch with family and friends.", "fileUrl": "/facebook.png"},
-    {"name": "Instagram", "url": "https://instagram.com/thedadams", "description": "Any picture I deem worthy of sharing is there. Not many, but the important ones.", "fileUrl": "/instagram.png"},
-    {"name": "Reddit", "url": "https://www.reddit.com/user/thedadams", "description": "I love Reddit. Its my favorite place to find new memes and interesting videos.", "fileUrl": "/reddit.png"},
-    {"name": "GitHub", "url": "https://www.github.com/thedadams", "description": "Check out my open-source projects and contributions.", "fileUrl": "/github.png"}
+  {
+    "name": "TidyCal",
+    "url": "https://tidycal.com/thedadams",
+    "description": "Schedule some time to chat. Anything you want.",
+    "fileUrl": "https://assets.tidycal.com/img/logo-icon.svg"
+  },
+  {
+    "name": "Email",
+    "url": "mailto:donnie@thedadams.com",
+    "description": "Just a simple email address.",
+    "fileUrl": "/assets/images/email.png"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://telegram.me/thedadams",
+    "description": "Telegram is my preferred messaging platform.",
+    "fileUrl": "/assets/images/telegram.png"
+  },
+  {
+    "name": "Proton Mail",
+    "url": "mailto:thedadams@protonmail.com",
+    "description": "Proton Mail is an easy way to send encrypted email. No crypto knowledge necessary.",
+    "fileUrl": "/assets/images/protonMail.png"
+  },
+  {
+    "name": "Public Key",
+    "url": "/public_key.txt",
+    "description": "If your message needs a little more security, download my public key.",
+    "fileUrl": "/assets/images/publicKey.png"
+  },
+  {
+    "name": "Keybase",
+    "url": "https://keybase.io/thedadams",
+    "description": "Keybase is a handy way to handy way to store public PGP keys and try to solve the key validation problem. It includes a chat as well.",
+    "fileUrl": "/assets/images/keybase.png"
+  },
+  {
+    "name": "Mastodon",
+    "url": "https://techhub.social/@thedadams",
+    "description": "On the Fediverse",
+    "fileUrl": "/assets/images/mastodon.svg"
+  },
+  {
+    "name": "X",
+    "url": "https://x.com/thedadams",
+    "description": "Love it or hate it, its the best place to get and share information.",
+    "fileUrl": "https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/thedadams",
+    "description": "You can see my professional journey, accomplishments, and contacts.",
+    "fileUrl": "/assets/images/linkedin.png"
+  },
+  {
+    "name": "Facebook",
+    "url": "https://facebook.com/thedadams",
+    "description": "Mostly used for keeping in touch with family and friends.",
+    "fileUrl": "/assets/images/facebook.png"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com/thedadams",
+    "description": "Any picture I deem worthy of sharing is there. Not many, but the important ones.",
+    "fileUrl": "/assets/images/instagram.png"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/user/thedadams",
+    "description": "I love Reddit. Its my favorite place to find new memes and interesting videos.",
+    "fileUrl": "/assets/images/reddit.png"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://www.github.com/thedadams",
+    "description": "Check out my open-source projects and contributions.",
+    "fileUrl": "/assets/images/github.png"
+  }
 ]

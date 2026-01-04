@@ -36,6 +36,6 @@ title: Watchfaces for Pebble
   </div>
   
   <div class="text-center">
-    <p>If you would like more information on any of these, please click the corresponding screenshot. Also, if you have any suggestions, comments, or questions, please do not hesitate to contact me via <a href="https://twitter.com/thedadams" title="Twitter" class="text-blue-400 hover:underline">Twitter</a>.</p>
+    <p>If you would like more information on any of these, please click the corresponding screenshot. Also, if you have any suggestions, comments, or questions, please do not hesitate to contact me via <a href="https://twitter.com/thedadams" title="Twitter">Twitter</a>.</p>
   </div>
 </div>

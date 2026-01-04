@@ -14,7 +14,7 @@ title: Links
         <h3 class="font-bold text-lg">{{ link.name }}</h3>
       </div>
       <p class="text-sm text-gray-600 mb-3">{{ link.description }}</p>
-      <a href="{{ link.url }}" class="text-blue-400 hover:underline text-sm" target="_blank" rel="noopener noreferrer">Visit →</a>
+      <a href="{{ link.url }}" class="text-sm" target="_blank" rel="noopener noreferrer">Visit →</a>
     </div>
     {% endfor %}
   </div>

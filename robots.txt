@@ -8,4 +8,4 @@ Disallow: /ball/
 
 Allow: files/CV.pdf
 
-sitemap: http://thedadams.com/sitemap.xml
+sitemap: https://thedadams.com/sitemap.xml

@@ -10,7 +10,7 @@ url: "https://thedadams.com"
 # Build settings
 markdown: kramdown
 theme: null
-plugins: []
+plugins_dir: []
 
 # Exclude from processing
 exclude:

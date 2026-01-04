@@ -6,12 +6,12 @@ title: Projects
 <div class="max-w-6xl mx-auto px-4 py-8 space-y-8">
   <h1 class="text-4xl font-bold text-center">Projects</h1>
   
-  <p class="text-center">My projects fall into four categories: day job, freelance, math, coaching and hobby. I try to limit myself to one project at a time in each category so I don't get too bogged down. My interests are varied, but I am usually working on things related to programming, education, mathematical research, or sports.</p>
+  <p class="px-10">My projects fall into four categories: day job, freelance, math, coaching and hobby. I try to limit myself to one project at a time in each category so I don't get too bogged down. My interests are varied, but I am usually working on things related to programming, education, mathematical research, or sports.</p>
   
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div>
       <h2 class="text-2xl font-bold text-blue-400 mb-3">Day Job</h2>
-      <p>I am currently a Software Architect at <a href="https://acorn.io" target="_blank" title="Acorn Labs, Inc" class="text-blue-400 hover:underline">Acorn Labs</a>, working remotely from Ohio. We have recently pivoted from a Kubernetes application deployment framework to an open-source natural language programming project called GPTScript. Being in this new space has provide a lot of opportunities for learning and improving my skills.</p>
+      <p>I am currently a Software Architect at <a href="https://obot.ai" target="_blank" title="Obot AI">Obot AI</a>, working remotely from Ohio. We pivoted from a Kubernetes application deployment framework to an open-source natural language programming project called GPTScript, and then to an MCP server management platform. Being in this new space has provide a lot of opportunities for learning and improving my skills.</p>
     </div>
     
     <div>
@@ -27,23 +27,23 @@ title: Projects
       <h2 class="text-2xl font-bold text-blue-400 mb-3">Math</h2>
       <p>While I did discontinue pursuit of a PhD in mathematics, I will continue to read about and research mathematical topics. Right now, I am exploring some of the prime conjectures like the Twin Prime Conjecture and Goldbach's Conjecture.</p>
       <br>
-      <p>You can see more information about my previous research <a href="/research.html" title="Research" class="text-blue-400 hover:underline">here</a>.</p>
+      <p>You can see more information about my previous research <a href="/research.html" title="Research">here</a>.</p>
     </div>
     
     <div>
       <h2 class="text-2xl font-bold text-blue-400 mb-3">Coaching</h2>
-      <p>I enjoy coaching basketball at the high school level. Teaching young men and women the fundamentals of the game and watching them grow as a team is edifying. I am currently the head JV boys basketball coach at <a href="https://www.gilmour.org" target="_blank" class="text-blue-400 hover:underline">Gilmour Academy</a>. Previously, I was the head JV and varsity assistant boys basketball coach at Hawken Upper School. And, prior to that, I coached boys basketball at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the lower levels and assistant at the varsity level.</p>
+      <p>I enjoy coaching basketball at the high school level. Teaching young men and women the fundamentals of the game and watching them grow as a team is edifying. I am currently the head JV boys basketball coach at <a href="https://www.gilmour.org" target="_blank">Gilmour Academy</a>. Previously, I was the head JV and varsity assistant boys basketball coach at Hawken Upper School. And, prior to that, I coached boys basketball at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the lower levels and assistant at the varsity level.</p>
       <br>
-      <p>I have a page dedicated to my <a href="/basketball.html" class="text-blue-400 hover:underline">coaching experience and philosophy</a>.</p>
+      <p>I have a page dedicated to my <a href="/basketball.html">coaching experience and philosophy</a>.</p>
     </div>
   </div>
   
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div>
-      <h2 class="text-2xl font-bold text-blue-400 mb-3">Hobby</h2>
-      <p>I have several hobby projects in mind at any one time. Currently, I am not working on anything in particular as I mull over some ideas.</p>
+      <h2 class="text-2xl font-bold text-blue-400 mb-3">Open Source</h2>
+      <p>I am actively developing a <a href="https://zed.dev" target="_blank">Zed</a> extension for styling special comments. See <a href="https://github.comt/thedadams/zed-comment" target="_blank">the repository</a> for more information.</p>
       <br>
-      <p>You can read about some of my past hobby projects <a href="/pastprojects.html" title="Past Hobby Projects" class="text-blue-400 hover:underline">here</a>.</p>
+      <p>You can read about some of my past hobby projects <a href="/pastprojects.html" title="Past Hobby Projects">here</a>.</p>
     </div>
   </div>
 </div>

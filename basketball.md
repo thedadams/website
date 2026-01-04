@@ -5,7 +5,7 @@ title: Coaching
 
 <div class="max-w-6xl mx-auto px-4 py-8">
   <div class="text-center mb-12">
-    <img src="/assets/images/BasketballTeam.jpg" alt="Basketball Team" class="w-full max-h-96 object-cover rounded-lg mb-4">
+    <img src="/assets/images/basketball2.jpg" alt="Basketball" class="h-[16em] sm:h-[24em] lg:h-[32em] rounded-lg mb-4 mx-auto">
     <h1 class="text-5xl font-bold mb-2">Coaching</h1>
     <p class="text-xl text-gray-600 italic">"Not only is there more to life than basketball, there is a lot more to basketball than basketball." - Phil Jackson</p>
   </div>

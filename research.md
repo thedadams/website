@@ -14,7 +14,7 @@ title: Past Research
   
   <div>
     <h2 class="text-2xl font-bold text-blue-400 mb-4">Projects</h2>
-    <p><strong>Masters Thesis:</strong> <a href="/assets/images/DonaldAdamsThesis.pdf" title="Masters Thesis" class="text-blue-400 hover:underline">Minimal Zero Sum Sequences of Maximal Length</a><br>Advisor: Vadim Ponomarenko</p>
+    <p><strong>Masters Thesis:</strong> <a href="/assets/images/DonaldAdamsThesis.pdf" title="Masters Thesis">Minimal Zero Sum Sequences of Maximal Length</a><br>Advisor: Vadim Ponomarenko</p>
     <br>
     <p><strong>Factorization in Integral Matrix Semigroups</strong><br>Research Experience for Undergraduates and Teachers 2008, SDSU<br>Advisor: Vadim Ponomarenko</p>
     <br>
@@ -27,10 +27,10 @@ title: Past Research
   
   <div>
     <h2 class="text-2xl font-bold text-blue-400 mb-4">Publications</h2>
-    <p><a href="/assets/images/aabhkmpr.pdf" title="Matrix Semigroups Paper" class="text-blue-400 hover:underline">Number Theory of Matrix Semigroups</a> (with R. Ardila, N. Baeth, D. Hannasch, A. Kosh, H. McCarthy, V. Ponomarenko, R. Rosenbaum) Journal of Linear Algebra and its Applications (434) 2011, 694--711.</p>
+    <p><a href="/assets/images/aabhkmpr.pdf" title="Matrix Semigroups Paper">Number Theory of Matrix Semigroups</a> (with R. Ardila, N. Baeth, D. Hannasch, A. Kosh, H. McCarthy, V. Ponomarenko, R. Rosenbaum) Journal of Linear Algebra and its Applications (434) 2011, 694--711.</p>
     <br>
-    <p><a href="/assets/images/ap.pdf" title="Distinct Solutions Paper" class="text-blue-400 hover:underline">Distinct Solution to a Linear Congruence</a> (with V. Ponomarenko) Involve 3 (3) 2010, 341--344.</p>
+    <p><a href="/assets/images/ap.pdf" title="Distinct Solutions Paper">Distinct Solution to a Linear Congruence</a> (with V. Ponomarenko) Involve 3 (3) 2010, 341--344.</p>
     <br>
-    <p><a href="/assets/images/aahkmpr.pdf" title="Bifurcus Paper" class="text-blue-400 hover:underline">Bifurcus Semigroups and Rings</a> (with R. Ardila, D. Hannasch, A. Kosh, H. McCarthy, V. Ponomarenko, R. Rosenbaum) Involve 2 (3) 2009, 351--356.</p>
+    <p><a href="/assets/images/aahkmpr.pdf" title="Bifurcus Paper">Bifurcus Semigroups and Rings</a> (with R. Ardila, D. Hannasch, A. Kosh, H. McCarthy, V. Ponomarenko, R. Rosenbaum) Involve 2 (3) 2009, 351--356.</p>
   </div>
 </div>
