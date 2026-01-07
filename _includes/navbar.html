@@ -1,4 +1,4 @@
-<nav class="h-16 flex justify-between px-8">
+<nav class="h-16 flex justify-between items-center px-8">
     <div class="flex items-center">
         <a href="/">
             <img
@@ -9,7 +9,9 @@
             />
         </a>
     </div>
-    <div class="flex items-center space-x-8 text-xl">
+
+    <!-- Desktop Navigation -->
+    <div class="hidden md:flex items-center space-x-8 text-xl">
         <a
             href="/"
             class="{% if page.url == '/' or page.url == '/index.html' %}nav-link-active{% else %}nav-link{% endif %}"
@@ -46,4 +48,127 @@
             >Links</a
         >
     </div>
+
+    <!-- Mobile Menu Button -->
+    <button
+        id="mobile-menu-button"
+        class="md:hidden flex items-center text-2xl focus:outline-none"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+    >
+        <svg
+            id="hamburger-icon"
+            class="w-8 h-8 transition-transform duration-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+        </svg>
+        <svg
+            id="close-icon"
+            class="w-8 h-8 hidden transition-transform duration-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+            ></path>
+        </svg>
+    </button>
 </nav>
+
+<!-- Mobile Navigation Menu -->
+<div
+    id="mobile-menu"
+    class="md:hidden bg-white shadow-lg overflow-hidden transition-all duration-300 ease-in-out"
+    style="max-height: 0; opacity: 0"
+>
+    <div class="flex flex-col space-y-4 px-8 py-6 text-xl">
+        <a
+            href="/"
+            class="{% if page.url == '/' or page.url == '/index.html' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            >Home</a
+        >
+        <a
+            href="/about.html"
+            class="{% if page.url == '/about.html' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            >About</a
+        >
+        <a
+            href="/projects.html"
+            class="{% if page.url == '/projects.html' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            >Projects</a
+        >
+        <a
+            href="/basketball.html"
+            class="{% if page.url == '/basketball.html' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            >Basketball</a
+        >
+        <a
+            href="/blog.html"
+            class="{% if page.url == '/blog.html' or page.layout == 'post' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            >Blog</a
+        >
+        <a
+            href="/uses.html"
+            class="{% if page.url == '/uses.html' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            >Uses</a
+        >
+        <a
+            href="/links.html"
+            class="{% if page.url == '/links.html' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold transition-colors duration-200"
+            >Links</a
+        >
+    </div>
+</div>
+
+<script>
+    const mobileMenuButton = document.getElementById("mobile-menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const closeIcon = document.getElementById("close-icon");
+
+    mobileMenuButton.addEventListener("click", () => {
+        const isExpanded =
+            mobileMenuButton.getAttribute("aria-expanded") === "true";
+
+        if (isExpanded) {
+            // Close menu
+            mobileMenu.style.maxHeight = "0";
+            mobileMenu.style.opacity = "0";
+        } else {
+            // Open menu
+            mobileMenu.style.maxHeight = "500px";
+            mobileMenu.style.opacity = "1";
+        }
+
+        hamburgerIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("hidden");
+
+        mobileMenuButton.setAttribute("aria-expanded", !isExpanded);
+    });
+
+    // Close mobile menu when a link is clicked
+    const mobileLinks = mobileMenu.querySelectorAll("a");
+    mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+            mobileMenu.style.maxHeight = "0";
+            mobileMenu.style.opacity = "0";
+            hamburgerIcon.classList.remove("hidden");
+            closeIcon.classList.add("hidden");
+            mobileMenuButton.setAttribute("aria-expanded", "false");
+        });
+    });
+</script>
