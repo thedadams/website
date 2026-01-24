@@ -7,7 +7,7 @@ title: Uses
   <h1 class="text-4xl font-bold mb-4">Uses</h1>
   
   <div class="ml-8">
-    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: January 4th, 2026</span></p>
+    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: January 24th, 2026</span></p>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Hardware</h2>
     <ul class="list-inside list-disc ml-6">
@@ -32,10 +32,12 @@ title: Uses
     <ul class="list-inside list-disc ml-6">
       <li class="py-1.5"><span class="font-semibold">Editor</span>: Zed</li>
       <li class="py-1.5"><span class="font-semibold">API Testing</span>: Insomnia</li>
-      <li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: Zeta, GitHub Copilot</li>
-      <li class="py-1.5"><span class="font-semibold">AI Coding Agent</span>: Claude Code, GitHub Coplilot, Zeta</li>
+      <li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: GitHub Copilot</li>
+      <li class="py-1.5"><span class="font-semibold">AI Coding Agent</span>: OpenCode, Claude Code, GitHub Coplilot, Zeta</li>
+      <li class="py-1.5"><span class="font-semibold">AI Subscriptions</span>: Claude Pro, OpenCode Black 20, GitHub Coplilot Pro (free for open-source maintainers)</li>
       <li class="py-1.5"><span class="font-semibold">Terminal</span>: Ghostty</li>
       <li class="py-1.5"><span class="font-semibold">Shell</span>: nushell</li>
+      <li class="py-1.5"><span class="font-semibold">Version Control</span>: Jujutsu</li>
       <li class="py-1.5"><span class="font-semibold">Shell Prompt</span>: Starship</li>
       <li class="py-1.5"><span class="font-semibold">Font</span>: Berkeley Mono</li>
       <li class="py-1.5"><span class="font-semibold">Local Containerization</span>: Docker Desktop, Apple Containers</li>
@@ -52,7 +54,6 @@ title: Uses
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Software</h2>
     <ul class="list-inside list-disc ml-6">
       <li class="py-1.5"><span class="font-semibold">Launcher & Clipboard Manager</span>: Apple Spotlight</li>
-      <li class="py-1.5"><span class="font-semibold">Menu Bar Organizer</span>: Bartender</li>
       <li class="py-1.5"><span class="font-semibold">System Monitor</span>: iStat Menus</li>
       <li class="py-1.5"><span class="font-semibold">Podcast Player</span>: Pocket Casts</li>
       <li class="py-1.5"><span class="font-semibold">Password Manager</span>: Apple Passwords</li>
@@ -60,7 +61,7 @@ title: Uses
       <li class="py-1.5"><span class="font-semibold">Calendar</span>: Apple Calendar</li>
       <li class="py-1.5"><span class="font-semibold">Todo List</span>: Apple Reminders</li>
       <li class="py-1.5"><span class="font-semibold">Email</span>: Apple Mail</li>
-      <li class="py-1.5"><span class="font-semibold">Web Browser</span>: Brave</li>
+      <li class="py-1.5"><span class="font-semibold">Web Browser</span>: Safari</li>
       <li class="py-1.5"><span class="font-semibold">Crypto Wallet</span>: Exodus</li>
       <li class="py-1.5"><span class="font-semibold">RSS Reader</span>: Instapaper & Tapestry</li>
       <li class="py-1.5"><span class="font-semibold">Language Learning</span>: Babbel</li>
@@ -77,7 +78,6 @@ title: Uses
     <ul class="list-inside list-disc ml-6">
       <li class="py-1.5"><span class="font-semibold"><a href="https://pocketcasts.com/podcast/tech-brew-ride-home/fb0048c0-0123-0136-c264-7d73a919276a">Tech Brew Ride Home</a></span></li>
       <li class="py-1.5"><span class="font-semibold"><a href="https://softskills.audio/">Soft Skills Engineering</a></span></li>
-      <li class="py-1.5"><span class="font-semibold"><a href="https://fallthrough.transistor.fm/">Fallthrough</a></span></li>
     </ul>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Randoms</h2>
