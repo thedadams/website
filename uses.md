@@ -7,7 +7,7 @@ title: Uses
   <h1 class="text-4xl font-bold mb-4">Uses</h1>
   
   <div class="ml-8">
-    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: January 24th, 2026</span></p>
+    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: February 22nd, 2026</span></p>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Hardware</h2>
     <ul class="list-inside list-disc ml-6">
@@ -15,6 +15,7 @@ title: Uses
       <li class="py-1.5"><span class="font-semibold">Work Computer</span>: MacBook Pro 16" (2022) with M1 Max, 32GB RAM, 1TB SSD</li>
       <li class="py-1.5"><span class="font-semibold">Secondary Work Computer</span>: Lenovo ThinkPad T14 Gen 5, 16GB RAM, 512GB SSD</li>
       <li class="py-1.5"><span class="font-semibold">Personal Computer</span>: MacBook Pro 14" (2021) with M1 Pro, 32GB RAM, 1TB SSD</li>
+      <li class="py-1.5"><span class="font-semibold">Secondary Personal Computer</span>: Mac Mini (2024) with M4, 16GB RAM, 256GB SSD</li>
       <li class="py-1.5"><span class="font-semibold">Phone</span>: iPhone 17 Pro with 256GB, Orange</li>
       <li class="py-1.5"><span class="font-semibold">Watch</span>: Apple Watch Series 10, Aluminum, Jet Black, 46mm, Cellular</li>
       <li class="py-1.5"><span class="font-semibold">iPad</span>: iPad Mini 7th Generation, 128GB, Space Gray</li>
@@ -32,15 +33,20 @@ title: Uses
     <ul class="list-inside list-disc ml-6">
       <li class="py-1.5"><span class="font-semibold">Editor</span>: Zed</li>
       <li class="py-1.5"><span class="font-semibold">API Testing</span>: Insomnia</li>
-      <li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: GitHub Copilot</li>
-      <li class="py-1.5"><span class="font-semibold">AI Coding Agent</span>: OpenCode, Claude Code, GitHub Coplilot, Zeta</li>
-      <li class="py-1.5"><span class="font-semibold">AI Subscriptions</span>: Claude Pro, OpenCode Black 20, GitHub Coplilot Pro (free for open-source maintainers)</li>
       <li class="py-1.5"><span class="font-semibold">Terminal</span>: Ghostty</li>
       <li class="py-1.5"><span class="font-semibold">Shell</span>: nushell</li>
       <li class="py-1.5"><span class="font-semibold">Version Control</span>: Jujutsu</li>
       <li class="py-1.5"><span class="font-semibold">Shell Prompt</span>: Starship</li>
       <li class="py-1.5"><span class="font-semibold">Font</span>: Berkeley Mono</li>
-      <li class="py-1.5"><span class="font-semibold">Local Containerization</span>: Docker Desktop, Apple Containers</li>
+      <li class="py-1.5"><span class="font-semibold">Local Containerization</span>: Colima, Docker Desktop, Apple Containers</li>
+    </ul>
+    
+    <h2 class="mt-6 text-2xl font-bold text-blue-400">AI Tools</h2>
+    <ul class="list-inside list-disc ml-6">
+      <li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: GitHub Copilot</li>
+      <li class="py-1.5"><span class="font-semibold">AI Coding Agent</span>: OpenCode, Codex, GitHub Coplilot</li>
+      <li class="py-1.5"><span class="font-semibold">AI Personal Assistant</span>: OpenClaw</li>
+      <li class="py-1.5"><span class="font-semibold">AI Subscriptions</span>: ChatGPT, OpenCode Black 20 (waitlist), Synthetic (waitlist), GitHub Coplilot Pro (free for open-source maintainers)</li>
     </ul>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Analog Tools</h2>
@@ -54,7 +60,7 @@ title: Uses
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Software</h2>
     <ul class="list-inside list-disc ml-6">
       <li class="py-1.5"><span class="font-semibold">Launcher & Clipboard Manager</span>: Apple Spotlight</li>
-      <li class="py-1.5"><span class="font-semibold">System Monitor</span>: iStat Menus</li>
+      <li class="py-1.5"><span class="font-semibold">System Monitor</span>: Stats</li>
       <li class="py-1.5"><span class="font-semibold">Podcast Player</span>: Pocket Casts</li>
       <li class="py-1.5"><span class="font-semibold">Password Manager</span>: Apple Passwords</li>
       <li class="py-1.5"><span class="font-semibold">Notes</span>: Apple Notes</li>
