@@ -7,7 +7,7 @@ title: Uses
   <h1 class="text-4xl font-bold mb-4">Uses</h1>
   
   <div class="ml-8">
-    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: February 22nd, 2026</span></p>
+    <p>A list of the things I use and find useful for my work and personal life. Inspired by <a href="https://uses.tech" target="_blank" title="uses.tech">uses.tech</a>.<br><span class="italic text-gray-400 text-sm">Last updated: March 9th, 2026</span></p>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Hardware</h2>
     <ul class="list-inside list-disc ml-6">
@@ -36,17 +36,16 @@ title: Uses
       <li class="py-1.5"><span class="font-semibold">Terminal</span>: Ghostty</li>
       <li class="py-1.5"><span class="font-semibold">Shell</span>: nushell</li>
       <li class="py-1.5"><span class="font-semibold">Version Control</span>: Jujutsu</li>
-      <li class="py-1.5"><span class="font-semibold">Shell Prompt</span>: Starship</li>
       <li class="py-1.5"><span class="font-semibold">Font</span>: Berkeley Mono</li>
       <li class="py-1.5"><span class="font-semibold">Local Containerization</span>: Colima, Docker Desktop, Apple Containers</li>
     </ul>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">AI Tools</h2>
     <ul class="list-inside list-disc ml-6">
-      <li class="py-1.5"><span class="font-semibold">AI Coding Assistant</span>: GitHub Copilot</li>
+      <li class="py-1.5"><span class="font-semibold">AI Code Completion</span>: GitHub Copilot</li>
       <li class="py-1.5"><span class="font-semibold">AI Coding Agent</span>: OpenCode, Codex, GitHub Coplilot</li>
       <li class="py-1.5"><span class="font-semibold">AI Personal Assistant</span>: OpenClaw</li>
-      <li class="py-1.5"><span class="font-semibold">AI Subscriptions</span>: ChatGPT, OpenCode Black 20 (waitlist), Synthetic (waitlist), GitHub Coplilot Pro (free for open-source maintainers)</li>
+      <li class="py-1.5"><span class="font-semibold">AI Subscriptions</span>: ChatGPT Plus, OpenCode Black 20 (waitlist), GitHub Coplilot Pro (free for open-source maintainers)</li>
     </ul>
     
     <h2 class="mt-6 text-2xl font-bold text-blue-400">Analog Tools</h2>
