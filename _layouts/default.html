@@ -19,11 +19,71 @@
         <title>
             Donnie Adams{% if page.title %} - {{ page.title }}{% endif %}
         </title>
+        <script>
+            (() => {
+                const storedTheme = localStorage.getItem("theme");
+                const prefersDark = window.matchMedia(
+                    "(prefers-color-scheme: dark)"
+                ).matches;
+                const theme = storedTheme || (prefersDark ? "dark" : "light");
+                document.documentElement.dataset.theme = theme;
+            })();
+        </script>
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
+            :root {
+                color-scheme: light;
+                --page-bg: #f7f4ee;
+                --page-text: #1f2937;
+                --muted-text: #6b7280;
+                --heading-text: #111827;
+                --surface: rgba(255, 255, 255, 0.78);
+                --surface-strong: #1f2937;
+                --surface-soft: #dbeafe;
+                --surface-soft-hover: #bfdbfe;
+                --surface-border: rgba(148, 163, 184, 0.28);
+                --link-color: #3b82f6;
+                --link-hover: #2563eb;
+                --accent: #fb923c;
+                --accent-strong: #f97316;
+                --button-text: #ffffff;
+                --button-hover-text: #111827;
+                --shadow-color: rgba(15, 23, 42, 0.08);
+                --backdrop-start: rgba(255, 255, 255, 0.92);
+                --backdrop-end: rgba(255, 247, 237, 0.9);
+            }
+
+            [data-theme="dark"] {
+                color-scheme: dark;
+                --page-bg: #0f172a;
+                --page-text: #dbe4f0;
+                --muted-text: #94a3b8;
+                --heading-text: #f8fafc;
+                --surface: rgba(15, 23, 42, 0.72);
+                --surface-strong: #172033;
+                --surface-soft: rgba(37, 99, 235, 0.18);
+                --surface-soft-hover: rgba(59, 130, 246, 0.3);
+                --surface-border: rgba(148, 163, 184, 0.2);
+                --link-color: #7dd3fc;
+                --link-hover: #bae6fd;
+                --accent: #fdba74;
+                --accent-strong: #fb923c;
+                --button-text: #0f172a;
+                --button-hover-text: #0f172a;
+                --shadow-color: rgba(2, 6, 23, 0.45);
+                --backdrop-start: rgba(15, 23, 42, 0.96);
+                --backdrop-end: rgba(30, 41, 59, 0.92);
+            }
+
             /* Font declarations */
             html {
                 font-family: "Roboto", sans-serif;
+                background: linear-gradient(
+                    180deg,
+                    var(--backdrop-start),
+                    var(--backdrop-end)
+                );
+                min-height: 100%;
             }
 
             @font-face {
@@ -42,6 +102,14 @@
             }
 
             /* Typography overrides */
+            body {
+                background: transparent;
+                color: var(--page-text);
+                transition:
+                    background-color 0.25s ease,
+                    color 0.25s ease;
+            }
+
             p {
                 font-size: 1.1em;
             }
@@ -51,6 +119,7 @@
                 margin-bottom: 1rem;
                 font-weight: 600;
                 font-family: "Nunito", sans-serif;
+                color: var(--heading-text);
             }
 
             h2 {
@@ -58,6 +127,7 @@
                 margin-bottom: 0.5rem;
                 font-weight: 600;
                 font-family: "Nunito", sans-serif;
+                color: var(--heading-text);
             }
 
             h3 {
@@ -65,16 +135,18 @@
                 margin-bottom: 0.5rem;
                 font-weight: 600;
                 font-family: "Nunito", sans-serif;
+                color: var(--heading-text);
             }
 
             /* Anchor tag styling - override Tailwind's reset */
             a {
                 text-decoration: underline !important;
-                color: #60a5fa !important;
+                color: var(--link-color) !important;
+                transition: color 0.2s ease;
             }
 
             a:hover {
-                color: #3b82f6 !important;
+                color: var(--link-hover) !important;
             }
 
             .nav-link {
@@ -83,12 +155,12 @@
             }
 
             .nav-link:hover {
-                color: #fb923c !important;
+                color: var(--accent) !important;
             }
 
             .nav-link-active {
                 text-decoration: none !important;
-                color: #fb923c !important;
+                color: var(--accent) !important;
             }
 
             .btn-link {
@@ -97,13 +169,178 @@
             }
 
             .back-link {
-                color: #fb923c !important;
+                color: var(--accent) !important;
             }
 
             .j-link {
                 text-decoration: underline;
                 cursor: pointer;
                 user-select: none;
+            }
+
+            header {
+                position: sticky;
+                top: 0;
+                z-index: 40;
+                backdrop-filter: blur(14px);
+                background: var(--surface);
+                border-bottom: 1px solid var(--surface-border);
+                box-shadow: 0 12px 40px -24px var(--shadow-color);
+            }
+
+            footer {
+                border-top: 1px solid var(--surface-border);
+                background: rgba(255, 255, 255, 0.18);
+            }
+
+            [data-theme="dark"] footer {
+                background: rgba(15, 23, 42, 0.36);
+            }
+
+            .theme-toggle {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.65rem;
+                padding: 0.55rem 0.95rem;
+                border-radius: 9999px;
+                border: 1px solid var(--surface-border);
+                background: rgba(255, 255, 255, 0.38);
+                color: var(--page-text);
+                text-decoration: none !important;
+                box-shadow: 0 12px 30px -24px var(--shadow-color);
+                transition:
+                    transform 0.2s ease,
+                    background-color 0.2s ease,
+                    border-color 0.2s ease;
+            }
+
+            [data-theme="dark"] .theme-toggle {
+                background: rgba(15, 23, 42, 0.55);
+            }
+
+            .theme-toggle:hover {
+                transform: translateY(-1px);
+                color: var(--accent) !important;
+                border-color: rgba(251, 146, 60, 0.4);
+            }
+
+            .theme-toggle-icon {
+                width: 1.1rem;
+                height: 1.1rem;
+            }
+
+            .theme-toggle-sun,
+            [data-theme="dark"] .theme-toggle-moon {
+                display: none;
+            }
+
+            [data-theme="dark"] .theme-toggle-sun,
+            .theme-toggle-moon {
+                display: block;
+            }
+
+            .theme-toggle-label::after {
+                content: "Dark";
+            }
+
+            [data-theme="dark"] .theme-toggle-label::after {
+                content: "Light";
+            }
+
+            .text-gray-600,
+            .text-gray-400 {
+                color: var(--muted-text) !important;
+            }
+
+            .text-blue-400,
+            .text-blue-800 {
+                color: var(--link-color) !important;
+            }
+
+            .bg-blue-100 {
+                background-color: var(--surface-soft) !important;
+            }
+
+            .hover\:bg-blue-200:hover {
+                background-color: var(--surface-soft-hover) !important;
+            }
+
+            .bg-gray-800 {
+                background:
+                    linear-gradient(145deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.96)) !important;
+            }
+
+            [data-theme="dark"] .bg-gray-800 {
+                background:
+                    linear-gradient(145deg, rgba(15, 23, 42, 0.92), rgba(2, 6, 23, 0.92)) !important;
+            }
+
+            .bg-white {
+                background-color: rgba(255, 255, 255, 0.94) !important;
+            }
+
+            [data-theme="dark"] .bg-white {
+                background-color: rgba(15, 23, 42, 0.96) !important;
+            }
+
+            .text-white {
+                color: #f8fafc !important;
+            }
+
+            .bg-orange-400 {
+                background-color: var(--accent-strong) !important;
+            }
+
+            .divide-orange-400 > :not([hidden]) ~ :not([hidden]) {
+                border-color: rgba(251, 146, 60, 0.45) !important;
+            }
+
+            .btn-link.bg-orange-400 {
+                color: var(--button-text) !important;
+            }
+
+            .btn-link.bg-orange-400:hover {
+                color: var(--button-hover-text) !important;
+            }
+
+            .shadow-lg {
+                box-shadow: 0 24px 50px -30px var(--shadow-color) !important;
+            }
+
+            .prose,
+            .prose-lg {
+                color: var(--page-text);
+            }
+
+            .prose blockquote,
+            .prose-lg blockquote {
+                border-left: 3px solid var(--accent);
+                color: var(--muted-text);
+            }
+
+            .prose code,
+            .prose-lg code {
+                color: var(--page-text);
+                background: rgba(148, 163, 184, 0.16);
+                padding: 0.1rem 0.35rem;
+                border-radius: 0.35rem;
+            }
+
+            .prose pre,
+            .prose-lg pre {
+                background: rgba(15, 23, 42, 0.92);
+                color: #e2e8f0;
+                border: 1px solid rgba(148, 163, 184, 0.2);
+            }
+
+            table {
+                border-color: var(--surface-border);
+            }
+
+            @media (max-width: 767px) {
+                .theme-toggle {
+                    padding-inline: 0.75rem;
+                }
             }
         </style>
     </head>

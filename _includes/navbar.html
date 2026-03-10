@@ -1,4 +1,4 @@
-<nav class="h-16 flex justify-between items-center px-8">
+<nav class="h-16 flex justify-between items-center px-6 md:px-8">
     <div class="flex items-center">
         <a href="/">
             <img
@@ -47,46 +47,125 @@
             class="{% if page.url == '/links.html' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold"
             >Links</a
         >
+        <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Switch color theme"
+            aria-pressed="false"
+        >
+            <svg
+                class="theme-toggle-icon theme-toggle-moon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"
+                ></path>
+            </svg>
+            <svg
+                class="theme-toggle-icon theme-toggle-sun"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 3v2.25M12 18.75V21M4.5 4.5l1.59 1.59M17.91 17.91l1.59 1.59M3 12h2.25M18.75 12H21M4.5 19.5l1.59-1.59M17.91 6.09l1.59-1.59M15.75 12A3.75 3.75 0 1112 8.25 3.75 3.75 0 0115.75 12z"
+                ></path>
+            </svg>
+        </button>
     </div>
 
-    <!-- Mobile Menu Button -->
-    <button
-        id="mobile-menu-button"
-        class="md:hidden flex items-center text-2xl focus:outline-none"
-        aria-label="Toggle menu"
-        aria-expanded="false"
-    >
-        <svg
-            id="hamburger-icon"
-            class="w-8 h-8 transition-transform duration-300"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+    <div class="md:hidden flex items-center gap-3">
+        <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Switch color theme"
+            aria-pressed="false"
         >
-            <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-        </svg>
-        <svg
-            id="close-icon"
-            class="w-8 h-8 hidden transition-transform duration-300"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            <svg
+                class="theme-toggle-icon theme-toggle-moon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"
+                ></path>
+            </svg>
+            <svg
+                class="theme-toggle-icon theme-toggle-sun"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 3v2.25M12 18.75V21M4.5 4.5l1.59 1.59M17.91 17.91l1.59 1.59M3 12h2.25M18.75 12H21M4.5 19.5l1.59-1.59M17.91 6.09l1.59-1.59M15.75 12A3.75 3.75 0 1112 8.25 3.75 3.75 0 0115.75 12z"
+                ></path>
+            </svg>
+        </button>
+
+        <!-- Mobile Menu Button -->
+        <button
+            id="mobile-menu-button"
+            class="flex items-center text-2xl focus:outline-none"
+            aria-label="Toggle menu"
+            aria-expanded="false"
         >
-            <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-            ></path>
-        </svg>
-    </button>
+            <svg
+                id="hamburger-icon"
+                class="w-8 h-8 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+            </svg>
+            <svg
+                id="close-icon"
+                class="w-8 h-8 hidden transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                ></path>
+            </svg>
+        </button>
+    </div>
 </nav>
 
 <!-- Mobile Navigation Menu -->
@@ -139,6 +218,34 @@
     const mobileMenu = document.getElementById("mobile-menu");
     const hamburgerIcon = document.getElementById("hamburger-icon");
     const closeIcon = document.getElementById("close-icon");
+    const themeToggleButtons = document.querySelectorAll("[data-theme-toggle]");
+
+    const syncThemeButtons = () => {
+        const isDark = document.documentElement.dataset.theme === "dark";
+
+        themeToggleButtons.forEach((button) => {
+            button.setAttribute("aria-pressed", String(isDark));
+            button.setAttribute(
+                "aria-label",
+                isDark ? "Switch to light theme" : "Switch to dark theme",
+            );
+        });
+    };
+
+    themeToggleButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const nextTheme =
+                document.documentElement.dataset.theme === "dark"
+                    ? "light"
+                    : "dark";
+
+            document.documentElement.dataset.theme = nextTheme;
+            localStorage.setItem("theme", nextTheme);
+            syncThemeButtons();
+        });
+    });
+
+    syncThemeButtons();
 
     mobileMenuButton.addEventListener("click", () => {
         const isExpanded =
