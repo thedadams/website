@@ -6,6 +6,8 @@ description: >-
   Personal website and blog.
 baseurl: ""
 url: "https://thedadams.com"
+plugins:
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
