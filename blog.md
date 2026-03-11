@@ -46,7 +46,7 @@ title: Blog
         </div>
 
         <div class="mt-6">
-          <a href="https://raw.githubusercontent.com/thedadams/blogposts/main/feed.rss" class="text-sm hover:text-blue-400" title="Subscribe to the Feed">Subscribe via RSS</a>
+          <a href="https://thedadams.com/feed.xml" class="text-sm hover:text-blue-400" title="Subscribe to the Feed">Subscribe via RSS</a>
         </div>
       </div>
     </div>
