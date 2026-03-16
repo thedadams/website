@@ -344,9 +344,8 @@
                 .philosophy-grid,
                 .links-page > ul,
                 .blog-post-list,
-                .blog-main,
+                .blog-main > ul:first-of-type,
                 .blog-sidebar,
-                .blog-page > ul:first-of-type,
                 .blog-page > ul:last-of-type
             ) {
                 list-style: none;
@@ -543,19 +542,19 @@
             }
 
             .blog-post-list > li,
-            .blog-page > ul:first-of-type > li {
+            .blog-main > ul:first-of-type > li {
                 margin: 0;
                 padding: 1.5rem 0;
                 border-bottom: 1px solid rgba(251, 146, 60, 0.45);
             }
 
             .blog-post-list > li:first-child,
-            .blog-page > ul:first-of-type > li:first-child {
+            .blog-main > ul:first-of-type > li:first-child {
                 padding-top: 0;
             }
 
             .blog-post-list > li:last-child,
-            .blog-page > ul:first-of-type > li:last-child {
+            .blog-main > ul:first-of-type > li:last-child {
                 border-bottom: 0;
                 padding-bottom: 0;
             }
@@ -565,7 +564,7 @@
                 margin-bottom: 0;
             }
 
-            .blog-page > ul:first-of-type > li > p:last-child,
+            .blog-main > ul:first-of-type > li > p:last-child,
             .blog-page > ul:last-of-type > li > p:last-child {
                 margin-bottom: 0;
             }

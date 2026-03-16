@@ -14,7 +14,7 @@ content_class: blog-page
   Posted on {{ post.date | date: "%m/%d/%Y" }}
   {: .post-meta}
 
-  {{ post.content | strip_html | truncatewords: 50 }}
+  {{ post.content | strip_html | truncatewords: 80 }}
   {: .post-excerpt}
 
   [Read more...]({{ post.url }})
