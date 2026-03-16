@@ -386,6 +386,16 @@
                 grid-row: 1;
             }
 
+            .blog-page,
+            .blog-main,
+            .blog-sidebar,
+            .blog-post-list > li,
+            .blog-main > ul:first-of-type > li,
+            .post-excerpt {
+                min-width: 0;
+                overflow-wrap: anywhere;
+            }
+
             .home-feature-grid,
             .philosophy-grid {
                 display: grid;
@@ -611,6 +621,15 @@
 
             /* Responsive adjustments */
             @media (max-width: 767px) {
+                h1 {
+                    font-size: 2.5rem !important;
+                    line-height: 1.05;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+
                 .theme-toggle {
                     padding-inline: 0.75rem;
                 }
@@ -627,6 +646,27 @@
                 .watchface-list > li {
                     flex-direction: column;
                     align-items: stretch;
+                }
+
+                .blog-page {
+                    gap: 2rem;
+                    padding: 1.5rem 1rem 2rem;
+                }
+
+                .blog-page > .blog-sidebar {
+                    grid-column: 1;
+                    grid-row: auto;
+                    border-top: 1px solid rgba(251, 146, 60, 0.3);
+                    padding-top: 1.5rem !important;
+                }
+
+                .blog-post-list > li,
+                .blog-main > ul:first-of-type > li {
+                    padding: 1.25rem 0;
+                }
+
+                .blog-main > h1:first-child {
+                    margin-bottom: 0.75rem !important;
                 }
 
                 .full-bleed-section {
