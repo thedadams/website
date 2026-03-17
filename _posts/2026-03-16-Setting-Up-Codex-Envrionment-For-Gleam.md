@@ -3,7 +3,7 @@ layout: post
 title: "Running Gleam in a Codex Environment"
 date: 2026-03-16
 tags: ["programming", "gleam", "codex"]
-updated: "03/16/2026"
+updated: "03/17/2026"
 author: "Donnie"
 ---
 I've recently been exploring the Gleam programming language. Gleam is a statically typed language that compiles to Erlang, and it's designed for building scalable and maintainable applications. As is the case with many programmers these days, I wanted to explore using Codex to build a proof-of-concept for an idea I had. It turned out that setting up a Codex Environment was much more involved than I expected. This post walks through the issues I ran into and the exact configuration required to make Gleam work inside a Codex environment.
@@ -18,14 +18,14 @@ The Gleam documentation has steps to install Gleam on Ubuntu using the precompil
 apt update
 apt install -y erlang-dev rebar3
 
-wget https://github.com/gleam-lang/gleam/releases/download/v1.15.0/gleam-v1.15.0-x86_64-unknown-linux-musl.tar.gz
-wget https://github.com/gleam-lang/gleam/releases/download/v1.15.0/gleam-v1.15.0-x86_64-unknown-linux-musl.tar.gz.sha256
+wget https://github.com/gleam-lang/gleam/releases/download/v1.15.1/gleam-v1.15.1-x86_64-unknown-linux-musl.tar.gz
+wget https://github.com/gleam-lang/gleam/releases/download/v1.15.1/gleam-v1.15.1-x86_64-unknown-linux-musl.tar.gz.sha256
 
-if ! sha256sum -c gleam-v1.15.0-x86_64-unknown-linux-musl.tar.gz.sha256; then
+if ! sha256sum -c gleam-v1.15.1-x86_64-unknown-linux-musl.tar.gz.sha256; then
 exit 1
 fi
 
-tar xf gleam-v1.15.0-x86_64-unknown-linux-musl.tar.gz
+tar xf gleam-v1.15.1-x86_64-unknown-linux-musl.tar.gz
 chmod +x gleam
 mv gleam /usr/bin/
 
