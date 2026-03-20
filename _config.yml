@@ -10,6 +10,17 @@ url: "https://thedadams.com"
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+
+logo: /assets/images/thedadamsLogo.png
+image: /assets/images/social-card.svg
+social:
+  name: Donnie Adams
+  links:
+    - https://github.com/thedadams
+    - https://www.linkedin.com/in/thedadams
+    - https://x.com/thedadams
+    - https://bsky.app/profile/thedadams.com
 
 # Build settings
 markdown: kramdown
@@ -40,7 +51,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      image: /assets/images/social-card.svg
   - scope:
       path: ""
     values:
       layout: "default"
+      image: /assets/images/social-card.svg

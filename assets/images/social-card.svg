@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Donnie Adams social sharing card</title>
+  <desc id="desc">A wide social card for thedadams.com with Donnie Adams name and site tagline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.55" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="120" x2="1040" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="32" fill="url(#bg)"/>
+  <circle cx="1015" cy="118" r="170" fill="#FB923C" fill-opacity="0.12"/>
+  <circle cx="1080" cy="540" r="220" fill="#7DD3FC" fill-opacity="0.08"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.09"/>
+
+  <text x="110" y="185" fill="#FB923C" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="3">THEDADAMS.COM</text>
+  <text x="110" y="300" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">Donnie Adams</text>
+  <text x="110" y="382" fill="#DBE4F0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400">Software engineer, mathematician, and basketball coach.</text>
+
+  <rect x="110" y="442" width="360" height="8" rx="4" fill="url(#accent)"/>
+  <text x="110" y="510" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">Blog • Projects • Coaching • Research</text>
+</svg>
