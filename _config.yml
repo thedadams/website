@@ -42,7 +42,7 @@ include:
 collections:
   posts:
     output: true
-    permalink: /blog/:year/:month/:day/:title/
+    permalink: /blog/:year/:month/:day/:title
 
 # Defaults
 defaults:

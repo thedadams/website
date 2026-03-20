@@ -12,16 +12,21 @@
       <stop offset="1" stop-color="#7DD3FC"/>
     </linearGradient>
   </defs>
-
   <rect width="1200" height="630" rx="32" fill="url(#bg)"/>
-  <circle cx="1015" cy="118" r="170" fill="#FB923C" fill-opacity="0.12"/>
-  <circle cx="1080" cy="540" r="220" fill="#7DD3FC" fill-opacity="0.08"/>
   <rect x="72" y="72" width="1056" height="486" rx="28" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.09"/>
-
-  <text x="110" y="185" fill="#FB923C" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="3">THEDADAMS.COM</text>
+  <g transform="translate(110 92)">
+    <rect x="0" y="0" width="104" height="104" fill="#1F2937" fill-opacity="0.28"/>
+    <rect x="0" y="0" width="104" height="6" rx="2" fill="#FB923C"/>
+    <rect x="0" y="98" width="104" height="6" rx="2" fill="#FB923C"/>
+    <rect x="0" y="0" width="6" height="23" rx="2" fill="#FB923C"/>
+    <rect x="0" y="81" width="6" height="23" rx="2" fill="#FB923C"/>
+    <rect x="98" y="0" width="6" height="23" rx="2" fill="#FB923C"/>
+    <rect x="98" y="81" width="6" height="23" rx="2" fill="#FB923C"/>
+    <rect x="30" y="28" width="44" height="5" fill="#FB923C"/>
+    <rect x="48" y="33" width="6" height="48" fill="#FB923C"/>
+  </g>
   <text x="110" y="300" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">Donnie Adams</text>
   <text x="110" y="382" fill="#DBE4F0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400">Software engineer, mathematician, and basketball coach.</text>
-
-  <rect x="110" y="442" width="360" height="8" rx="4" fill="url(#accent)"/>
+  <rect x="110" y="442" width="360" height="8" rx="4" fill="#FB923C"/>
   <text x="110" y="510" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">Blog • Projects • Coaching • Research</text>
 </svg>
