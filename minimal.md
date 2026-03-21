@@ -13,9 +13,9 @@ Minimal is a watchface for the [Pebble Smartwatch](http://getpebble.com). It was
 
 ![Minimal Screenshot 2](/assets/images/pebble-screenshot_2014-09-08_21-49-02.png){: class="mx-auto py-8"}
 
-I also created a [blog post](/blog.html) to give an idea of how I came to this design and these features.
+I also created a [blog post](/blog) to give an idea of how I came to this design and these features.
 
-You can check out my other Pebble watchfaces [here](/watchfaces.html).
+You can check out my other Pebble watchfaces [here](/watchfaces).
 {: class="mb-6"}
 
 ![Minimal Screenshot 3](/assets/images/pebble-screenshot_2014-09-13_14-25-49.png){: class="mx-auto py-8"}

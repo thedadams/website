@@ -12,16 +12,16 @@ content_class: home-page
 Software engineer and basketball coach
 {: class="text-xl text-gray-600 mb-6 text-center"}
 
-[About me](/about.html){: class="btn-link px-6 py-3 font-semibold text-center text-white bg-orange-400 rounded-md inline-block hover:text-black mb-12"}
+[About me](/about){: class="btn-link px-6 py-3 font-semibold text-center text-white bg-orange-400 rounded-md inline-block hover:text-black mb-12"}
 {: class="text-center mt-6 mb-12"}
 
 - ## Software
 
-  I enjoy building all different kinds of projects from websites to analytic programs to educational software. Check out what I am [currently working on](/projects.html) or my [past projects](/pastprojects.html).
+  I enjoy building all different kinds of projects from websites to analytic programs to educational software. Check out what I am [currently working on](/projects) or my [past projects](/pastprojects).
 - ## Mathematics
 
-  My formal education is in math where I have [published papers](/research.html) in peer-reviewed journals. Mathematical research will always be in my life, whether I am researching a new problem or building an analytics project for a sport I follow.
+  My formal education is in math where I have [published papers](/research) in peer-reviewed journals. Mathematical research will always be in my life, whether I am researching a new problem or building an analytics project for a sport I follow.
 - ## Coaching
 
-  Coaching basketball has become a big part of my life. I have experience coaching at the high school level: beginners to future D-1 athletes. Checkout my [experience and philosophy](/basketball.html).
+  Coaching basketball has become a big part of my life. I have experience coaching at the high school level: beginners to future D-1 athletes. Checkout my [experience and philosophy](/basketball).
 {: class="home-feature-grid full-bleed-section"}

@@ -19,7 +19,7 @@ You'll also notice that the "hour" section appears to be multi-shaded. This is a
 
 The watch also emits two short vibrations when the watch connects to bluetooth and one long vibration when it disconnects.
 
-You can check out my other Pebble watchfaces [here](/watchfaces.html).
+You can check out my other Pebble watchfaces [here](/watchfaces).
 {: class="mb-6"}
 
 If you would like to download Contrast Dots for your Pebble, please click [here](https://apps.getpebble.com/applications/53c1ca239e7e05580800003f). Also, if you have any suggestions, comments, or questions, please do not hesitate to contact me via [Twitter](https://twitter.com/thedadams).

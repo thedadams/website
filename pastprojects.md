@@ -8,7 +8,7 @@ content_class: page-shell
 
 - ## Pebble Watchfaces
 
-  I am the proud owner of a Kickstarter Edition Pebble Smartwatch. It no longer works and I have switched to an Apple Watch, but I truly enjoyed my Pebble. To continue my journey of programming, I decided to write a few watchfaces for my Pebble. You can read more about them [here](/watchfaces.html). The most popular one was the [Minimal](/minimal.html) watchface.
+  I am the proud owner of a Kickstarter Edition Pebble Smartwatch. It no longer works and I have switched to an Apple Watch, but I truly enjoyed my Pebble. To continue my journey of programming, I decided to write a few watchfaces for my Pebble. You can read more about them [here](/watchfaces). The most popular one was the [Minimal](/minimal) watchface.
 
   Pebble has since been purchased by Fitbit. I put all the code for these watchfaces on my [Github account](https://github.com/thedadams).
 - ## My blog
@@ -31,5 +31,5 @@ content_class: page-shell
 
   I would like to acknowledge a couple things. First, this is the project I used to teach myself how to program. Therefore, the code is ugly. I hope to eventually clean it up, but for now you can view the project on [Github](https://github.com/thedadams/ConsistencyIndex). Secondly, as I have learned more about baseball and statistics, I realize that part of the idea is flawed. For example, there is a weighting, but that weighting is essentially arbitrary. I hope to fix this one day as well.
 
-  I wrote a few blog posts about it, which you can see [here](/blog.html).
+  I wrote a few blog posts about it, which you can see [here](/blog).
 {: .project-grid}

@@ -30,11 +30,11 @@ content_class: blog-page
 
 - ## Navigation
 
-  [All Posts](/all-posts.html)
+  [All Posts](/all-posts)
 
 - ## Tags
   {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
-  {% for tag in all_tags %}{% if tag != "" %}[{{ tag }}](/tags.html#tag-{{ tag | slugify }}) {% endif %}{% endfor %}
+  {% for tag in all_tags %}{% if tag != "" %}[{{ tag }}](/tags#tag-{{ tag | slugify }}) {% endif %}{% endfor %}
   {: .tag-cloud}
 
 - [Subscribe via RSS](https://thedadams.com/feed.xml)

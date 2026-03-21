@@ -23,17 +23,17 @@ My projects fall into four categories: day job, freelance, math, coaching and ho
 
   While I did discontinue pursuit of a PhD in mathematics, I will continue to read about and research mathematical topics. Right now, I am exploring some of the prime conjectures like the Twin Prime Conjecture and Goldbach's Conjecture.
 
-  You can see more information about my previous research [here](/research.html).
+  You can see more information about my previous research [here](/research).
 - ## Coaching
 
   I enjoy coaching basketball at the high school level. Teaching young men and women the fundamentals of the game and watching them grow as a team is edifying. I am currently the head JV boys basketball coach at [Gilmour Academy](https://www.gilmour.org). Previously, I was the head JV and varsity assistant boys basketball coach at Hawken Upper School. And, prior to that, I coached boys basketball at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the lower levels and assistant at the varsity level.
 
-  I have a page dedicated to my [coaching experience and philosophy](/basketball.html).
+  I have a page dedicated to my [coaching experience and philosophy](/basketball).
 {: .project-grid}
 
 - ## Open Source
 
   I am actively developing a [Zed](https://zed.dev) extension for styling special comments. See [the repository](https://github.comt/thedadams/zed-comment) for more information.
 
-  You can read about some of my past hobby projects [here](/pastprojects.html).
+  You can read about some of my past hobby projects [here](/pastprojects).
 {: .project-grid}
