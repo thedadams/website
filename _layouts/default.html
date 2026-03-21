@@ -9,10 +9,7 @@
         />
         <link href="https://techhub.social/@thedadams" rel="me" />
         {% if page.layout == "post" %}
-        <meta
-            name="fediverse:creator"
-            content="@thedadams@techhub.social"
-        />
+        <meta name="fediverse:creator" content="@thedadams@techhub.social" />
         {% endif %}
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         {% seo title=false %}
@@ -54,13 +51,9 @@
                 --button-text: #ffffff;
                 --button-hover-text: #111827;
                 --shadow-color: rgba(15, 23, 42, 0.08);
-                --backdrop-start: rgba(255, 255, 255, 0.92);
-                --backdrop-end: rgba(255, 247, 237, 0.9);
-                --panel-gradient: linear-gradient(
-                    145deg,
-                    rgba(30, 41, 59, 0.98),
-                    rgba(15, 23, 42, 0.96)
-                );
+                --page-backdrop: #f7f4ee;
+                --panel-surface-strong: #1e293b;
+                --feature-strip-bg: #1e293b;
                 --footer-surface: rgba(255, 255, 255, 0.18);
                 --card-surface: rgba(255, 255, 255, 0.45);
                 --page-shell-width: 72rem;
@@ -87,13 +80,9 @@
                 --button-text: #0f172a;
                 --button-hover-text: #0f172a;
                 --shadow-color: rgba(2, 6, 23, 0.45);
-                --backdrop-start: rgba(15, 23, 42, 0.96);
-                --backdrop-end: rgba(30, 41, 59, 0.92);
-                --panel-gradient: linear-gradient(
-                    145deg,
-                    rgba(15, 23, 42, 0.92),
-                    rgba(2, 6, 23, 0.92)
-                );
+                --page-backdrop: #0f172a;
+                --panel-surface-strong: rgba(15, 23, 42, 0.92);
+                --feature-strip-bg: #22304a;
                 --footer-surface: rgba(15, 23, 42, 0.36);
                 --card-surface: rgba(15, 23, 42, 0.42);
             }
@@ -101,11 +90,7 @@
             /* Font declarations */
             html {
                 font-family: "Roboto", sans-serif;
-                background: linear-gradient(
-                    180deg,
-                    var(--backdrop-start),
-                    var(--backdrop-end)
-                );
+                background: var(--page-backdrop);
                 min-height: 100%;
             }
 
@@ -270,7 +255,7 @@
             }
 
             .bg-gray-800 {
-                background: var(--panel-gradient) !important;
+                background: var(--panel-surface-strong) !important;
             }
 
             .bg-white {
@@ -406,7 +391,7 @@
                 display: grid;
                 grid-template-columns: repeat(3, minmax(0, 1fr));
                 gap: var(--grid-gap);
-                background: var(--panel-gradient);
+                background: var(--feature-strip-bg);
                 color: #f8fafc;
             }
 
