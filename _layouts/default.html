@@ -8,6 +8,12 @@
             type="image/x-icon"
         />
         <link href="https://techhub.social/@thedadams" rel="me" />
+        {% if page.layout == "post" %}
+        <meta
+            name="fediverse:creator"
+            content="@thedadams@techhub.social"
+        />
+        {% endif %}
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         {% seo title=false %}
         <script
