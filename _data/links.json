@@ -42,6 +42,12 @@
     "fileUrl": "https://cdn.simpleicons.org/discord/5865F2"
   },
   {
+    "name": "Bluesky",
+    "url": "https://bsky.app/profile/thedadams.com",
+    "description": "Bluesky is becoming my favorite place to interact with tech people.",
+    "fileUrl": "https://cdn.simpleicons.org/bluesky/0285FF"
+  },
+  {
     "name": "Mastodon",
     "url": "https://techhub.social/@thedadams",
     "description": "On the Fediverse",
