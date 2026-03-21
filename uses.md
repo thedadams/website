@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Uses
-content_class: page-shell uses-page
+content_class: page-shell
 ---
 
 # Uses
