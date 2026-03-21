@@ -31,14 +31,14 @@
             >Basketball</a
         >
         <a
-            href="/now"
-            class="{% if current_url == '/now' or current_url == '/now/' %}nav-link-active{% else %}nav-link{% endif %}"
-            >Now</a
-        >
-        <a
             href="/blog"
             class="{% if current_url == '/blog' or current_url == '/blog/' or page.layout == 'post' %}nav-link-active{% else %}nav-link{% endif %}"
             >Blog</a
+        >
+        <a
+            href="/now"
+            class="{% if current_url == '/now' or current_url == '/now/' %}nav-link-active{% else %}nav-link{% endif %}"
+            >Now</a
         >
         <a
             href="/uses"
@@ -46,9 +46,9 @@
             >Uses</a
         >
         <a
-            href="/links"
-            class="{% if current_url == '/links' or current_url == '/links/' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold"
-            >Links</a
+            href="/hello"
+            class="{% if current_url == '/hello' or current_url == '/hello/' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold"
+            >Hello</a
         >
         <button
             type="button"
@@ -194,14 +194,14 @@
             >Basketball</a
         >
         <a
-            href="/now"
-            class="{% if current_url == '/now' or current_url == '/now/' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
-            >Now</a
-        >
-        <a
             href="/blog"
             class="{% if current_url == '/blog' or current_url == '/blog/' or page.layout == 'post' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
             >Blog</a
+        >
+        <a
+            href="/now"
+            class="{% if current_url == '/now' or current_url == '/now/' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            >Now</a
         >
         <a
             href="/uses"
@@ -209,9 +209,9 @@
             >Uses</a
         >
         <a
-            href="/links"
-            class="{% if current_url == '/links' or current_url == '/links/' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold transition-colors duration-200"
-            >Links</a
+            href="/hello"
+            class="{% if current_url == '/hello' or current_url == '/hello/' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold transition-colors duration-200"
+            >Hello</a
         >
     </div>
 </div>
@@ -271,8 +271,8 @@
     });
 
     // Close mobile menu when a link is clicked
-    const mobileLinks = mobileMenu.querySelectorAll("a");
-    mobileLinks.forEach((link) => {
+    const mobileHello = mobileMenu.querySelectorAll("a");
+    mobileHello.forEach((link) => {
         link.addEventListener("click", () => {
             mobileMenu.style.maxHeight = "0";
             mobileMenu.style.opacity = "0";

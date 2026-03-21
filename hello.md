@@ -1,10 +1,15 @@
 ---
 layout: default
-title: Links
+title: Hello
 content_class: page-shell links-page
 ---
 
-# Links
+# Hello
+
+Here are some ways you can contact me. Use your favorite!
+
+Updated on March 21st, 2026.
+{: .updated-note}
 
 {% for link in site.data.links %}
 - <img
