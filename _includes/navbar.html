@@ -1,10 +1,4 @@
-{% assign is_home = page.url == '/' or page.url == '/index' or page.url == '/index.html' %}
-{% assign is_about = page.url == '/about' or page.url == '/about/' or page.url == '/about.html' %}
-{% assign is_projects = page.url == '/projects' or page.url == '/projects/' or page.url == '/projects.html' %}
-{% assign is_basketball = page.url == '/basketball' or page.url == '/basketball/' or page.url == '/basketball.html' %}
-{% assign is_blog = page.url == '/blog' or page.url == '/blog/' or page.url == '/blog.html' or page.layout == 'post' %}
-{% assign is_uses = page.url == '/uses' or page.url == '/uses/' or page.url == '/uses.html' %}
-{% assign is_links = page.url == '/links' or page.url == '/links/' or page.url == '/links.html' %}
+{% assign current_url = page.url | replace: '/index.html', '/' | replace: '.html', '' %}
 
 <nav class="h-16 flex justify-between items-center px-6 md:px-8">
     <div class="flex items-center">
@@ -22,37 +16,37 @@
     <div class="hidden md:flex items-center space-x-8 text-xl">
         <a
             href="/"
-            class="{% if is_home %}nav-link-active{% else %}nav-link{% endif %}"
+            class="{% if current_url == '/' or current_url == '/index' %}nav-link-active{% else %}nav-link{% endif %}"
             >Home</a
         >
         <a
             href="/about"
-            class="{% if is_about %}nav-link-active{% else %}nav-link{% endif %}"
+            class="{% if current_url == '/about' or current_url == '/about/' %}nav-link-active{% else %}nav-link{% endif %}"
             >About</a
         >
         <a
             href="/projects"
-            class="{% if is_projects %}nav-link-active{% else %}nav-link{% endif %}"
+            class="{% if current_url == '/projects' or current_url == '/projects/' %}nav-link-active{% else %}nav-link{% endif %}"
             >Projects</a
         >
         <a
             href="/basketball"
-            class="{% if is_basketball %}nav-link-active{% else %}nav-link{% endif %}"
+            class="{% if current_url == '/basketball' or current_url == '/basketball/' %}nav-link-active{% else %}nav-link{% endif %}"
             >Basketball</a
         >
         <a
             href="/blog"
-            class="{% if is_blog %}nav-link-active{% else %}nav-link{% endif %}"
+            class="{% if current_url == '/blog' or current_url == '/blog/' or page.layout == 'post' %}nav-link-active{% else %}nav-link{% endif %}"
             >Blog</a
         >
         <a
             href="/uses"
-            class="{% if is_uses %}nav-link-active{% else %}nav-link{% endif %}"
+            class="{% if current_url == '/uses' or current_url == '/uses/' %}nav-link-active{% else %}nav-link{% endif %}"
             >Uses</a
         >
         <a
             href="/links"
-            class="{% if is_links %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold"
+            class="{% if current_url == '/links' or current_url == '/links/' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold"
             >Links</a
         >
         <button
@@ -185,37 +179,37 @@
     <div class="flex flex-col space-y-4 px-8 py-6 text-xl">
         <a
             href="/"
-            class="{% if is_home %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            class="{% if current_url == '/' or current_url == '/index' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
             >Home</a
         >
         <a
             href="/about"
-            class="{% if is_about %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            class="{% if current_url == '/about' or current_url == '/about/' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
             >About</a
         >
         <a
             href="/projects"
-            class="{% if is_projects %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            class="{% if current_url == '/projects' or current_url == '/projects/' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
             >Projects</a
         >
         <a
             href="/basketball"
-            class="{% if is_basketball %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            class="{% if current_url == '/basketball' or current_url == '/basketball/' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
             >Basketball</a
         >
         <a
             href="/blog"
-            class="{% if is_blog %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            class="{% if current_url == '/blog' or current_url == '/blog/' or page.layout == 'post' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
             >Blog</a
         >
         <a
             href="/uses"
-            class="{% if is_uses %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
+            class="{% if current_url == '/uses' or current_url == '/uses/' %}nav-link-active{% else %}nav-link{% endif %} transition-colors duration-200"
             >Uses</a
         >
         <a
             href="/links"
-            class="{% if is_links %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold transition-colors duration-200"
+            class="{% if current_url == '/links' or current_url == '/links/' %}nav-link-active{% else %}nav-link{% endif %} font-weight-bold transition-colors duration-200"
             >Links</a
         >
     </div>
