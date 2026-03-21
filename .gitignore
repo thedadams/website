@@ -4,6 +4,7 @@ php.ini
 node_modules/
 dist/
 .idea/
+Dockerfile
 
 # Jekyll
 _site/
