@@ -15,7 +15,7 @@ Updated on March 21st, 2026.
 {: class="px-10" .updated-note}
 
 - ## Family
-  My wife and I move from Arizona to Ohio nearly 4 years ago. People ask us why we moved here and are always surprised when we say it was just because we love the area. On February 26th, 2026, we our son Lyle was born. He has an incredible story that I hope to share one day.
+  My wife and I move from Arizona to Ohio nearly 4 years ago. People ask us why we moved here and are always surprised when we say it was just because we love the area. On February 26th, 2026, our son Lyle was born. He has an incredible story that I hope to share one day.
 - ## Day Job
 
   I am currently a Software Architect at [Obot AI](https://obot.ai), working remotely from Ohio. We pivoted from a Kubernetes application deployment framework to an open-source natural language programming project called GPTScript, and then to an MCP server management platform. Being in this new space has provide a lot of opportunities for learning and improving my skills.
