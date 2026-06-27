@@ -24,67 +24,90 @@
         <script>
             (() => {
                 const storedTheme = localStorage.getItem("theme");
-                const prefersDark = window.matchMedia(
-                    "(prefers-color-scheme: dark)",
-                ).matches;
-                const theme = storedTheme || (prefersDark ? "dark" : "light");
+                const theme = storedTheme || "dark";
                 document.documentElement.dataset.theme = theme;
             })();
         </script>
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
             :root {
-                color-scheme: light;
-                --page-bg: #f7f4ee;
-                --page-text: #1f2937;
-                --muted-text: #6b7280;
-                --heading-text: #111827;
-                --surface: rgba(255, 255, 255, 0.78);
-                --surface-strong: #1f2937;
-                --surface-soft: #dbeafe;
-                --surface-soft-hover: #bfdbfe;
-                --surface-border: rgba(148, 163, 184, 0.28);
-                --link-color: #3b82f6;
-                --link-hover: #2563eb;
-                --accent: #fb923c;
-                --accent-strong: #f97316;
-                --button-text: #ffffff;
-                --button-hover-text: #111827;
-                --shadow-color: rgba(15, 23, 42, 0.08);
-                --page-backdrop: #f7f4ee;
-                --panel-surface-strong: #1e293b;
-                --feature-strip-bg: #1e293b;
-                --footer-surface: rgba(255, 255, 255, 0.18);
-                --card-surface: rgba(255, 255, 255, 0.45);
+                color-scheme: dark;
+                --ember-base: #191d24;
+                --ember-bg: #20242c;
+                --ember-surface: #282e37;
+                --ember-surface-raised: #303743;
+                --ember-surface-selected: #37404d;
+                --ember-muted-accent: #3f4f66;
+                --ember-border: #434d5b;
+                --ember-dim: #7f8998;
+                --ember-muted: #aab4c0;
+                --ember-text: #e1e6ec;
+                --ember-bright: #f5f7fa;
+                --ember-hint: #8792a0;
+                --ember-red: #ea5670;
+                --ember-orange: #f58b45;
+                --ember-yellow: #ddbb52;
+                --ember-green: #99c45c;
+                --ember-cyan: #36cdbb;
+                --ember-blue: #5faaf7;
+                --ember-purple: #b96ef2;
+                --ember-magenta: #e655a7;
+                --ember-orange-rgb: 245, 139, 69;
+                --ember-blue-rgb: 95, 170, 247;
+                --ember-cyan-rgb: 54, 205, 187;
+                --ember-border-rgb: 67, 77, 91;
+                --page-bg: var(--ember-bg);
+                --page-text: var(--ember-text);
+                --muted-text: var(--ember-muted);
+                --heading-text: var(--ember-bright);
+                --surface: rgba(40, 46, 55, 0.86);
+                --surface-strong: var(--ember-surface-raised);
+                --surface-soft: rgba(var(--ember-blue-rgb), 0.16);
+                --surface-soft-hover: rgba(var(--ember-blue-rgb), 0.28);
+                --surface-border: rgba(var(--ember-border-rgb), 0.82);
+                --link-color: var(--ember-cyan);
+                --link-hover: var(--ember-blue);
+                --accent: var(--ember-orange);
+                --accent-strong: var(--ember-orange);
+                --accent-secondary: var(--ember-blue);
+                --button-text: var(--ember-base);
+                --button-hover-text: var(--ember-base);
+                --shadow-color: rgba(2, 6, 23, 0.55);
+                --page-backdrop: var(--ember-bg);
+                --panel-surface-strong: var(--ember-surface);
+                --feature-strip-bg: var(--ember-surface);
+                --footer-surface: rgba(25, 29, 36, 0.62);
+                --card-surface: rgba(48, 55, 67, 0.5);
                 --page-shell-width: 72rem;
                 --page-shell-padding: 2rem 1rem;
                 --grid-gap: 2rem;
-                --card-radius: 0.75rem;
+                --card-radius: 0.5rem;
             }
 
-            [data-theme="dark"] {
-                color-scheme: dark;
-                --page-bg: #0f172a;
-                --page-text: #dbe4f0;
-                --muted-text: #94a3b8;
-                --heading-text: #f8fafc;
-                --surface: rgba(15, 23, 42, 0.72);
-                --surface-strong: #172033;
-                --surface-soft: rgba(37, 99, 235, 0.18);
-                --surface-soft-hover: rgba(59, 130, 246, 0.3);
-                --surface-border: rgba(148, 163, 184, 0.2);
-                --link-color: #7dd3fc;
-                --link-hover: #bae6fd;
-                --accent: #fdba74;
-                --accent-strong: #fb923c;
-                --button-text: #0f172a;
-                --button-hover-text: #0f172a;
-                --shadow-color: rgba(2, 6, 23, 0.45);
-                --page-backdrop: #0f172a;
-                --panel-surface-strong: rgba(15, 23, 42, 0.92);
-                --feature-strip-bg: #22304a;
-                --footer-surface: rgba(15, 23, 42, 0.36);
-                --card-surface: rgba(15, 23, 42, 0.42);
+            [data-theme="light"] {
+                color-scheme: light;
+                --page-bg: #f2f5f8;
+                --page-text: #20242c;
+                --muted-text: #526173;
+                --heading-text: #191d24;
+                --surface: rgba(245, 247, 250, 0.86);
+                --surface-strong: #e1e6ec;
+                --surface-soft: rgba(var(--ember-blue-rgb), 0.16);
+                --surface-soft-hover: rgba(var(--ember-blue-rgb), 0.26);
+                --surface-border: rgba(63, 79, 102, 0.28);
+                --link-color: #197c91;
+                --link-hover: #2a6fb8;
+                --accent: #d96922;
+                --accent-strong: #f58b45;
+                --accent-secondary: #2a6fb8;
+                --button-text: #191d24;
+                --button-hover-text: #191d24;
+                --shadow-color: rgba(25, 29, 36, 0.14);
+                --page-backdrop: #f2f5f8;
+                --panel-surface-strong: #20242c;
+                --feature-strip-bg: #282e37;
+                --footer-surface: rgba(225, 230, 236, 0.54);
+                --card-surface: rgba(255, 255, 255, 0.58);
             }
 
             /* Font declarations */
@@ -106,11 +129,16 @@
 
             /* Base typography */
             body {
-                background: transparent;
+                background: var(--page-bg);
                 color: var(--page-text);
                 transition:
                     background-color 0.25s ease,
                     color 0.25s ease;
+            }
+
+            ::selection {
+                background: rgba(var(--ember-orange-rgb), 0.32);
+                color: var(--heading-text);
             }
 
             p {
@@ -200,7 +228,7 @@
                 padding: 0.55rem 0.95rem;
                 border-radius: 9999px;
                 border: 1px solid var(--surface-border);
-                background: rgba(255, 255, 255, 0.38);
+                background: var(--card-surface);
                 color: var(--page-text);
                 text-decoration: none !important;
                 box-shadow: 0 12px 30px -24px var(--shadow-color);
@@ -210,14 +238,10 @@
                     border-color 0.2s ease;
             }
 
-            [data-theme="dark"] .theme-toggle {
-                background: rgba(15, 23, 42, 0.55);
-            }
-
             .theme-toggle:hover {
                 transform: translateY(-1px);
                 color: var(--accent) !important;
-                border-color: rgba(251, 146, 60, 0.4);
+                border-color: rgba(var(--ember-orange-rgb), 0.54);
             }
 
             .theme-toggle-icon {
@@ -246,6 +270,10 @@
                 color: var(--link-color) !important;
             }
 
+            .text-orange-400 {
+                color: var(--accent) !important;
+            }
+
             .bg-blue-100 {
                 background-color: var(--surface-soft) !important;
             }
@@ -259,15 +287,15 @@
             }
 
             .bg-white {
-                background-color: rgba(255, 255, 255, 0.94) !important;
+                background-color: var(--surface) !important;
             }
 
             [data-theme="dark"] .bg-white {
-                background-color: rgba(15, 23, 42, 0.96) !important;
+                background-color: rgba(40, 46, 55, 0.96) !important;
             }
 
             .text-white {
-                color: #f8fafc !important;
+                color: var(--ember-bright) !important;
             }
 
             .bg-orange-400 {
@@ -275,7 +303,15 @@
             }
 
             .divide-orange-400 > :not([hidden]) ~ :not([hidden]) {
-                border-color: rgba(251, 146, 60, 0.45) !important;
+                border-color: rgba(var(--ember-orange-rgb), 0.45) !important;
+            }
+
+            .border-gray-300 {
+                border-color: var(--surface-border) !important;
+            }
+
+            .border-orange-400 {
+                border-color: rgba(var(--ember-orange-rgb), 0.58) !important;
             }
 
             .btn-link.bg-orange-400 {
@@ -302,15 +338,15 @@
 
             :is(.prose, .prose-lg) code {
                 color: var(--page-text);
-                background: rgba(148, 163, 184, 0.16);
+                background: rgba(var(--ember-border-rgb), 0.35);
                 padding: 0.1rem 0.35rem;
                 border-radius: 0.35rem;
             }
 
             :is(.prose, .prose-lg) pre {
-                background: rgba(15, 23, 42, 0.92);
-                color: #e2e8f0;
-                border: 1px solid rgba(148, 163, 184, 0.2);
+                background: var(--ember-base);
+                color: var(--ember-text);
+                border: 1px solid var(--surface-border);
                 overflow-x: auto;
                 white-space: pre;
                 padding: 0.5em;
@@ -392,7 +428,7 @@
                 grid-template-columns: repeat(3, minmax(0, 1fr));
                 gap: var(--grid-gap);
                 background: var(--feature-strip-bg);
-                color: #f8fafc;
+                color: var(--ember-bright);
             }
 
             .watchface-list > li,
@@ -443,7 +479,7 @@
 
             /* Page-specific content */
             .links-page > ul > li {
-                border: 1px solid rgba(148, 163, 184, 0.32);
+                border: 1px solid var(--surface-border);
                 border-radius: var(--card-radius);
                 padding: 1rem;
                 background: var(--card-surface);
@@ -549,7 +585,7 @@
             .blog-main > ul:first-of-type > li {
                 margin: 0;
                 padding: 1.5rem 0;
-                border-bottom: 1px solid rgba(251, 146, 60, 0.45);
+                border-bottom: 1px solid rgba(var(--ember-orange-rgb), 0.45);
             }
 
             .blog-post-list > li:first-child,
@@ -650,7 +686,7 @@
                 .blog-page > .blog-sidebar {
                     grid-column: 1;
                     grid-row: auto;
-                    border-top: 1px solid rgba(251, 146, 60, 0.3);
+                    border-top: 1px solid rgba(var(--ember-orange-rgb), 0.3);
                     padding-top: 1.5rem !important;
                 }
 
