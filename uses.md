@@ -48,11 +48,11 @@ Last updated: April 20th, 2026
 ## AI Tools
 {: class="mt-6"}
 
-- **AI Code Completion:** GitHub Copilot
-- **AI Coding Agent:** OpenCode, Codex, GitHub Coplilot
+- **AI Code Completion:** Zeta
+- **AI Coding Agent:** Codex, OpenCode
 - **AI Personal Assistant:** Hermes
 - **AI Recording & Notes:** Pocket, Hedy
-- **AI Subscriptions:** ChatGPT Plus, OpenCode Black 20 (waitlist), GitHub Coplilot Pro (free for open-source maintainers)
+- **AI Subscriptions:** ChatGPT Plus
 {: .uses-list}
 
 ## Analog Tools
