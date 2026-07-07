@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: April 20th, 2026
+Last updated: July 7th, 2026
 {: .updated-note}
 
 ## Hardware
@@ -49,7 +49,7 @@ Last updated: April 20th, 2026
 {: class="mt-6"}
 
 - **AI Code Completion:** Zeta
-- **AI Coding Agent:** Codex, OpenCode
+- **AI Coding Agent:** Codex, Zed, OpenCode
 - **AI Personal Assistant:** Hermes
 - **AI Recording & Notes:** Pocket, Hedy
 - **AI Subscriptions:** ChatGPT Plus
