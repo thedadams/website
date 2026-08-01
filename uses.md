@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: July 7th, 2026
+Last updated: July 31st, 2026
 {: .updated-note}
 
 ## Hardware
@@ -35,14 +35,14 @@ Last updated: July 7th, 2026
 ## Development Tools
 {: class="mt-6"}
 
-- **Editor:** Zed
+- **Editor:** Zed, Fresh
 - **API Testing:** Insomnia
-- **Terminal:** Terminal.app
+- **Terminal:** Ghostty
 - **Terminal Workspace Manager:** zellij
 - **Shell:** nushell
 - **Version Control:** Jujutsu
 - **Font:** Berkeley Mono
-- **Local Containerization:** Docker Desktop, Apple Containers
+- **Local Containerization:** Colima, Apple Containers, Docker Desktop
 {: .uses-list}
 
 ## AI Tools
