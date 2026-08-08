@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: July 31st, 2026
+Last updated: August 8th, 2026
 {: .updated-note}
 
 ## Hardware
@@ -35,14 +35,14 @@ Last updated: July 31st, 2026
 ## Development Tools
 {: class="mt-6"}
 
-- **Editor:** Zed, Fresh
-- **API Testing:** Insomnia
+- **Editor:** Fresh, Zed
 - **Terminal:** Ghostty
 - **Terminal Workspace Manager:** zellij
 - **Shell:** nushell
 - **Version Control:** Jujutsu
 - **Font:** Berkeley Mono
 - **Local Containerization:** Colima, Apple Containers, Docker Desktop
+- **API Testing:** Insomnia
 {: .uses-list}
 
 ## AI Tools
@@ -52,7 +52,7 @@ Last updated: July 31st, 2026
 - **AI Coding Agent:** Codex, Zed, OpenCode
 - **AI Personal Assistant:** Hermes
 - **AI Recording & Notes:** Pocket, Hedy
-- **AI Subscriptions:** ChatGPT Plus
+- **AI Subscriptions:** ChatGPT Pro Lite
 {: .uses-list}
 
 ## Analog Tools
