@@ -99,6 +99,7 @@ Last updated: August 8th, 2026
 ## Randoms
 {: class="mt-6"}
 
+- **Color Scheme:** [Ember One](https://github.com/thedadams/ember-one)
 - **Ember Mug:** Black, 16oz
 - **Massage Gun:** Hyperice Go 2
 - **Main Vehicle:** 2022 Tesla Model Y
