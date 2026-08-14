@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: August 8th, 2026
+Last updated: August 13th, 2026
 {: .updated-note}
 
 ## Hardware
@@ -35,12 +35,12 @@ Last updated: August 8th, 2026
 ## Development Tools
 {: class="mt-6"}
 
-- **Editor:** Fresh, Zed
-- **Terminal:** Ghostty
+- **Editor:** Zed, Fresh
+- **Terminal:** Ghostty, rootshell
 - **Terminal Workspace Manager:** zellij
 - **Shell:** nushell
 - **Version Control:** Jujutsu
-- **Font:** Berkeley Mono
+- **Font:** Lilex
 - **Local Containerization:** Colima, Apple Containers, Docker Desktop
 - **API Testing:** Insomnia
 {: .uses-list}
@@ -48,9 +48,8 @@ Last updated: August 8th, 2026
 ## AI Tools
 {: class="mt-6"}
 
-- **AI Code Completion:** Zeta
+- **AI Code Completion:** Zeta, GitHub Copilot
 - **AI Coding Agent:** Codex, Zed, OpenCode
-- **AI Personal Assistant:** Hermes
 - **AI Recording & Notes:** Pocket, Hedy
 - **AI Subscriptions:** ChatGPT Pro Lite
 {: .uses-list}
@@ -74,10 +73,10 @@ Last updated: August 8th, 2026
 - **Notes:** Apple Notes
 - **Calendar:** Apple Calendar
 - **Todo List:** Apple Reminders
-- **Email:** Apple Mail
-- **Web Browser:** Safari
+- **Email:** Thunderbird, Apple Mail
+- **Web Browser:** Firefox
 - **Crypto Wallet:** Exodus
-- **RSS Reader:** Instapaper & Tapestry
+- **RSS Reader:** Instapaper, Tapestry
 - **Language Learning:** Babbel
 {: .uses-list}
 
@@ -86,7 +85,7 @@ Last updated: August 8th, 2026
 
 - **VPN:** VPN Unlimited
 - **Music Streaming:** Apple Music
-- **Video Streaming:** Netflix & YouTube TV
+- **Video Streaming:** Netflix, YouTube TV
 {: .uses-list}
 
 ## Supported Podcasts
