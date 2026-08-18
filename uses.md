@@ -67,6 +67,7 @@ Last updated: August 18th, 2026
 {: class="mt-6"}
 
 - **Launcher & Clipboard Manager:** Sol
+- **Voice-to-Text:** FluidVoice
 - **System Monitor:** Stats
 - **Podcast Player:** Pocket Casts
 - **Password Manager:** Apple Passwords
