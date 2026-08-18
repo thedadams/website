@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: August 13th, 2026
+Last updated: August 18th, 2026
 {: .updated-note}
 
 ## Hardware
@@ -23,7 +23,7 @@ Last updated: August 13th, 2026
 - **Watch:** Apple Watch Series 10, Aluminum, Jet Black, 46mm, Cellular
 - **iPad:** iPad Mini 7th Generation, 128GB, Space Gray
 - **Monitor:** Apple Studio Display
-- **Keyboard:** Keychron Q11 Split Design
+- **Keyboard:** Keychron Q11 Split Design, Clicks Power Keyboard
 - **Mouse:** Apple Magic Trackpad 2, Black
 - **Headphones:** Sennheiser HD 660S2, Apple AirPods Max
 - **Earbuds:** Apple AirPods Pro 2
@@ -35,7 +35,7 @@ Last updated: August 13th, 2026
 ## Development Tools
 {: class="mt-6"}
 
-- **Editor:** Zed, Fresh
+- **Editor:** Fresh, Zed
 - **Terminal:** Ghostty, rootshell
 - **Terminal Workspace Manager:** zellij
 - **Shell:** nushell
@@ -66,17 +66,17 @@ Last updated: August 13th, 2026
 ## Software
 {: class="mt-6"}
 
-- **Launcher & Clipboard Manager:** Apple Spotlight
+- **Launcher & Clipboard Manager:** Sol
 - **System Monitor:** Stats
 - **Podcast Player:** Pocket Casts
 - **Password Manager:** Apple Passwords
 - **Notes:** Apple Notes
-- **Calendar:** Apple Calendar
+- **Calendar:** Thunderbird, Apple Calendar
 - **Todo List:** Apple Reminders
 - **Email:** Thunderbird, Apple Mail
 - **Web Browser:** Firefox
 - **Crypto Wallet:** Exodus
-- **RSS Reader:** Instapaper, Tapestry
+- **RSS Reader:** Linkwarden
 - **Language Learning:** Babbel
 {: .uses-list}
 
