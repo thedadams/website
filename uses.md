@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: August 18th, 2026
+Last updated: August 22nd, 2026
 {: .updated-note}
 
 ## Hardware
@@ -49,9 +49,9 @@ Last updated: August 18th, 2026
 {: class="mt-6"}
 
 - **AI Code Completion:** Zeta, GitHub Copilot
-- **AI Coding Agent:** Codex, Zed, OpenCode
+- **AI Coding Agent:** OpenCode, Codex, Zed
 - **AI Recording & Notes:** Pocket, Hedy
-- **AI Subscriptions:** ChatGPT Pro Lite
+- **AI Subscriptions:** ChatGPT Pro 5x
 {: .uses-list}
 
 ## Analog Tools
@@ -70,6 +70,7 @@ Last updated: August 18th, 2026
 - **Voice-to-Text:** FluidVoice
 - **System Monitor:** Stats
 - **Podcast Player:** Pocket Casts
+- **Screen Recorder:** Cap
 - **Password Manager:** Apple Passwords
 - **Notes:** Apple Notes
 - **Calendar:** Thunderbird, Apple Calendar
