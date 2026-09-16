@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: September 3rd, 2026
+Last updated: September 15th, 2026
 {: .updated-note}
 
 ## Hardware
@@ -48,9 +48,9 @@ Last updated: September 3rd, 2026
 {: class="mt-6"}
 
 - **AI Code Completion:** GitHub Copilot
-- **AI Coding Agent:** Claude Code
+- **AI Coding Agent:** Codex, Claude Code
 - **AI Recording & Notes:** Pocket, Hedy
-- **AI Subscriptions:** Claude Pro
+- **AI Subscriptions:** Codex Pro 5x, Claude Pro
 {: .uses-list}
 
 ## Analog Tools
@@ -100,7 +100,6 @@ Last updated: September 3rd, 2026
 {: class="mt-6"}
 
 - **Color Scheme:** [Ember One](https://github.com/thedadams/ember-one)
-- **Ember Mug:** Black, 16oz
 - **Massage Gun:** Hyperice Go 2
 - **Main Vehicle:** 2022 Tesla Model Y
 - **Secondary Vehicle:** 2013 Toyota Prius C
