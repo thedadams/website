@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: September 15th, 2026
+Last updated: September 19th, 2026
 {: .updated-note}
 
 ## Hardware
@@ -32,10 +32,28 @@ Last updated: September 15th, 2026
 - **WiFi Router/Mesh:** Netgear Orbi WiFi 6 Mesh
 {: .uses-list}
 
+## Software
+{: class="mt-6"}
+
+- **Launcher & Clipboard Manager:** Sol
+- **System Monitor:** Stats
+- **Podcast Player:** Pocket Casts
+- **Screen Recorder:** Cap
+- **Password Manager:** Apple Passwords
+- **Notes:** Apple Notes
+- **Calendar:** Apple Calendar
+- **Todo List:** Apple Reminders
+- **Email:** Apple Mail
+- **Web Browser:** Safari
+- **Crypto Wallet:** Exodus
+- **RSS Reader:** Linkwarden
+- **Language Learning:** Babbel
+{: .uses-list}
+
 ## Development Tools
 {: class="mt-6"}
 
-- **Editor:** Fresh
+- **Editor:** Fresh, Flow Control
 - **Terminal:** Ghostty
 - **Terminal Workspace Manager:** zellij
 - **Shell:** nushell
@@ -60,25 +78,6 @@ Last updated: September 15th, 2026
 - **Pencil:** Stilform AEON Pure Pencil, Aluminum, Black
 - **Pen:** Stilform FLOW Rollerball Pen, Aluminum, Black
 - **Notebook Case:** Baron Fig Guardian Pro, Fig Wine
-{: .uses-list}
-
-## Software
-{: class="mt-6"}
-
-- **Launcher & Clipboard Manager:** Sol
-- **Voice-to-Text:** FluidVoice
-- **System Monitor:** Stats
-- **Podcast Player:** Pocket Casts
-- **Screen Recorder:** Cap
-- **Password Manager:** Apple Passwords
-- **Notes:** Apple Notes
-- **Calendar:** Thunderbird, Apple Calendar
-- **Todo List:** Apple Reminders
-- **Email:** Thunderbird, Apple Mail
-- **Web Browser:** Firefox
-- **Crypto Wallet:** Exodus
-- **RSS Reader:** Linkwarden
-- **Language Learning:** Babbel
 {: .uses-list}
 
 ## Services
