@@ -8,7 +8,7 @@ content_class: page-shell
 
 A list of the things I use and find useful for my work and personal life. Inspired by [uses.tech](https://uses.tech).
 
-Last updated: September 19th, 2026
+Last updated: September 23rd, 2026
 {: .updated-note}
 
 ## Hardware
@@ -17,7 +17,7 @@ Last updated: September 19th, 2026
 - **Desk:** Uplift L-Shaped Standing Desk, Bamboo, 72"Mx60"R
 - **Work Computer:** MacBook Pro 16" (2022) with M1 Max, 32GB RAM, 1TB SSD
 - **Secondary Work Computer:** Lenovo ThinkPad T14 Gen 5, 16GB RAM, 512GB SSD
-- **Personal Computer:** Mac Mini (2024) with M4, 16GB RAM, 256GB SSD
+- **Personal Computer:** Mac Mini (2026) with M6, 32GB RAM, 1TB SSD
 - **Secondary Personal Computer:** MacBook Pro 14" (2021) with M1 Pro, 32GB RAM, 1TB SSD
 - **Phone:** iPhone 17 Pro with 256GB, Orange
 - **Watch:** Apple Watch Series 10, Aluminum, Jet Black, 46mm, Cellular
