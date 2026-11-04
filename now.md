@@ -38,7 +38,6 @@ Updated on March 21st, 2026.
   I enjoy coaching basketball at the high school level. Teaching young men and women the fundamentals of the game and watching them grow as a team is edifying. I am currently the head JV boys basketball coach at [Gilmour Academy](https://www.gilmour.org). Previously, I was the head JV and varsity assistant boys basketball coach at Hawken Upper School. And, prior to that, I coached boys basketball at St. Mary's Catholic High School in Phoenix, AZ as a head coach at the lower levels and assistant at the varsity level.
 
   I have a page dedicated to my [coaching experience and philosophy](/basketball).
-  {: .project-grid}
 
 - ## Open Source
 
@@ -47,4 +46,3 @@ Updated on March 21st, 2026.
   I am also working on an MCP SDK for Gleam. Gleam is a functional programming language that compiles to Erlang, and it is a great fit for building an MCP servers. [Check it out!!](https://github.com/thedadams/gleam-mcp).
 
   You can read about some of my past hobby projects [here](/pastprojects).
-  {: .project-grid}
